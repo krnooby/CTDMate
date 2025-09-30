@@ -1,0 +1,60 @@
+meta:
+  document: "CTD M2.3 QOS – TM-5 "
+  language: "ko"
+  version: "1.0"
+  last_updated: "2025-09-30"
+2.3.S:
+  S.1.1.nomenclature: "TM5-API; 화학명 비공개; 일반명 TM5-API"
+  S.1.2.structure_properties: "백색 결정성 분말, pKa 7.1, logP 2.3, 물에 거의 불용"
+  S.2.manufacture:
+    sites:
+      - name: "MetaChem Co." 
+        role: "Drug Substance 제조"
+      - name: "MetaFill Plant"
+        role: "Drug Product 제조/포장"
+    process_summary: "합성 4단계, 공정관리(반응완결, 잔류용매) 설정, 용매 회수 관리"
+  S.3.characterisation: "주불순물 A 0.06%, B 0.03%, 유전독성 불순물 미검출(LOD 0.03%)"
+  S.4.control_of_drug_substance:
+    spec_key_points: ["확인 HPLC/IR", "순도 NLT 99.0%", "잔류용매 ICH Q3C 준수"]
+    method_validation: "선형성, 정밀성, 특이성 수용기준 충족"
+    batch_analysis: "개발 3개 배치 적합"
+  S.5.reference_standards: "사내 기준물질 설정(순도 99.9%), 보관 -20°C"
+  S.6.container_closure: "갈색 유리병(DS 보관), PTFE 실링"
+  S.7.stability:
+    conditions: ["25°C/60%RH 24개월", "40°C/75%RH 6개월"]
+    results: "함량 99.1→98.2%(24개월), 분해물 증가 미미"
+    shelf_life_proposal: "36개월"
+2.3.P:
+  P.1.description_composition:
+    dosage_form: "국소용 용액 5 mg/mL"
+    composition_table:
+      - {component: "TM5-API", target: "5 mg/mL"}
+      - {component: "에탄올", target: "400 mg/mL"}
+      - {component: "프로필렌글리콜", target: "100 mg/mL"}
+      - {component: "정제수", target: "잔량"}
+      - {component: "벤잘코늄염화물", target: "0.01%"}
+  P.2.pharmaceutical_development:
+    CQAs: ["함량", "미생물 한도"]
+    CPPs: ["혼합시간", "용제비"]
+    design_space: "제한적 탐색 완료(혼합시간/온도)"
+    comparability: "파일럿→공업 규모 비교 데이터 적합"
+  P.3.manufacture:
+    process_flow: "용해→혼합→여과→충전→포장"
+    batch_size: "100 L"
+    IPCs: ["pH", "비중", "함량"]
+    process_validation: "3개 상업 규모 배치 유효성 확인 계획"
+  P.4.control_of_excipients: "약전 등재 품질규격 적용, 보존제 함량 모니터링"
+  P.5.control_of_drug_product:
+    spec_key_points: ["함량 95–105%", "미생물 10^2 CFU/mL 이하", "용제잔류 한도 충족"]
+    method_validation: "함량/보존제/미생물 시험법 검증 완료"
+    batch_analysis: "개발 3개 배치 적합"
+  P.6.reference_standards: "함량 정량용 표준품(사내, 추적성 확보)"
+  P.7.container_closure: "HDPE 병 + PP 캡 + 점적기, 차광 외포장"
+  P.8.stability:
+    conditions: ["25°C/60%RH 24개월", "40°C/75%RH 6개월"]
+    results: "장기 24개월 98.2%, 가속 6개월 96.5%"
+    storage_statement: "25°C 보관, 기밀용기, 동결 금지"
+    shelf_life: "36개월"
+references:
+  source_nonclinical: "data/input/TM_5_비임상.txt"
+  source_quality: "data/input/TM_5_비임상.txt; data/input/TM_5_2상.txt; 내부 개발 배치"

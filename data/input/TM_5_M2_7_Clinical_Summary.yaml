@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "document": "CTD M2.7 임상 요약 – TM-5(가상)",
+    "language": "ko",
+    "version": "1.0"
+  },
+  "sections": {
+    "2.7.1.biopharmaceutics": {
+      "narrative": "국소 용액으로 생물학적동등성/용출-흡수 시험은 해당 없음. 점도/도포면적 표준화, 잔여량 평가 수행."
+    },
+    "2.7.2.clinical_pharmacology": {
+      "tables": {
+        "exposure_overview": {
+          "columns": [
+            "Study",
+            "Regimen",
+            "N",
+            "Cmax(ng/mL) median",
+            "AUC(ng·h/mL) median",
+            "AccumulationRatio",
+            "Notes"
+          ],
+          "rows": [
+            [
+              "P1-MAD",
+              "1 mL BID, 14 d",
+              "32",
+              "1.8",
+              "9.6",
+              "1.2",
+              "Low systemic exposure"
+            ]
+          ]
+        }
+      },
+      "narrative": "낮은 전신노출과 제한적 축적. 음식효과 없음."
+    },
+    "2.7.3.efficacy": {
+      "tables": {
+        "efficacy_by_study": {
+          "columns": [
+            "Study",
+            "Population",
+            "N (TM-5/Placebo)",
+            "Primary Endpoint",
+            "TM-5 Δ vs PBO",
+            "p-value",
+            "Key Secondary"
+          ],
+          "rows": [
+            [
+              "P2-24W",
+              "Male AGA",
+              "120/120",
+              "ΔTAHC 24w",
+              "+17.9 (/cm²)",
+              "<0.001",
+              "Photo response 62% vs 21%"
+            ],
+            [
+              "P3-48W",
+              "Male/Female AGA",
+              "390/390",
+              "ΔTAHC 48w",
+              "+23.4 (/cm²)",
+              "<0.001",
+              "Photo response 68% vs 26%"
+            ]
+          ]
+        }
+      },
+      "narrative": "12주 이후 유의차가 나타나 24–48주까지 확대."
+    },
+    "2.7.4.safety": {
+      "tables": {
+        "ae_by_soc": {
+          "columns": [
+            "SOC",
+            "TM-5 n/N(%)",
+            "PBO n/N(%)",
+            "Risk Difference(%)",
+            "Severity",
+            "Action Taken"
+          ],
+          "rows": [
+            [
+              "Skin disorders (erythema)",
+              "45/140 (32.1)",
+              "37/128 (28.9)",
+              "+3.2",
+              "Mild",
+              "Continue/Topical care"
+            ],
+            [
+              "Pruritus",
+              "18/140 (12.9)",
+              "12/128 (9.4)",
+              "+3.5",
+              "Mild",
+              "Continue or interrupt"
+            ],
+            [
+              "Headache",
+              "10/140 (7.1)",
+              "8/128 (6.3)",
+              "+0.8",
+              "Mild",
+              "None"
+            ]
+          ]
+        },
+        "discontinuations": {
+          "columns": [
+            "Study",
+            "Reason",
+            "TM-5 n(%)",
+            "PBO n(%)"
+          ],
+          "rows": [
+            [
+              "P2",
+              "Local irritation",
+              "3 (2.5)",
+              "1 (0.8)"
+            ],
+            [
+              "P3",
+              "Local irritation",
+              "16 (4.1)",
+              "11 (2.9)"
+            ]
+          ]
+        }
+      },
+      "narrative": "대부분 경도 국소반응. 약물관련 SAE 없음. 호르몬·대사 지표 변화 없음."
+    }
+  }
+}

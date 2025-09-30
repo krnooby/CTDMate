@@ -1,0 +1,3 @@
+StudyID,Assay,Concentration/Dose,Endpoint,Result,Notes
+TM5-hERG-01,hERG patch clamp,30 μM,I_Kr inhibition,≤6%,No threshold effect
+TM5-RAT-SPH-01,CV/Resp/CNS panel,Topical high dose,Physiology,No adverse signal,Telemetry

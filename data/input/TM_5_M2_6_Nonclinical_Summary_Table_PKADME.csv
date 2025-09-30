@@ -1,0 +1,4 @@
+StudyID,Species/Matrix,Regimen,Cmax(ng/mL),AUC(ng·h/mL),t1/2(h),SkinResidue(μg/g),Notes
+TM5-FRZ-01,Human skin Franz,"2 mg/cm², 24 h",—,—,—,—,24 h permeation 0.28 μg/cm²
+TM5-RAT-PK-01,Rat plasma,"1 mL/day, 7 d",2.1±0.6,38±9,5.4±1.1,—,Low systemic exposure
+TM5-PIG-SKIN-01,Mini-pig skin/blood,"1 mL BID, 14 d",1.5±0.5,—,—,5.8±1.2,Skin depot prominent

@@ -1,0 +1,1008 @@
+{"category": "R&D", "term": "ADME", "term_en": "Absorption, Distribution, Metabolism, Excretion", "description_ko": "흡수·분포·대사·배설을 망라한 약물의 체내 운명. 신약개발에서 독성·유효성 평가의 핵심 생체과정.", "synonyms": ["약동학개요"]}
+{"category": "R&D", "term": "Antisense RNA", "term_en": "Antisense RNA", "description_ko": "표적 mRNA 서열과 상보적 염기로 결합하여 번역을 억제하는 단일가닥 RNA.", "synonyms": ["안티센스RNA"]}
+{"category": "R&D", "term": "ATP", "term_en": "Adenosine triphosphate", "description_ko": "세포 내 공통 에너지 통화. 인산기 3개가 붙어 있으며 에너지 대사에 핵심 역할.", "synonyms": []}
+{"category": "R&D", "term": "BBB", "term_en": "Blood-Brain Barrier", "description_ko": "혈액과 뇌조직 사이의 투과 장벽. 지용성/운반체 의존 물질만 통과 가능.", "synonyms": ["혈뇌장벽"]}
+{"category": "R&D", "term": "BLA", "term_en": "Biologics License Application", "description_ko": "미국 FDA에 생물의약품 판매를 허가받기 위한 신청.", "synonyms": ["생물의약품 허가"]}
+{"category": "R&D", "term": "B형 간염", "term_en": "Hepatitis B", "description_ko": "HBV 감염으로 간염이 발생하는 질환.", "synonyms": ["HBV"]}
+{"category": "R&D", "term": "cDNA", "term_en": "Complementary DNA", "description_ko": "mRNA를 역전사해 만든 상보적 DNA. 유전자 클로닝과 발현분석에 사용.", "synonyms": ["complementary DNA"]}
+{"category": "R&D", "term": "CTD", "term_en": "Common Technical Document", "description_ko": "의약품 품목허가 신청 시 자료 구성을 표준화한 국제 공통 양식.", "synonyms": ["국제공통기술문서"]}
+{"category": "R&D", "term": "C형 간염", "term_en": "Hepatitis C", "description_ko": "HCV 감염으로 유발되는 간염. 수혈·주사 등으로 전파.", "synonyms": ["HCV"]}
+{"category": "R&D", "term": "DPP4", "term_en": "Dipeptidyl peptidase-4", "description_ko": "인크레틴을 분해하는 효소. 억제제는 혈당을 낮추는 당뇨병 치료제로 사용.", "synonyms": ["CD26"]}
+{"category": "R&D", "term": "hERG", "term_en": "human ether-à-go-go related gene", "description_ko": "심장 칼륨채널 유전자로 QT 연장과 관련. 약물 심장안전성의 주요 표적.", "synonyms": ["KCNH2"]}
+{"category": "R&D", "term": "HIV(AIDS)", "term_en": "Human immunodeficiency virus", "description_ko": "후천성면역결핍증의 원인 바이러스. CD4 T세포 감소와 면역저하 유발.", "synonyms": ["HIV"]}
+{"category": "R&D", "term": "in vitro", "term_en": "in vitro", "description_ko": "생체 외에서 세포·조직을 대상으로 수행하는 시험.", "synonyms": ["시험관내"]}
+{"category": "R&D", "term": "in vivo", "term_en": "in vivo", "description_ko": "생체 내에서 동물 또는 사람을 대상으로 수행하는 시험.", "synonyms": ["생체내"]}
+{"category": "R&D", "term": "IND", "term_en": "Investigational New Drug", "description_ko": "사람 대상 임상시험을 시작하기 위한 규제 당국 승인 상태 또는 신청.", "synonyms": ["임상시험계획"]}
+{"category": "R&D", "term": "IND application", "term_en": "Investigational New Drug application", "description_ko": "임상시험계획(IND) 승인을 얻기 위해 제출하는 신청서류와 절차.", "synonyms": ["IND 승인신청"]}
+{"category": "R&D", "term": "miRNA", "term_en": "micro RNA", "description_ko": "약 22nt의 비암호화 RNA. 표적 mRNA의 분해/번역억제를 통해 발현을 조절.", "synonyms": ["마이크로RNA"]}
+{"category": "R&D", "term": "NBE", "term_en": "New Biological Entity", "description_ko": "새로운 생물학적 물질을 유효성분으로 하는 신약 후보.", "synonyms": []}
+{"category": "R&D", "term": "NCE", "term_en": "New Chemical Entity", "description_ko": "이전에 승인되지 않은 새로운 화학구조의 유효성분.", "synonyms": []}
+{"category": "R&D", "term": "NDA", "term_en": "New Drug Application", "description_ko": "미국 FDA에 신약 시판허가를 신청하는 절차.", "synonyms": []}
+{"category": "R&D", "term": "NME", "term_en": "New Molecular Entity", "description_ko": "미국에 처음 도입되는 새로운 분자구조의 유효성분.", "synonyms": []}
+{"category": "R&D", "term": "siRNA", "term_en": "Small interfering RNA", "description_ko": "RISC와 결합해 표적 mRNA를 분해하는 이중가닥 RNA.", "synonyms": ["짧은간섭RNA"]}
+{"category": "R&D", "term": "SPRs", "term_en": "Structure–property relationships", "description_ko": "분자 구조와 물성의 상관관계. 설계·최적화에 활용.", "synonyms": ["구조-물성 상관"]}
+{"category": "R&D", "term": "가교시험", "term_en": "Bridging study", "description_ko": "민족·지역 차이에 따른 유효성·안전성 차이를 보완하기 위해 수행하는 시험.", "synonyms": ["브리징 스터디"]}
+{"category": "R&D", "term": "개량신약", "term_en": "Incrementally Modified Drug", "description_ko": "기존 약물의 제형·용량·투여경로 등 개선으로 임상적 가치를 높인 의약품.", "synonyms": ["IMD"]}
+{"category": "R&D", "term": "경구투여", "term_en": "Oral administration", "description_ko": "의약품을 구강으로 투여하는 방법.", "synonyms": ["PO"]}
+{"category": "R&D", "term": "고지질혈증", "term_en": "Hyperlipidemia", "description_ko": "혈중 지질이 과다한 상태.", "synonyms": ["고지혈증"]}
+{"category": "R&D", "term": "곡선하면적", "term_en": "Area Under the Curve", "description_ko": "혈중농도-시간 곡선 하적분값. 약물 노출지표.", "synonyms": ["AUC"]}
+{"category": "R&D", "term": "광학이성질체(카이랄)", "term_en": "Chiral", "description_ko": "거울상 비대칭을 지닌 분자. 약효·독성에 영향을 줄 수 있음.", "synonyms": ["키랄", "광학이성질"]}
+{"category": "R&D", "term": "구조기반 설계", "term_en": "Structure-based design", "description_ko": "표적 단백질 구조정보를 활용한 합리적 신약설계.", "synonyms": ["SBDD"]}
+{"category": "R&D", "term": "근육투여", "term_en": "Intramuscular injection", "description_ko": "근육 내 주사로 투여.", "synonyms": ["IM"]}
+{"category": "R&D", "term": "기전", "term_en": "Mechanism", "description_ko": "약물이 생체 내에서 작용하는 원리·경로.", "synonyms": ["작용기전"]}
+{"category": "R&D", "term": "길항작용", "term_en": "Antagonism", "description_ko": "두 원인이 동시에 작용해 상대 효과를 약화시키는 현상.", "synonyms": ["antagonistic effect"]}
+{"category": "R&D", "term": "단백결합", "term_en": "Protein binding", "description_ko": "약물이 조직·혈장 단백질과 결합하는 현상.", "synonyms": []}
+{"category": "R&D", "term": "단백질 결정화", "term_en": "Protein crystallization", "description_ko": "단백질 결정을 형성해 구조를 규명하는 과정.", "synonyms": []}
+{"category": "R&D", "term": "단클론항체", "term_en": "Monoclonal antibody", "description_ko": "단일 클론 유래 항체. 특정 항원에 특이적.", "synonyms": ["mAb"]}
+{"category": "R&D", "term": "당뇨병", "term_en": "Diabetes mellitus", "description_ko": "인슐린 분비/작용 이상으로 고혈당이 지속되는 질환.", "synonyms": ["DM"]}
+{"category": "R&D", "term": "대사 안정성", "term_en": "Metabolic stability", "description_ko": "체내 또는 in vitro에서 대사에 대한 저항성.", "synonyms": []}
+{"category": "R&D", "term": "대장균", "term_en": "Escherichia coli", "description_ko": "그람음성 간균. 재조합 단백질 발현 등 연구·생산에 사용.", "synonyms": ["E. coli"]}
+{"category": "R&D", "term": "대조약", "term_en": "Control drug", "description_ko": "시험에서 비교 목적으로 사용하는 표준약 또는 위약.", "synonyms": ["대조약물"]}
+{"category": "R&D", "term": "독성학", "term_en": "Toxicology", "description_ko": "물질의 비일반적·유해 작용과 기전을 연구하는 학문.", "synonyms": ["Tox"]}
+{"category": "R&D", "term": "독소", "term_en": "Toxin", "description_ko": "생물체가 만들어내는 독성 물질.", "synonyms": []}
+{"category": "R&D", "term": "리보자임", "term_en": "Ribozyme", "description_ko": "촉매 활성을 가진 RNA 분자.", "synonyms": []}
+{"category": "R&D", "term": "리포좀", "term_en": "Liposome", "description_ko": "인지질 이중층 소낭. 약물전달체로 활용.", "synonyms": []}
+{"category": "R&D", "term": "만성독성", "term_en": "Chronic toxicity", "description_ko": "장기간 또는 반복 노출 후 나타나는 독성.", "synonyms": []}
+{"category": "R&D", "term": "면역글로불린", "term_en": "Immunoglobulin", "description_ko": "항체 단백질 군. 면역 반응의 핵심.", "synonyms": ["Ig"]}
+{"category": "R&D", "term": "면역독성", "term_en": "Immunotoxicity", "description_ko": "면역계에 대한 바람직하지 않은 영향.", "synonyms": []}
+{"category": "R&D", "term": "면역증강제", "term_en": "Immune adjuvant", "description_ko": "항원에 대한 면역반응을 증강시키는 물질.", "synonyms": ["adjuvant"]}
+{"category": "R&D", "term": "목표품질 프로필", "term_en": "Target Product Profile", "description_ko": "개발 제품의 목표 적응증·용법용량·안전성 등 핵심 속성 요약.", "synonyms": ["TPP"]}
+{"category": "R&D", "term": "목표시장 프로필", "term_en": "Target Market Profile", "description_ko": "예상 고객·시장 세분·가치 제안 등 상업화 목표 요약.", "synonyms": ["TMP"]}
+{"category": "R&D", "term": "미국립보건원", "term_en": "National Institutes of Health", "description_ko": "미국 보건복지부 산하 국립보건연구기관.", "synonyms": ["NIH"]}
+{"category": "R&D", "term": "바이러스", "term_en": "Virus", "description_ko": "세포보다 작고 증식에 숙주가 필요한 생물학적 개체.", "synonyms": []}
+{"category": "R&D", "term": "바이러스 벡터", "term_en": "Virus vector", "description_ko": "유전자를 숙주세포에 도입할 때 사용하는 재조합 바이러스 운반체.", "synonyms": ["viral vector"]}
+{"category": "R&D", "term": "바이오시밀러", "term_en": "Biosimilar", "description_ko": "참조 생물의약품과 품질·비임상·임상적으로 고도로 유사한 제품.", "synonyms": []}
+{"category": "R&D", "term": "반응속도상수", "term_en": "Rate constant", "description_ko": "반응속도가 농도에 비례하는 계수.", "synonyms": ["k값"]}
+{"category": "R&D", "term": "배아줄기세포", "term_en": "Embryonic stem cell", "description_ko": "다분화능을 가진 줄기세포. 자가재생과 분화 가능.", "synonyms": ["ESC"]}
+{"category": "R&D", "term": "배양", "term_en": "Culture", "description_ko": "세포·미생물을 인공 조건에서 증식·유지.", "synonyms": ["세포배양"]}
+{"category": "R&D", "term": "백신", "term_en": "Vaccine", "description_ko": "병원체 또는 항원의 면역기억 유도 물질.", "synonyms": []}
+{"category": "R&D", "term": "분자 모델링", "term_en": "Molecular modeling", "description_ko": "분자의 3D 구조·거동을 컴퓨터로 예측·분석.", "synonyms": ["분자동역학", "MD"]}
+{"category": "R&D", "term": "비교붕해", "term_en": "Comparative disintegration", "description_ko": "제형 간 붕해시간 유사성 확인 시험.", "synonyms": ["붕해 비교시험"]}
+{"category": "R&D", "term": "사이토카인", "term_en": "Cytokine", "description_ko": "면역세포가 분비하는 신호 단백질 군.", "synonyms": []}
+{"category": "R&D", "term": "생식독성시험", "term_en": "Reproductive toxicology", "description_ko": "생식·발생 단계에 미치는 독성 영향 평가.", "synonyms": []}
+{"category": "R&D", "term": "생체이물", "term_en": "Xenobiotic", "description_ko": "생체 내 자연적으로 존재하지 않는 외인성 화합물.", "synonyms": []}
+{"category": "R&D", "term": "선도물질", "term_en": "Lead compound", "description_ko": "최적화 출발점이 되는 초기 활성 화합물.", "synonyms": ["리드"]}
+{"category": "R&D", "term": "성장인자", "term_en": "Growth factor", "description_ko": "세포 증식·분화를 촉진하는 단백질.", "synonyms": []}
+{"category": "R&D", "term": "세포내 수송", "term_en": "Intracellular transport", "description_ko": "세포 내 물질 이동 과정.", "synonyms": []}
+{"category": "R&D", "term": "세포독성", "term_en": "Cytotoxicity", "description_ko": "세포에 독성을 유발하는 성질 또는 작용.", "synonyms": []}
+{"category": "R&D", "term": "세포배양 의약품", "term_en": "Cell culture drug", "description_ko": "세포배양 기술을 이용해 생산한 의약품.", "synonyms": []}
+{"category": "R&D", "term": "세포치료제", "term_en": "Cell therapy product", "description_ko": "세포·조직 기능 회복을 목적으로 투여하는 살아있는 세포 기반 제품.", "synonyms": []}
+{"category": "R&D", "term": "소실률", "term_en": "Clearance", "description_ko": "체내에서 약물이 제거되는 속도 지표.", "synonyms": ["CL"]}
+{"category": "R&D", "term": "수소결합", "term_en": "Hydrogen bond", "description_ko": "전기음성 원자와 수소 사이에서 형성되는 비공유 결합.", "synonyms": []}
+{"category": "R&D", "term": "숙주", "term_en": "Host cell", "description_ko": "외래 유전자를 받아들이는 세포.", "synonyms": ["host"]}
+{"category": "R&D", "term": "술폰전달효소", "term_en": "Sulfotransferase", "description_ko": "황산기 전이를 촉매하는 효소군.", "synonyms": ["SULT"]}
+{"category": "R&D", "term": "신약", "term_en": "New drug", "description_ko": "국내에서 허가된 적 없는 신규 유효성분 또는 조성의 의약품.", "synonyms": []}
+{"category": "R&D", "term": "신약재창출", "term_en": "Drug repositioning", "description_ko": "승인된 약의 새로운 적응증을 탐색·활용.", "synonyms": ["적응증 재창출"]}
+{"category": "R&D", "term": "아미노산", "term_en": "Amino acid", "description_ko": "단백질을 구성하는 기본 단위.", "synonyms": ["AA"]}
+{"category": "R&D", "term": "안전성 약리 연구", "term_en": "Safety pharmacology", "description_ko": "치료 범위 내·외에서 잠재적 약리학적 장해를 평가.", "synonyms": []}
+{"category": "R&D", "term": "암", "term_en": "Cancer", "description_ko": "비정상 세포 증식과 조직 침윤·전이를 특징으로 하는 질환군.", "synonyms": ["악성종양"]}
+{"category": "R&D", "term": "압타머", "term_en": "Aptamer", "description_ko": "핵산이 표적 단백질·소분자에 선택적으로 결합하도록 선별된 서열.", "synonyms": []}
+{"category": "R&D", "term": "약동학", "term_en": "Pharmacokinetics", "description_ko": "약물의 ADME 과정을 정량적으로 기술.", "synonyms": ["PK"]}
+{"category": "R&D", "term": "약력학", "term_en": "Pharmacodynamics", "description_ko": "농도-반응 관계 등 약물의 생리학적 효과를 기술.", "synonyms": ["PD"]}
+{"category": "R&D", "term": "약물대사효소", "term_en": "Drug metabolic enzyme", "description_ko": "약물의 생체 내 대사반응을 촉매하는 효소군.", "synonyms": []}
+{"category": "R&D", "term": "약물상호작용", "term_en": "Drug–drug interaction", "description_ko": "동시 투여 약물 간 상호 영향으로 노출·효능·안전성 변화가 발생.", "synonyms": ["DDI"]}
+{"category": "R&D", "term": "약물설계", "term_en": "Drug design", "description_ko": "생물학적 목표 달성을 위한 지식 기반 신약 창조 과정.", "synonyms": []}
+{"category": "R&D", "term": "약물수용체", "term_en": "Drug transporter", "description_ko": "세포막을 통한 약물의 선택적 이동을 담당하는 단백질.", "synonyms": ["수송체", "transporter"]}
+{"category": "R&D", "term": "약물유전체학", "term_en": "Pharmacogenomics", "description_ko": "유전적 차이가 약물 반응에 미치는 영향을 연구.", "synonyms": ["PGx"]}
+{"category": "R&D", "term": "역가", "term_en": "Potency", "description_ko": "효과를 유발하는 데 필요한 약물의 양을 나타내는 지표.", "synonyms": []}
+{"category": "R&D", "term": "염", "term_en": "Salt", "description_ko": "이온성 화합물. 약물의 용해도·안정성 조절에 사용.", "synonyms": []}
+{"category": "R&D", "term": "오렌지북", "term_en": "Orange Book", "description_ko": "FDA 적응증·동등성 평가 및 특허정보 데이터베이스.", "synonyms": []}
+{"category": "R&D", "term": "용량의존성", "term_en": "Dose-dependency", "description_ko": "용량 변화에 따라 약효·독성이 달라지는 성질.", "synonyms": []}
+{"category": "R&D", "term": "위약", "term_en": "Placebo effect", "description_ko": "유효성분이 없지만 심리·맥락으로 인한 치료 반응.", "synonyms": ["플라시보"]}
+{"category": "R&D", "term": "유기합성", "term_en": "Organic synthesis", "description_ko": "유기 화합물을 화학적으로 합성하는 일.", "synonyms": []}
+{"category": "R&D", "term": "유전독성", "term_en": "Genotoxicity", "description_ko": "유전물질에 손상을 주는 성질.", "synonyms": []}
+{"category": "R&D", "term": "유전자 표적", "term_en": "Gene targeting", "description_ko": "특정 유전자를 선택적으로 변형하는 기술.", "synonyms": []}
+{"category": "R&D", "term": "유전자재조합", "term_en": "Recombinant DNA", "description_ko": "다른 기원의 DNA를 연결하여 새로운 조합을 만드는 기술.", "synonyms": ["rDNA"]}
+{"category": "R&D", "term": "유전자치료", "term_en": "Gene therapy", "description_ko": "유전물질을 주입·편집하여 질환을 치료.", "synonyms": []}
+{"category": "R&D", "term": "유효물질", "term_en": "Hit compound", "description_ko": "초기 스크리닝에서 기준 활성을 넘는 화합물.", "synonyms": ["hit"]}
+{"category": "R&D", "term": "유효성평가", "term_en": "Assessing efficacy", "description_ko": "치료효과 존재 여부를 평가.", "synonyms": []}
+{"category": "R&D", "term": "의약품", "term_en": "Drug", "description_ko": "질병의 진단·치료·완화·예방 또는 기능조절을 목적으로 사용하는 물질.", "synonyms": []}
+{"category": "R&D", "term": "의약품동등성시험", "term_en": "Drug equivalence test", "description_ko": "함량·품질·효과가 동등한지 시험으로 입증.", "synonyms": ["동등성 시험"]}
+{"category": "R&D", "term": "이온채널", "term_en": "Ion channel", "description_ko": "막 전위를 조절하는 이온 통로 단백질.", "synonyms": []}
+{"category": "R&D", "term": "인슐린", "term_en": "Insulin", "description_ko": "혈당을 낮추는 췌장 베타세포 분비 호르몬.", "synonyms": []}
+{"category": "R&D", "term": "인지질화", "term_en": "Phospholipidosis", "description_ko": "인지질의 과도한 축적으로 발생하는 조직 이상.", "synonyms": []}
+{"category": "R&D", "term": "인터루킨", "term_en": "Interleukin", "description_ko": "면역반응 조절 사이토카인 군.", "synonyms": ["IL"]}
+{"category": "R&D", "term": "인터페론", "term_en": "Interferon", "description_ko": "항바이러스·면역조절 작용을 가진 사이토카인.", "synonyms": ["IFN"]}
+{"category": "R&D", "term": "적응증", "term_en": "Indication", "description_ko": "특정 치료가 의학적으로 권장되는 질환·상태.", "synonyms": []}
+{"category": "R&D", "term": "전구약물", "term_en": "Prodrug", "description_ko": "체내에서 활성형으로 변환되어 작용하는 약물.", "synonyms": []}
+{"category": "R&D", "term": "전략목표 프로필", "term_en": "Strategic Target Profile", "description_ko": "개발 중 제품의 시장요구·속성 목표를 수립한 문서.", "synonyms": ["STP"]}
+{"category": "R&D", "term": "정맥투여", "term_en": "Intravenous administration", "description_ko": "정맥 내 주사로 투여.", "synonyms": ["IV"]}
+{"category": "R&D", "term": "조직", "term_en": "Tissue", "description_ko": "같은 기능을 수행하는 세포들의 집합.", "synonyms": []}
+{"category": "R&D", "term": "조합화학", "term_en": "Combinatorial chemistry", "description_ko": "다양한 조합의 화합물을 고속 합성·탐색하는 방법.", "synonyms": []}
+{"category": "R&D", "term": "중개연구", "term_en": "Translational research", "description_ko": "기초 성과를 임상 적용으로 이어주는 연구.", "synonyms": []}
+{"category": "R&D", "term": "지용성", "term_en": "Lipophilicity", "description_ko": "지질 상에 녹기 쉬운 성질.", "synonyms": []}
+{"category": "R&D", "term": "천연물의약품", "term_en": "Natural medicine", "description_ko": "천연물 유래 성분을 함유한 의약품.", "synonyms": []}
+{"category": "R&D", "term": "최기형성", "term_en": "Teratogenicity", "description_ko": "배아·태아에 기형을 유발할 가능성.", "synonyms": []}
+{"category": "R&D", "term": "치료적약물모니터링", "term_en": "Therapeutic drug monitoring", "description_ko": "혈중농도 측정으로 용량을 개별화.", "synonyms": ["TDM"]}
+{"category": "R&D", "term": "치환기", "term_en": "Side chain", "description_ko": "주사슬에 결합한 치환기.", "synonyms": []}
+{"category": "R&D", "term": "특이체질반응", "term_en": "Idiosyncratic reactions", "description_ko": "예측 어려운 개인 특이적 과민·독성 반응.", "synonyms": []}
+{"category": "R&D", "term": "표적치료제", "term_en": "Targeted therapy", "description_ko": "특정 분자표적을 선택적으로 공격하는 치료제.", "synonyms": ["표적치료"]}
+{"category": "R&D", "term": "피부내투여", "term_en": "Intradermal administration", "description_ko": "피부 진피 내에 주사.", "synonyms": ["ID"]}
+{"category": "R&D", "term": "피하투여", "term_en": "Subcutaneous administration", "description_ko": "피하 조직에 주사.", "synonyms": ["SC"]}
+{"category": "R&D", "term": "합성의약품", "term_en": "Synthetic drug", "description_ko": "화학적 합성으로 제조된 의약품.", "synonyms": []}
+{"category": "R&D", "term": "항체", "term_en": "Antibody", "description_ko": "항원을 특이적으로 인식하는 면역단백질.", "synonyms": ["면역글로불린"]}
+{"category": "R&D", "term": "해독", "term_en": "Detoxification", "description_ko": "독성 물질을 무독화·배출하는 과정.", "synonyms": []}
+{"category": "R&D", "term": "혁신신약", "term_en": "Innovative drug", "description_ko": "새로운 작용기전·타깃 등 혁신성을 바탕으로 승인된 신약.", "synonyms": []}
+{"category": "R&D", "term": "혈액제제", "term_en": "Blood-derived product", "description_ko": "혈액 성분에서 제조한 의약품.", "synonyms": []}
+{"category": "R&D", "term": "혈장", "term_en": "Plasma", "description_ko": "혈액에서 세포성분을 제외한 액상 부분.", "synonyms": []}
+{"category": "R&D", "term": "혈장단백결합율", "term_en": "Plasma protein binding rate", "description_ko": "혈장 단백과의 결합 비율 지표.", "synonyms": ["PPBR"]}
+{"category": "R&D", "term": "혈장단백질", "term_en": "Plasma protein", "description_ko": "혈장에 존재하는 단백질.", "synonyms": []}
+{"category": "R&D", "term": "혈장단백질 결합", "term_en": "Plasma protein binding", "description_ko": "약물이 혈장단백과 결합하는 현상.", "synonyms": ["PPB"]}
+{"category": "R&D", "term": "혈전용해제", "term_en": "Thrombolytic agent", "description_ko": "혈전을 용해하는 약제.", "synonyms": []}
+{"category": "R&D", "term": "형광탐침", "term_en": "Fluorescent probe", "description_ko": "형광을 이용해 생체분자의 위치·상호작용을 표지.", "synonyms": []}
+{"category": "R&D", "term": "형질전환", "term_en": "Transformation", "description_ko": "외래 DNA가 세포 내로 도입되어 유전적으로 변화.", "synonyms": []}
+{"category": "R&D", "term": "호르몬", "term_en": "Hormone", "description_ko": "생체 내 신호 전달을 담당하는 내분비 물질.", "synonyms": []}
+{"category": "R&D", "term": "화학적 안정성", "term_en": "Chemical stability", "description_ko": "저장·사용 중 화학적 변질 없이 성질을 유지.", "synonyms": []}
+{"category": "R&D", "term": "화합물은행", "term_en": "Chemical library", "description_ko": "연구·선별을 위해 구축된 화합물 집합.", "synonyms": ["라이브러리"]}
+{"category": "R&D", "term": "효능", "term_en": "Efficacy", "description_ko": "의약품이 해당 적응증에서 나타내는 치료 효과의 정도.", "synonyms": []}
+{"category": "R&D", "term": "효모", "term_en": "Yeast", "description_ko": "단세포 진균. 발효·단백질 발현에 사용.", "synonyms": []}
+{"category": "R&D", "term": "효소", "term_en": "Enzyme", "description_ko": "화학반응 속도를 촉진하는 생체 촉매 단백질.", "synonyms": []}
+{"category": "R&D", "term": "흡입제", "term_en": "Inhalant", "description_ko": "흡입 투여를 위해 제형화한 의약품.", "synonyms": []}
+{"category": "임상_비임상", "term": "모든 무작위 배정된 피험자군", "term_en": "Full Analysis Set", "description_ko": "배정된 대로 분석 원칙을 가능하게 하는 가장 넓은 분석 집단. 최소한의 제외 사유만 적용.", "synonyms": ["FAS"]}
+{"category": "임상_비임상", "term": "모집단", "term_en": "Population", "description_ko": "임상시험 또는 조사연구 대상이 되는 인구집단 전체.", "synonyms": null}
+{"category": "임상_비임상", "term": "무작위대조시험", "term_en": "Randomized Controlled Trial", "description_ko": "대상자를 무작위로 배정하여 실험군과 대조군의 효과를 비교하는 임상시험.", "synonyms": ["RCT", "Randomized Controlled Trials"]}
+{"category": "임상_비임상", "term": "무작위배정", "term_en": "Randomization / Random Allocation", "description_ko": "대상자를 실험군 또는 대조군에 무작위로 배정하는 방법.", "synonyms": null}
+{"category": "임상_비임상", "term": "무작위배정비교임상시험", "term_en": "Randomized Clinical Trial", "description_ko": "대상자를 무작위로 배정해 치료 효과를 비교하는 임상시험. 보통 RCT를 의미.", "synonyms": ["RCT"]}
+{"category": "임상_비임상", "term": "무병생존", "term_en": "Disease‑Free Survival", "description_ko": "등록 시점부터 재발이나 사망 등 사건 없이 생존한 기간.", "synonyms": ["DFS"]}
+{"category": "임상_비임상", "term": "민감도", "term_en": "Sensitivity", "description_ko": "진단검사가 질환자를 양성으로 판정할 확률.", "synonyms": null}
+{"category": "임상_비임상", "term": "민감도 분석", "term_en": "Sensitivity Analysis", "description_ko": "가정이나 선택에 따른 결과의 견고성을 점검하는 분석.", "synonyms": null}
+{"category": "임상_비임상", "term": "배수성", "term_en": "Polyploidy", "description_ko": "정상 배수체보다 염색체 세트가 증가한 상태.", "synonyms": null}
+{"category": "임상_비임상", "term": "배정 은폐", "term_en": "Allocation Concealment", "description_ko": "배정 순서를 실험자와 대조군에 숨겨 선택 비뚤림을 방지하는 절차.", "synonyms": null}
+{"category": "임상_비임상", "term": "배정된대로 분석 원칙", "term_en": "Intention‑to‑Treat Principle", "description_ko": "무작위 배정된 모든 대상자는 최초 배정된 군에 따라 분석한다는 원칙.", "synonyms": ["ITT 원칙"]}
+{"category": "임상_비임상", "term": "배정된대로 분석", "term_en": "Intention‑to‑Treat Analysis", "description_ko": "실제 치료와 무관하게 최초 배정군 기준으로 효과를 분석.", "synonyms": ["ITT 분석"]}
+{"category": "임상_비임상", "term": "보고 비뚤림", "term_en": "Reporting Bias", "description_ko": "유리한 결과만 선택적으로 보고하여 생기는 체계적 비뚤림.", "synonyms": null}
+{"category": "임상_비임상", "term": "부작용", "term_en": "Side Effect", "description_ko": "의도되지 않은 약물의 효과나 반응. 이상반응과 구분해 쓰기도 함.", "synonyms": null}
+{"category": "임상_비임상", "term": "비교임상시험", "term_en": "Comparative Study", "description_ko": "임상시험용 의약품과 대조약의 성능을 비교해 효과를 판단하는 시험.", "synonyms": null}
+{"category": "임상_비임상", "term": "비교전후연구", "term_en": "Controlled Before and After Study", "description_ko": "두 집단의 개입 전후 결과를 비교하는 관찰 또는 준실험 연구.", "synonyms": null}
+{"category": "임상_비임상", "term": "비뚤림", "term_en": "Bias", "description_ko": "평가 결과가 참값과 체계적으로 달라지게 하는 오차.", "synonyms": null}
+{"category": "임상_비임상", "term": "비뚤림 위험", "term_en": "Risk of Bias", "description_ko": "연구 설계·수행·보고에서 비뚤림이 발생할 가능성.", "synonyms": ["RoB"]}
+{"category": "임상_비임상", "term": "비밀보장", "term_en": "Confidentiality", "description_ko": "피험자의 신원·의료정보가 무단 공개되지 않도록 보호하는 것.", "synonyms": null}
+{"category": "임상_비임상", "term": "비열등성 평가시험", "term_en": "Non‑Inferiority Trial", "description_ko": "새 치료가 기준치료보다 효과가 유의하게 떨어지지 않음을 보이는 시험.", "synonyms": ["NI trial"]}
+{"category": "임상_비임상", "term": "비임상시험관리기준", "term_en": "Good Laboratory Practice", "description_ko": "비임상시험의 계획·수행·기록·보고의 신뢰성을 보장하는 기준.", "synonyms": ["GLP"]}
+{"category": "임상_비임상", "term": "비임상연구", "term_en": "Nonclinical Study", "description_ko": "사람을 대상으로 하지 않는 비임상 연구.", "synonyms": null}
+{"category": "임상_비임상", "term": "사전상담", "term_en": "Pre‑submission Consultation", "description_ko": "IND/임상 승인 전 규제기관과 과학·규제 이슈를 사전 논의하는 절차.", "synonyms": ["Scientific Advice"]}
+{"category": "임상_비임상", "term": "상가작용", "term_en": "Additive Effect", "description_ko": "두 약물을 함께 투여했을 때 효과가 합으로 나타나는 현상.", "synonyms": null}
+{"category": "임상_비임상", "term": "상승작용", "term_en": "Synergistic Effect", "description_ko": "두 약물 병용 시 개별 효과의 합보다 큰 효과가 나타나는 현상.", "synonyms": ["시너지"]}
+{"category": "임상_비임상", "term": "상호작용(정성적·정량적)", "term_en": "Interaction (Qualitative & Quantitative)", "description_ko": "약물 간 또는 요인 간 상호작용으로 치료효과가 변화하는 현상.", "synonyms": null}
+{"category": "임상_비임상", "term": "생체이용률", "term_en": "Bioavailability", "description_ko": "약물 투여 후 전신순환계에 도달하는 속도와 양.", "synonyms": null}
+{"category": "임상_비임상", "term": "선택 비뚤림", "term_en": "Selection Bias", "description_ko": "군 간 기저차이 등 체계적 차이로 발생하는 비뚤림.", "synonyms": null}
+{"category": "임상_비임상", "term": "시판후 약물사용성적조사", "term_en": "Post‑Market Surveillance", "description_ko": "허가 후 흔치 않은 이상사례와 효과를 추적·감시하는 활동.", "synonyms": ["PMS"]}
+{"category": "임상_비임상", "term": "시험담당자", "term_en": "Subinvestigator", "description_ko": "시험책임자의 지시에 따라 임상시험 관련 업무를 수행하는 연구자.", "synonyms": ["Sub‑I"]}
+{"category": "임상_비임상", "term": "시험약", "term_en": "Investigational Drug", "description_ko": "임상시험에서 사용하는 시험 의약품(대조약 제외).", "synonyms": ["IMP"]}
+{"category": "임상_비임상", "term": "시험자", "term_en": "Investigator", "description_ko": "임상시험을 실제 수행하는 연구자.", "synonyms": null}
+{"category": "임상_비임상", "term": "시험책임자", "term_en": "Principal Investigator", "description_ko": "임상시험 수행 전반에 대한 책임을 지는 연구자.", "synonyms": ["PI"]}
+{"category": "임상_비임상", "term": "실용적 임상시험", "term_en": "Pragmatic Clinical Trial", "description_ko": "진료환경에서 실제적 유효성(effectiveness)을 평가하는 시험.", "synonyms": ["Pragmatic trial"]}
+{"category": "임상_비임상", "term": "실험적 임상시험", "term_en": "Explanatory Clinical Trial", "description_ko": "통제된 조건에서 약효(efficacy)를 검증하는 시험.", "synonyms": ["Explanatory trial"]}
+{"category": "임상_비임상", "term": "심각한 이상반응", "term_en": "Serious Adverse Event", "description_ko": "사망·생명위협·입원 또는 지속적 장애 등을 초래한 이상반응.", "synonyms": ["SAE"]}
+{"category": "임상_비임상", "term": "안전성과 내약성", "term_en": "Safety & Tolerability", "description_ko": "유해반응 발생과 환자가 견딜 수 있는 정도에 대한 평가.", "synonyms": null}
+{"category": "임상_비임상", "term": "안전역", "term_en": "Margin of Safety", "description_ko": "치사량 대비 치료지수 등으로 표현되는 안전 여유도.", "synonyms": ["MOS"]}
+{"category": "임상_비임상", "term": "약물감시", "term_en": "Pharmacovigilance", "description_ko": "약물이상반응을 탐지·평가·이해·예방하는 과학과 활동.", "synonyms": ["PV"]}
+{"category": "임상_비임상", "term": "양적 합성", "term_en": "Quantitative Synthesis", "description_ko": "통계적 방법으로 여러 연구 결과를 정량적으로 종합.", "synonyms": null}
+{"category": "임상_비임상", "term": "역분산 방법", "term_en": "Generic Inverse Variance Method", "description_ko": "효과추정치의 분산 역수를 가중치로 사용하는 메타분석법.", "synonyms": null}
+{"category": "임상_비임상", "term": "연구계획순응군 분석", "term_en": "Per‑Protocol Analysis", "description_ko": "계획서에 순응한 대상자만 포함하여 효과를 분석.", "synonyms": null}
+{"category": "임상_비임상", "term": "연구자임상시험", "term_en": "Sponsor‑Investigator Trials", "description_ko": "연구자가 의뢰자 역할을 겸하는 임상시험.", "synonyms": null}
+{"category": "임상_비임상", "term": "연구탈락률", "term_en": "Drop‑Out Rate", "description_ko": "연구 진행 중 탈락한 대상자의 비율.", "synonyms": null}
+{"category": "임상_비임상", "term": "예상하지 못한 이상약물반응", "term_en": "Unexpected Adverse Drug Reaction", "description_ko": "기존 정보로 예측되지 않은 성격·중증도·발현 빈도의 ADR.", "synonyms": ["UADR"]}
+{"category": "임상_비임상", "term": "우월성 평가시험", "term_en": "Superiority Trial", "description_ko": "새 치료가 대조치료보다 우월함을 입증하는 시험.", "synonyms": null}
+{"category": "임상_비임상", "term": "위약대조군 임상시험", "term_en": "Placebo Controlled Trial", "description_ko": "위약과 비교하여 치료 효과를 평가하는 임상시험.", "synonyms": null}
+{"category": "임상_비임상", "term": "위험비", "term_en": "Risk Ratio", "description_ko": "실험군 대비 대조군의 사건 위험의 비.", "synonyms": ["상대위험도", "RR"]}
+{"category": "임상_비임상", "term": "위험차", "term_en": "Risk Difference", "description_ko": "두 군 사건 위험의 차이.", "synonyms": ["절대위험차", "RD"]}
+{"category": "임상_비임상", "term": "유사용어", "term_en": "Included Terms", "description_ko": "부작용 기술 시 포괄적으로 사용하는 하위 용어.", "synonyms": null}
+{"category": "임상_비임상", "term": "유용성(효용)", "term_en": "Efficacy", "description_ko": "계획된 대로 투여했을 때 나타나는 약물의 이상적 치료효과.", "synonyms": null}
+{"category": "임상_비임상", "term": "유전적 다양성", "term_en": "Polymorphism", "description_ko": "동일 종 내 정상적인 유전적 변이가 존재하는 현상.", "synonyms": null}
+{"category": "임상_비임상", "term": "의사결정분석", "term_en": "Decision Analysis", "description_ko": "의료 의사결정을 구조화해 결과를 비교·평가하는 분석.", "synonyms": null}
+{"category": "임상_비임상", "term": "이분산성/이질성", "term_en": "Heterogeneity", "description_ko": "개별 연구 결과의 변동이 우연만으로 설명되지 않는 상태.", "synonyms": null}
+{"category": "임상_비임상", "term": "이분형 자료", "term_en": "Binary Data", "description_ko": "성공/실패 등 두 범주의 결과로 기록되는 자료.", "synonyms": null}
+{"category": "임상_비임상", "term": "이상반응", "term_en": "Adverse Event", "description_ko": "의약품 또는 의료기기 사용과 관련된 바람직하지 않은 의학적 사건.", "synonyms": ["AE"]}
+{"category": "임상_비임상", "term": "이상약물반응", "term_en": "Adverse Drug Reaction", "description_ko": "약물 사용 중 발생한 유해하고 의도되지 않은 반응.", "synonyms": ["ADR"]}
+{"category": "임상_비임상", "term": "이수성", "term_en": "Aneuploidy", "description_ko": "세포 내 염색체 수 이상이 존재하는 상태.", "synonyms": null}
+{"category": "임상_비임상", "term": "이월효과", "term_en": "Carry‑over Effect", "description_ko": "이전 치료의 효과가 다음 기간에도 지속되는 현상.", "synonyms": null}
+{"category": "임상_비임상", "term": "이중 위약", "term_en": "Double‑Dummy", "description_ko": "맹검을 유지하려고 두 제형의 위약을 병행 투여하는 설계.", "synonyms": null}
+{"category": "임상_비임상", "term": "일반화", "term_en": "Generalisability / Generalisation", "description_ko": "연구 결과가 실제 임상현장에 적용될 수 있는 정도.", "synonyms": null}
+{"category": "임상_비임상", "term": "일반화 가능성", "term_en": "Generalizability", "description_ko": "특정 상황 이외의 대상·환경에서도 결과가 재현될 가능성.", "synonyms": null}
+{"category": "임상_비임상", "term": "임상 4상", "term_en": "Phase IV, Post‑Marketing Clinical Study", "description_ko": "허가 후 유효성·안전성 정보를 수집·확인하는 후기 임상.", "synonyms": null}
+{"category": "임상_비임상", "term": "임상 결과", "term_en": "Clinical Endpoint (Outcome)", "description_ko": "개인 또는 집단의 건강상태 변화를 나타내는 지표.", "synonyms": null}
+{"category": "임상_비임상", "term": "임상시험", "term_en": "Clinical Trial / Study", "description_ko": "사람을 대상으로 의약품의 안전성·유효성을 평가하는 시험.", "synonyms": null}
+{"category": "임상_비임상", "term": "임상시험 관련 자료의 직접열람", "term_en": "Direct Access", "description_ko": "임상시험 관련 문서에 대한 규제기관·모니터 등의 열람 권한.", "synonyms": null}
+{"category": "임상_비임상", "term": "임상시험 국제표준화작업", "term_en": "International Conference on Harmonization", "description_ko": "의약품 규제의 국제 조화를 위한 ICH 활동.", "synonyms": ["ICH"]}
+{"category": "임상_비임상", "term": "임상시험 실시기관", "term_en": "Institution", "description_ko": "임상시험이 실제 수행되는 기관.", "synonyms": null}
+{"category": "임상_비임상", "term": "임상시험 심사위원회", "term_en": "Institutional Review Board", "description_ko": "피험자 보호와 연구윤리를 심의·승인하는 독립 위원회.", "synonyms": ["IRB"]}
+{"category": "임상_비임상", "term": "임상시험 준수", "term_en": "Quality Assurance", "description_ko": "계획서·규정에 따른 임상시험 수행 여부를 보증하는 체계.", "synonyms": ["QA"]}
+{"category": "임상_비임상", "term": "임상시험 통계전문가", "term_en": "Trial Statistician", "description_ko": "임상시험 설계·분석·해석을 담당하는 통계 전문가.", "synonyms": null}
+{"category": "임상_비임상", "term": "임상시험결과보고서", "term_en": "Clinical Trial/Study Report", "description_ko": "임상시험에서 얻은 결과를 통합 보고하는 문서.", "synonyms": ["CSR"]}
+{"category": "임상_비임상", "term": "임상시험계약서", "term_en": "Contract", "description_ko": "시험기관과 의뢰자 간 시험 수행에 관한 의무와 조건을 규정한 문서.", "synonyms": null}
+{"category": "임상_비임상", "term": "임상시험계획서", "term_en": "Protocol", "description_ko": "시험의 목적·설계·방법·통계분석 등을 규정한 기본 문서.", "synonyms": null}
+{"category": "임상_비임상", "term": "임상시험계획승인제도", "term_en": "Investigational New Drug Application", "description_ko": "IND. 비임상 자료 등에 근거하여 임상시험을 승인받는 제도.", "synonyms": ["IND"]}
+{"category": "임상_비임상", "term": "임상시험관리기준", "term_en": "Good Clinical Practice", "description_ko": "임상시험의 과학성과 피험자 권익 보호를 보장하는 국제 기준.", "synonyms": ["GCP"]}
+{"category": "임상_비임상", "term": "임상시험기본문서", "term_en": "Essential Document", "description_ko": "임상시험 수행의 질을 전반적으로 평가할 수 있게 해주는 문서.", "synonyms": null}
+{"category": "임상_비임상", "term": "임상시험모니터요원", "term_en": "Monitor", "description_ko": "시험 진행을 점검하고 기록·보고를 검토하는 사람.", "synonyms": null}
+{"category": "임상_비임상", "term": "임상시험변경계획서", "term_en": "Protocol Amendment", "description_ko": "승인된 계획서의 변경 내용을 명확히 기술한 문서.", "synonyms": null}
+{"category": "임상_비임상", "term": "임상시험수탁기관", "term_en": "Contract Research Organization", "description_ko": "의뢰자의 일부 임상시험 업무를 위탁 받아 수행하는 기관.", "synonyms": ["CRO"]}
+{"category": "임상_비임상", "term": "임상시험용 의료기기", "term_en": "Investigational Device", "description_ko": "임상시험에 사용하는 의료기기.", "synonyms": null}
+{"category": "임상_비임상", "term": "임상시험용 의료기기관리자", "term_en": "Investigational Device Manager", "description_ko": "기관에서 시험용 의료기기의 보관·관리 책임을 맡은 자.", "synonyms": null}
+{"category": "임상_비임상", "term": "임상시험용의약품", "term_en": "Investigational Product", "description_ko": "시험약 또는 대조약 등 임상시험에 사용하는 의약품.", "synonyms": ["IP"]}
+{"category": "임상_비임상", "term": "임상시험의 신뢰성보증", "term_en": "Quality Assurance", "description_ko": "임상시험 자료의 신뢰성을 보증하기 위한 체계적 활동.", "synonyms": ["QA"]}
+{"category": "임상_비임상", "term": "임상시험의 준수", "term_en": "Compliance", "description_ko": "임상시험 관련 법령·규정·지침을 준수하여 수행하는 것.", "synonyms": null}
+{"category": "임상_비임상", "term": "임상시험의뢰자", "term_en": "Sponsor", "description_ko": "임상시험의 계획·관리·재정 등을 책임지는 자(제약사, 연구자 등).", "synonyms": null}
+{"category": "임상_비임상", "term": "임상시험자료의 품질관리", "term_en": "Quality Control", "description_ko": "자료의 정확성·완전성을 확보하기 위한 운영적 기법과 활동.", "synonyms": ["QC"]}
+{"category": "임상_비임상", "term": "임상시험자료집", "term_en": "Clinical Investigator’s Brochure", "description_ko": "시험에 사용하는 의약품의 임상·비임상 정보를 제공하는 편람.", "synonyms": ["IB"]}
+{"category": "임상_비임상", "term": "임상시험조정자", "term_en": "Coordinating Investigator", "description_ko": "다기관 시험에서 각 기관 책임자 간 의견을 조정하는 연구자.", "synonyms": null}
+{"category": "임상_비임상", "term": "임상약리학", "term_en": "Clinical Pharmacology", "description_ko": "약물이 인체에 미치는 효과·동태·안전성 등을 연구하는 학문.", "synonyms": null}
+{"category": "임상_비임상", "term": "임상연구코디네이터", "term_en": "Clinical Research Coordinator", "description_ko": "임상시험과 관련된 행정·연락·모니터 방문 지원을 담당하는 사람.", "synonyms": ["CRC"]}
+{"category": "임상_비임상", "term": "임상적 중요성/임상적 유의성", "term_en": "Clinical Importance / Clinical Significance", "description_ko": "통계적 유의성과 별개로 임상적으로 의미있는 효과 크기 또는 중요성.", "synonyms": null}
+{"category": "임상_비임상", "term": "임상적 최소 유의 차이", "term_en": "Minimally (Clinically) Important Difference", "description_ko": "환자에게 의미 있는 최소한의 변화량.", "synonyms": ["MID", "MCID"]}
+{"category": "임상_비임상", "term": "임상진료지침", "term_en": "Clinical Practice Guideline", "description_ko": "진료 의사결정에 도움을 주기 위해 체계적으로 개발된 근거기반 권고.", "synonyms": ["CPG"]}
+{"category": "임상_비임상", "term": "자다즈 척도", "term_en": "Jadad’s Scale (Scoring)", "description_ko": "임상시험의 무작위배정·눈가림·탈락 보고를 점수화해 질을 평가.", "synonyms": null}
+{"category": "임상_비임상", "term": "자료모니터링위원회", "term_en": "Independent Data‑Monitoring Committee", "description_ko": "시험의 안전성·진행상황을 독립적으로 감시하는 위원회.", "synonyms": ["IDMC", "DMC", "DSMB"]}
+{"category": "임상_비임상", "term": "자율성 존중의 원칙", "term_en": "Principle of Autonomy", "description_ko": "피험자의 자기결정권을 존중한다는 윤리 원칙.", "synonyms": null}
+{"category": "임상_비임상", "term": "적용가능성", "term_en": "Applicability", "description_ko": "시험 결과를 현장에 그대로 적용할 수 있는 가능성.", "synonyms": null}
+{"category": "임상_비임상", "term": "CRA", "term_en": "Clinical Research Associates", "description_ko": "의뢰자/기관을 대신해 임상시험의 전반적 모니터링을 수행하는 담당자.", "synonyms": null}
+{"category": "임상_비임상", "term": "ED50", "term_en": "Effective Dose 50", "description_ko": "50%에서 효과를 보이는 용량.", "synonyms": ["ED50"]}
+{"category": "임상_비임상", "term": "FOB", "term_en": "Functional Observation Battery", "description_ko": "중추신경계 작용 평가를 위한 관찰·행동검사 묶음.", "synonyms": null}
+{"category": "임상_비임상", "term": "Head‑to‑head randomized trials", "term_en": "Head‑to‑Head Randomized Trials", "description_ko": "둘 이상의 치료를 직접 비교하는 무작위배정 임상시험.", "synonyms": null}
+{"category": "임상_비임상", "term": "LD50", "term_en": "Lethal Dose 50", "description_ko": "50%에서 치사에 이르는 용량.", "synonyms": ["LD50"]}
+{"category": "임상_비임상", "term": "LOCF", "term_en": "Last Observation Carried Forward", "description_ko": "탈락 등으로 빠진 측정을 마지막 관찰값으로 대체하는 방법.", "synonyms": null}
+{"category": "임상_비임상", "term": "간접비교", "term_en": "Indirect Comparison", "description_ko": "직접비교 자료가 부족할 때 공통 대조군을 통해 간접 비교하는 방법.", "synonyms": null}
+{"category": "임상_비임상", "term": "개방연구", "term_en": "Open Study", "description_ko": "치료자와 대상자 모두 치료를 아는 공개 임상시험.", "synonyms": ["Open‑label study"]}
+{"category": "임상_비임상", "term": "결과확인 비뚤림", "term_en": "Detection Bias", "description_ko": "평가자가 군 배정이나 기대에 영향 받아 결과측정이 달라지는 비뚤림.", "synonyms": null}
+{"category": "임상_비임상", "term": "계획서 순응 피험자군", "term_en": "Per‑Protocol Set", "description_ko": "계획서에 순응해 주요 위반이 없는 대상자 집단.", "synonyms": ["PPS"]}
+{"category": "임상_비임상", "term": "고정효과 방법", "term_en": "Fixed‑Effect Method", "description_ko": "모든 연구가 하나의 공통 효과크기를 공유한다고 가정하는 메타분석법.", "synonyms": null}
+{"category": "임상_비임상", "term": "공정한 외뢰자", "term_en": "Impartial Witness", "description_ko": "문해력이 부족한 대상자 동의 과정에 참여해 내용을 확인하는 제3자.", "synonyms": null}
+{"category": "임상_비임상", "term": "관련규정", "term_en": "Applicable Regulatory Requirement", "description_ko": "임상시험 실시와 관련된 약사법 및 고시 등 규정.", "synonyms": null}
+{"category": "임상_비임상", "term": "관리약사", "term_en": "Clinical Trial Pharmacist", "description_ko": "시험약의 조제·보관·기록·반환 등을 책임지는 약사.", "synonyms": null}
+{"category": "임상_비임상", "term": "교차내성", "term_en": "Cross Tolerance", "description_ko": "한 약물에 대한 내성이 생기면 다른 약물에도 내성이 나타나는 현상.", "synonyms": null}
+{"category": "임상_비임상", "term": "교차연구설계", "term_en": "Crossover Trial (Study) Design", "description_ko": "서로 다른 중재를 순서대로 모두 경험하도록 설계하는 시험.", "synonyms": null}
+{"category": "임상_비임상", "term": "권장용어", "term_en": "Preferred Terms", "description_ko": "부작용 보고 시 표준화된 용어 집합.", "synonyms": null}
+{"category": "임상_비임상", "term": "귀무가설", "term_en": "Null Hypothesis", "description_ko": "치료 간 차이가 없다는 가설.", "synonyms": null}
+{"category": "임상_비임상", "term": "근거문서", "term_en": "Source Document", "description_ko": "원자료가 기록된 의무기록, 검사결과지, 메모 등 모든 문서.", "synonyms": null}
+{"category": "임상_비임상", "term": "근거자료", "term_en": "Source Data", "description_ko": "임상시험 평가에 필요한 원자료 또는 공식 사본.", "synonyms": null}
+{"category": "임상_비임상", "term": "근거자료 확인(SDV)", "term_en": "Source Data Verification", "description_ko": "보고된 자료가 원자료와 일치하는지 확인하는 과정.", "synonyms": ["SDV"]}
+{"category": "임상_비임상", "term": "기저 불균형", "term_en": "Baseline Imbalance", "description_ko": "무작위배정 전 기초 특성의 집단 간 차이.", "synonyms": null}
+{"category": "임상_비임상", "term": "내용 타당도", "term_en": "Content Validity", "description_ko": "측정하고자 하는 내용을 얼마나 충실히 포함하는지의 정도.", "synonyms": null}
+{"category": "임상_비임상", "term": "내적 타당도", "term_en": "Internal Validity", "description_ko": "관찰된 효과가 개입 때문임을 뒷받침하는 설계·수행의 적절성.", "synonyms": null}
+{"category": "임상_비임상", "term": "누렘버그 코드", "term_en": "Nuremberg Code", "description_ko": "인간대상연구의 기본 윤리 원칙을 제시한 국제 규범.", "synonyms": null}
+{"category": "임상_비임상", "term": "눈가림", "term_en": "Blinding / Masking", "description_ko": "대상자·연구자·평가자가 배정군을 모르게 하는 절차.", "synonyms": ["맹검", "Blind"]}
+{"category": "임상_비임상", "term": "다기관임상시험", "term_en": "Multicenter Trial", "description_ko": "둘 이상의 기관이 동일한 계획서로 수행하는 임상시험.", "synonyms": null}
+{"category": "임상_비임상", "term": "대리 결과", "term_en": "Proxy Outcome", "description_ko": "관심 치료효과를 간접적으로 대변하는 결과 지표.", "synonyms": null}
+{"category": "임상_비임상", "term": "대리결과변수", "term_en": "Surrogate Variable", "description_ko": "임상적 최종결과를 대신해 예측 목적으로 사용하는 변수.", "synonyms": ["Surrogate Endpoint"]}
+{"category": "임상_비임상", "term": "대리인", "term_en": "Legally Acceptable Representative", "description_ko": "피험자 대신 동의할 법적 대리권을 가진 자.", "synonyms": null}
+{"category": "임상_비임상", "term": "대립가설", "term_en": "Alternative Hypothesis", "description_ko": "두 치료 간 효과 차이가 존재한다는 가설.", "synonyms": null}
+{"category": "임상_비임상", "term": "대상자", "term_en": "Subject", "description_ko": "임상시험에 참여하는 사람.", "synonyms": null}
+{"category": "임상_비임상", "term": "대상자 식별코드", "term_en": "Subject Identification Code", "description_ko": "신원 보호를 위해 각 대상자에게 부여하는 고유 코드.", "synonyms": null}
+{"category": "임상_비임상", "term": "대상자동의", "term_en": "Informed Consent", "description_ko": "충분한 설명과 자발적 서명을 통해 참여 여부를 확인하는 절차.", "synonyms": ["IC"]}
+{"category": "임상_비임상", "term": "대상자의 복지", "term_en": "Well‑being of the Trial Subjects", "description_ko": "임상시험에 참여하는 대상자의 육체적·정신적 안녕.", "synonyms": null}
+{"category": "임상_비임상", "term": "대조군내 발생률", "term_en": "Control Event Rate", "description_ko": "대조군에서 특정 사건이 발생한 비율.", "synonyms": ["CER"]}
+{"category": "임상_비임상", "term": "동등성 평가시험", "term_en": "Equivalence Trial", "description_ko": "새 치료의 효과가 기준치료와 사전 허용범위 내에서 동등함을 보이는 시험.", "synonyms": null}
+{"category": "임상_비임상", "term": "동분산성/동질성", "term_en": "Homogeneity", "description_ko": "메타분석에서 연구 간 변동이 우연으로 설명되는 정도.", "synonyms": null}
+{"category": "임상_비임상", "term": "랜덤효과 방법", "term_en": "Random‑Effect Method", "description_ko": "연구마다 효과가 다를 수 있음을 가정한 메타분석법.", "synonyms": ["RE model"]}
+{"category": "임상_비임상", "term": "로지스틱 회귀분석", "term_en": "Logistic Regression", "description_ko": "이분형 결과의 교차비/확률을 예측하는 회귀모형.", "synonyms": null}
+{"category": "임상_비임상", "term": "맹검 검증", "term_en": "Blind Review", "description_ko": "시험 종료 전 배정정보를 가리지 않은 상태에서 결과를 검토·확정하지 않도록 눈가림 상태로 검토.", "synonyms": null}
+{"category": "임상_비임상", "term": "메타분석", "term_en": "Meta‑analysis", "description_ko": "여러 독립 연구의 결과를 통계적으로 종합하는 방법.", "synonyms": null}
+{"category": "임상_비임상", "term": "모니터링", "term_en": "Monitoring", "description_ko": "시험 진행과 자료의 질을 점검·기록·보고하는 활동.", "synonyms": null}
+{"category": "임상_비임상", "term": "모니터링 보고서", "term_en": "Monitoring Report", "description_ko": "모니터링 결과를 문서화한 공식 보고서.", "synonyms": null}
+{"category": "임상_비임상", "term": "직접비교임상시험", "term_en": "Head-to-Head Comparison Trial", "definition_ko": "두 개의 치료중재를 동일 조건에서 직접 비교하는 임상시험.", "synonyms": null}
+{"category": "임상_비임상", "term": "질의", "term_en": "Query", "definition_ko": "임상시험 자료의 오류·비일관성·누락 등에 대해 연구자나 의뢰자에게 설명 또는 수정을 요청하는 것.", "synonyms": null}
+{"category": "임상_비임상", "term": "집단축차설계", "term_en": "Group Sequential Design", "definition_ko": "중간분석 결과에 따라 조기 종료하거나 추가 모집을 반복하는 다단계 임상시험 설계.", "synonyms": null}
+{"category": "임상_비임상", "term": "체계적 문헌고찰", "term_en": "Systematic Review", "definition_ko": "명확한 질문과 사전 계획된 방법으로 관련 문헌을 포괄적으로 수집·평가·종합하는 연구.", "synonyms": null}
+{"category": "임상_비임상", "term": "취약한 환경에 있는 대상자", "term_en": "Vulnerable Subjects", "definition_ko": "참여 결정에 부당한 영향이나 압력을 받을 가능성이 큰 대상자 집단.", "synonyms": null}
+{"category": "임상_비임상", "term": "층화", "term_en": "Stratification", "definition_ko": "중요한 영향요인에 따라 등록 전에 피험자를 층으로 나누어 배정의 균형을 맞추는 방법.", "synonyms": null}
+{"category": "임상_비임상", "term": "치료계수", "term_en": "Therapeutic Index (TI)", "definition_ko": "약물의 상대적 안전성 지표로 LD50/ED50 비율.", "synonyms": ["TI"]}
+{"category": "임상_비임상", "term": "치료중 발생한 이상반응", "term_en": "Treatment Emergent", "definition_ko": "치료 시작 후 새로 발생했거나 치료 전보다 악화된 이상반응.", "synonyms": null}
+{"category": "임상_비임상", "term": "치료효과", "term_en": "Treatment Effect", "definition_ko": "치료로 인해 관찰되는 효과로 주로 군 간 비교로 추정.", "synonyms": null}
+{"category": "임상_비임상", "term": "코호트 연구", "term_en": "Cohort Study", "definition_ko": "공통 특성을 가진 집단을 일정 기간 추적하여 결과를 관찰하는 관찰연구.", "synonyms": null}
+{"category": "임상_비임상", "term": "타당도", "term_en": "Validity", "definition_ko": "측정도구·방법이 의도한 개념을 얼마나 잘 측정하는지의 정도.", "synonyms": null}
+{"category": "임상_비임상", "term": "탈락 비뚤림", "term_en": "Attrition Bias", "definition_ko": "군 간 탈락·배제 차이로 인해 결과가 왜곡되는 편향.", "synonyms": ["Loss to follow-up bias"]}
+{"category": "임상_비임상", "term": "탐색적 임상시험", "term_en": "Exploratory Trial", "definition_ko": "중재의 작용과 용량 등을 탐색하는 초기 단계 임상시험(주로 1상~초기 2상).", "synonyms": null}
+{"category": "임상_비임상", "term": "평가자내 신뢰도", "term_en": "Intra-Rater Reliability", "definition_ko": "같은 평가자가 서로 다른 시점·상황에서 일관된 결과를 내는 정도.", "synonyms": null}
+{"category": "임상_비임상", "term": "평행 설계", "term_en": "Parallel Design", "definition_ko": "피험자를 서로 다른 치료군에 배정하고 시험 기간 내내 한 가지 치료만 적용하는 설계.", "synonyms": null}
+{"category": "임상_비임상", "term": "표준치료", "term_en": "Standard Treatment", "definition_ko": "규제당국의 승인을 받아 질환 치료에 효과가 입증되어 일반적으로 사용되는 치료.", "synonyms": ["Standard of Care", "SOC"]}
+{"category": "임상_비임상", "term": "헬싱키 선언", "term_en": "Declaration of Helsinki", "definition_ko": "세계의사회가 채택한 인체대상 의학연구의 핵심 윤리지침.", "synonyms": null}
+{"category": "임상_비임상", "term": "확증적 임상시험", "term_en": "Confirmatory Trial", "definition_ko": "이전에 탐색된 효과를 확증하고 규제 제출을 목적으로 설계된 임상시험(주로 3상).", "synonyms": null}
+{"category": "임상_비임상", "term": "휴약기간", "term_en": "Washout Period", "definition_ko": "이전 투약의 영향이 소실될 때까지 약물 투여를 중단하는 기간.", "synonyms": ["Washout"]}
+{"category": "임상_비임상", "term": "점검", "term_en": "Audit", "definition_ko": "계획·규정 준수와 자료 신뢰성을 독립적으로 확인하는 체계적 조사.", "synonyms": null}
+{"category": "임상_비임상", "term": "점검기록", "term_en": "Audit Trail", "definition_ko": "점검 수행 및 결과에 관한 추적 가능한 기록.", "synonyms": null}
+{"category": "임상_비임상", "term": "점검보고서", "term_en": "Audit Report", "definition_ko": "점검 결과를 문서화한 보고서.", "synonyms": null}
+{"category": "임상_비임상", "term": "점검확인서", "term_en": "Audit Certificate", "definition_ko": "점검이 실시되었음을 확인하는 문서.", "synonyms": null}
+{"category": "임상_비임상", "term": "제외기준", "term_en": "Exclusion Criteria", "definition_ko": "시험 참여에서 특정 대상자를 제외하는 기준.", "synonyms": null}
+{"category": "임상_비임상", "term": "조정위원회", "term_en": "Coordinating Committee", "definition_ko": "다기관 임상시험의 수행을 조정하기 위해 의뢰자가 구성하는 위원회.", "synonyms": null}
+{"category": "임상_비임상", "term": "종료", "term_en": "Completion", "definition_ko": "계획된 모든 활동을 마쳐 피험자의 임상시험 참여가 종료되는 것.", "synonyms": null}
+{"category": "임상_비임상", "term": "종합평가 변수", "term_en": "Global Assessment Variable", "definition_ko": "객관적 변수와 연구자의 전반적 판단을 종합한 단일 평가변수.", "synonyms": null}
+{"category": "임상_비임상", "term": "준 무작위배정", "term_en": "Quasi-Randomization / Quasi-Random Allocation", "definition_ko": "생년월일·등록번호 등 규칙을 이용해 무작위배정처럼 보이게 배정하는 방법.", "synonyms": ["Quasi-random allocation"]}
+{"category": "임상_비임상", "term": "중간분석", "term_en": "Interim Analysis", "definition_ko": "시험 도중 축적된 자료로 수행하는 분석으로 필요시 조기 종료 판단에 사용.", "synonyms": null}
+{"category": "임상_비임상", "term": "중간임상시험결과보고서", "term_en": "Interim Clinical Trial/Study Report", "definition_ko": "임상시험 도중 시행한 분석 결과를 요약한 중간 보고서.", "synonyms": null}
+{"category": "임상_비임상", "term": "중단", "term_en": "Discontinuation", "definition_ko": "필요 요건이 충족되기 전에 피험자의 임상시험 참여가 멈추는 것.", "synonyms": null}
+{"category": "임상_비임상", "term": "중대한 이상반응/이상약물반응", "term_en": "Serious AE/ADR", "definition_ko": "사망, 생명위협, 입원/입원연장, 지속적 장애, 선천성 기형, 기타 중대한 의학적 사건에 해당하는 이상반응.", "synonyms": ["SAE", "Serious Adverse Event", "Serious ADR"]}
+{"category": "임상_비임상", "term": "중도 탈락", "term_en": "Dropout", "definition_ko": "필수 방문을 끝까지 완료하지 못하고 추적에서 이탈한 대상자.", "synonyms": null}
+{"category": "임상_비임상", "term": "증례기록서", "term_en": "Case Report Form (CRF)", "definition_ko": "계획서에 정의된 정보를 피험자별로 기록·제출하기 위한 표준 서식.", "synonyms": ["CRF"]}
+{"category": "CMC", "term": "UV", "term_en": "Ultraviolet Ray", "description_ko": "태양광 스펙트럼을 사진으로 찍었을 때 가시광선보다 짧은 파장으로 눈에 보이지 않는 빛.", "synonyms": null}
+{"category": "CMC", "term": "X선 결정해석", "term_en": "X-ray Crystallography", "description_ko": "X선 회절 현상을 이용하여 결정 구조를 규명하는 분석법.", "synonyms": null}
+{"category": "CMC", "term": "X선 회절", "term_en": "X-ray Diffraction", "description_ko": "결정성 물질에 X선을 입사했을 때의 회절 패턴으로 격자 간격 등을 측정.", "synonyms": null}
+{"category": "CMC", "term": "가속시험", "term_en": "Accelerated Test", "description_ko": "장기보존시험 조건을 벗어난 단기간 가혹조건으로 품질 변화를 평가하는 시험.", "synonyms": null}
+{"category": "CMC", "term": "가혹시험", "term_en": "Stress Test", "description_ko": "가혹조건에서 의약품의 분해 과정 및 분해산물 등을 확인하기 위한 시험.", "synonyms": null}
+{"category": "CMC", "term": "강열잔분", "term_en": "Residue on Ignition (ROI)", "description_ko": "정해진 시험법에 따라 원료약품을 태운 후 남는 무기잔류물의 함량.", "synonyms": null}
+{"category": "CMC", "term": "개념증명", "term_en": "Proof of Concept (PoC)", "description_ko": "새 기술·아이디어를 실제 적용 전 핵심 가설이 작동함을 검증할 때 사용하는 단계.", "synonyms": null}
+{"category": "CMC", "term": "거울상초과량", "term_en": "Enantiomeric Excess", "description_ko": "거울상 이성질체 두 성분의 비율 차이.", "synonyms": null}
+{"category": "CMC", "term": "건조", "term_en": "Drying", "description_ko": "물체에 포함된 수분을 제거하는 조작. 열풍건조, 진공건조 등 사용.", "synonyms": null}
+{"category": "CMC", "term": "건조시럽제", "term_en": "Dry Syrup", "description_ko": "수분에 취약하거나 수용성 용매에서 불안정한 약물을 분말(pwd) 상태로 제조하여 사용 직전 물에 녹여 쓰는 제제.", "synonyms": null}
+{"category": "CMC", "term": "경구투여", "term_en": "Oral Administration", "description_ko": "의약품을 입으로 투여하는 방법. 액제·분말·정제·캡슐 등.", "synonyms": null}
+{"category": "CMC", "term": "경질캡슐제", "term_en": "Hard-Shell Capsule", "description_ko": "젤라틴에 가소제 등을 첨가해 만든 캡슐에 약제를 충전한 제제.", "synonyms": null}
+{"category": "CMC", "term": "공정개발", "term_en": "Process Development", "description_ko": "제조공정(방법론)을 설계·개선하여 의약품 제조나 가공공정을 최적화.", "synonyms": null}
+{"category": "CMC", "term": "공정시간", "term_en": "Cycle Time", "description_ko": "같은 공정이 반복 발생할 때의 시간 간격.", "synonyms": null}
+{"category": "CMC", "term": "공정의 위험", "term_en": "Thermochemical Hazards", "description_ko": "반응 중 생성되는 불안정 화합물·유독가스 등 공정 자체에 내재된 위험.", "synonyms": null}
+{"category": "CMC", "term": "과립", "term_en": "Granule", "description_ko": "분말을 응집·건조하여 일정 크기의 입자로 만든 제형.", "synonyms": null}
+{"category": "CMC", "term": "급성독성", "term_en": "Acute Toxicity", "description_ko": "시험동물에 1회 또는 24시간 내 반복 투여 시 1일~2주 내 나타나는 독성.", "synonyms": null}
+{"category": "CMC", "term": "기술이전", "term_en": "Technology Transfer", "description_ko": "축적된 기술을 다른 조직으로 이전하여 활용하게 하는 활동.", "synonyms": null}
+{"category": "CMC", "term": "기준 및 시험법", "term_en": "Specification and Method", "description_ko": "품질 기준과 이를 확인하기 위한 분석 시험법.", "synonyms": null}
+{"category": "CMC", "term": "끓는점", "term_en": "Boiling Point", "description_ko": "액체가 내부까지 기포가 발생하며 끓기 시작하는 온도.", "synonyms": null}
+{"category": "CMC", "term": "녹는점", "term_en": "Melting Point", "description_ko": "고체가 액체로 상변화가 일어나는 온도.", "synonyms": null}
+{"category": "CMC", "term": "단결정", "term_en": "Single Crystal", "description_ko": "결정 전체가 하나의 결정축을 따라 규칙적으로 성장한 고체.", "synonyms": null}
+{"category": "CMC", "term": "당의정", "term_en": "Sugar-coated Tablet", "description_ko": "정제 표면에 백당 등을 입혀 착색한 정제.", "synonyms": null}
+{"category": "CMC", "term": "대사", "term_en": "Metabolism", "description_ko": "생체 내 물질의 분해·합성 등 모든 물질대사 변화.", "synonyms": null}
+{"category": "CMC", "term": "독성간염", "term_en": "Toxic Hepatitis", "description_ko": "약물 등으로 유발되는 간 기능 손상.", "synonyms": null}
+{"category": "CMC", "term": "무독성용량", "term_en": "No Observed Adverse Effect Level (NOAEL)", "description_ko": "유해 영향이 관찰되지 않는 최대 용량.", "synonyms": null}
+{"category": "CMC", "term": "물 용해도", "term_en": "Water Solubility", "description_ko": "용질이 물에 녹는 정도.", "synonyms": null}
+{"category": "CMC", "term": "반감기", "term_en": "t1/2 (Half-life)", "description_ko": "농도가 처음의 절반으로 감소하는 데 걸리는 시간.", "synonyms": null}
+{"category": "CMC", "term": "반고형제", "term_en": "Semi-Solid Dosage Form", "description_ko": "액제와 고형제의 중간 물리상태의 제제.", "synonyms": null}
+{"category": "CMC", "term": "반응부피", "term_en": "Reaction Volume", "description_ko": "반응이 일어나는 공간의 부피.", "synonyms": null}
+{"category": "CMC", "term": "발포정", "term_en": "Effervescent Tablet", "description_ko": "물 등과 접촉 시 이산화탄소를 발생하며 붕해되는 정제.", "synonyms": null}
+{"category": "CMC", "term": "분배계수", "term_en": "Partition Coefficient", "description_ko": "서로 섞이지 않는 두 용매 A/B 사이 농도비 K=CA/CB.", "synonyms": null}
+{"category": "CMC", "term": "분자량", "term_en": "Molecular Weight", "description_ko": "분자를 이루는 원자들의 원자량 합으로 계산되는 질량.", "synonyms": null}
+{"category": "CMC", "term": "분자식", "term_en": "Molecular Formula", "description_ko": "분자를 구성하는 원자의 종류와 개수를 원소기호로 표기한 식.", "synonyms": null}
+{"category": "CMC", "term": "분포용적", "term_en": "Volume of Distribution (Vd)", "description_ko": "체내에서 약물이 분배된 정도를 나타내는 계수(L 또는 L/kg).", "synonyms": null}
+{"category": "CMC", "term": "비교붕해시험", "term_en": "Comparative Crumbling", "description_ko": "붕해 속도를 비교해 동등성을 확인하는 시험.", "synonyms": null}
+{"category": "CMC", "term": "비교용출시험", "term_en": "Comparative Dissolution", "description_ko": "동일 성분·투여경로 제제 간 in vitro 용출양상의 유사성을 입증.", "synonyms": null}
+{"category": "CMC", "term": "생물학적 동등성", "term_en": "Bioequivalence (BE)", "description_ko": "동일 유효성분·투여경로 제제가 생체이용률에서 통계적으로 동등함을 입증.", "synonyms": null}
+{"category": "CMC", "term": "생산성", "term_en": "Productivity", "description_ko": "투입 대비 산출 정도를 나타내는 생산 효율 지표.", "synonyms": null}
+{"category": "CMC", "term": "서방출", "term_en": "Extended Release", "description_ko": "약물 방출을 느리게 하도록 코팅·설계한 제제.", "synonyms": null}
+{"category": "CMC", "term": "선광도", "term_en": "Optical Rotation", "description_ko": "편광이 광학활성 물질을 통과한 후 회전한 각도.", "synonyms": null}
+{"category": "CMC", "term": "선택성", "term_en": "Selectivity", "description_ko": "촉매·반응에서 목표 화합물만 선택적으로 생성시키는 정도.", "synonyms": null}
+{"category": "CMC", "term": "설하정", "term_en": "Buccal and Sublingual Tablet", "description_ko": "혀 밑에 두어 흡수되도록 설계된 정제.", "synonyms": null}
+{"category": "CMC", "term": "수율", "term_en": "Yield", "description_ko": "실제 생산량을 이론 최대 생산량으로 나눈 값.", "synonyms": null}
+{"category": "CMC", "term": "순도", "term_en": "Purity", "description_ko": "물질의 화학적 순수성 정도.", "synonyms": null}
+{"category": "CMC", "term": "시약", "term_en": "Reagent", "description_ko": "화학반응에 사용하는 약품의 총칭.", "synonyms": null}
+{"category": "CMC", "term": "시험법 밸리데이션", "term_en": "Test Method Validation", "description_ko": "개발·제조·품질관리 단계에서 시험법의 타당성을 검증.", "synonyms": null}
+{"category": "CMC", "term": "안전", "term_en": "Safety", "description_ko": "위험이나 사고 발생 가능성이 낮은 상태.", "synonyms": null}
+{"category": "CMC", "term": "안정성", "term_en": "Stability", "description_ko": "열·빛·온도 등에서 분해되거나 반응하지 않는 성질.", "synonyms": null}
+{"category": "CMC", "term": "액상주사제", "term_en": "Injectable Liquid", "description_ko": "액체 형태로 투여되는 주사제.", "synonyms": null}
+{"category": "CMC", "term": "약 신규성", "term_en": "Novelty of the Drug", "description_ko": "공개·공용되지 않은 신약의 신규성.", "synonyms": null}
+{"category": "CMC", "term": "약물전달시스템", "term_en": "Drug Delivery System (DDS)", "description_ko": "약물을 원하는 위치·속도로 전달해 효능을 극대화하고 부작용을 줄이는 기술.", "synonyms": null}
+{"category": "CMC", "term": "약효용량", "term_en": "Pharmaceutical Active Dose (PAD)", "description_ko": "약효가 나타나는 용량.", "synonyms": null}
+{"category": "CMC", "term": "여과", "term_en": "Filtration", "description_ko": "다공성 매질을 통해 고체와 액체를 분리하는 조작.", "synonyms": null}
+{"category": "CMC", "term": "연고제", "term_en": "Ointments", "description_ko": "기제(바셀린·라놀린 등)에 약물을 혼합해 피부에 바르는 반고형 외용제.", "synonyms": null}
+{"category": "CMC", "term": "연질캡슐제", "term_en": "Soft Elastic Capsule", "description_ko": "젤라틴+가소제로 만든 시트 두 장 사이에 액상 약제를 충전 후 접착해 제조한 캡슐.", "synonyms": null}
+{"category": "CMC", "term": "용액 안정성", "term_en": "Solution Stability", "description_ko": "용액 상태에서 분해·반응하지 않는 성질.", "synonyms": null}
+{"category": "CMC", "term": "용출시험", "term_en": "Dissolution Test", "description_ko": "규정된 장치·조건에서 제제의 용출 속도를 측정하는 시험.", "synonyms": null}
+{"category": "CMC", "term": "용해도", "term_en": "Solubility", "description_ko": "일정 온도에서 용매 100g에 녹을 수 있는 용질의 최대량.", "synonyms": null}
+{"category": "CMC", "term": "원소분석", "term_en": "Elemental Analysis", "description_ko": "유기화합물의 구성 원소 종류와 비율을 정량 분석.", "synonyms": null}
+{"category": "CMC", "term": "원재료비", "term_en": "Raw Material Cost", "description_ko": "원료의약품 생산에 투입되는 모든 원재료 비용.", "synonyms": null}
+{"category": "CMC", "term": "유연물질", "term_en": "Impurity", "description_ko": "순수 물질 속에 존재하는 혼입물.", "synonyms": null}
+{"category": "CMC", "term": "유전독성 유연물질", "term_en": "Genotox Impurities", "description_ko": "유전독성을 유발하는 불순물.", "synonyms": null}
+{"category": "CMC", "term": "일관성", "term_en": "Consistency", "description_ko": "제조공정이 항상 일정하고 예측 가능한 결과를 내는 특성.", "synonyms": null}
+{"category": "CMC", "term": "입도분석기", "term_en": "Particle Size Detector", "description_ko": "레이저 회절·Mie 산란 등으로 입자 크기 분포를 측정하는 장치.", "synonyms": null}
+{"category": "CMC", "term": "입자분포도", "term_en": "Particle Size Distribution", "description_ko": "시료 내 입자 크기 분포(주로 중량%).", "synonyms": null}
+{"category": "CMC", "term": "입자크기", "term_en": "Particle Size", "description_ko": "입자의 크기를 나타내는 지표(메시 등으로 표시).", "synonyms": null}
+{"category": "CMC", "term": "입체화학", "term_en": "Stereochemistry", "description_ko": "분자 내 원자·기의 입체적 배치를 다루는 화학 분야.", "synonyms": null}
+{"category": "CMC", "term": "잔류용매", "term_en": "Residual Solvents", "description_ko": "제조 과정에서 잔존한 용매. ICH Q3C에 따라 Class I/II/III로 구분.", "synonyms": null}
+{"category": "CMC", "term": "장기보존시험", "term_en": "Long Term Test", "description_ko": "유효기간 동안 품질을 보증하기 위한 장기 안정성 시험.", "synonyms": null}
+{"category": "CMC", "term": "장용정", "term_en": "Enteric Coated Tablet", "description_ko": "위에서는 용해되지 않고 장에서 용해되도록 코팅한 정제.", "synonyms": null}
+{"category": "CMC", "term": "재현성", "term_en": "Reproducibility", "description_ko": "서로 다른 조건에서 반복 측정했을 때 결과의 일치성.", "synonyms": null}
+{"category": "CMC", "term": "정밀성", "term_en": "Precision", "description_ko": "반복 측정 결과들 사이의 근접성.", "synonyms": null}
+{"category": "CMC", "term": "정상상태", "term_en": "Steady-state", "description_ko": "투여 속도와 소실 속도가 같아진 평형 상태.", "synonyms": null}
+{"category": "CMC", "term": "정확성", "term_en": "Accuracy", "description_ko": "측정값이 참값 또는 표준값에 가까운 정도.", "synonyms": null}
+{"category": "CMC", "term": "제제", "term_en": "Formulation", "description_ko": "사용·투여에 편리하도록 미리 제조된 의약품 형태.", "synonyms": null}
+{"category": "CMC", "term": "제조경비", "term_en": "Operational Cost", "description_ko": "인건비·유틸리티·폐기물 처리 등 공정 가동을 위한 비용.", "synonyms": null}
+{"category": "CMC", "term": "제조원가", "term_en": "COGs (Cost of Goods sold)", "description_ko": "직접·간접 원재료와 제조비의 합계.", "synonyms": null}
+{"category": "CMC", "term": "제품허가후 변경 발생", "term_en": "Scale Up and Post Approval Changes (SUPAC)", "description_ko": "허가 후 발생하는 제조·공정 변경.", "synonyms": null}
+{"category": "CMC", "term": "제형", "term_en": "Dosage Form", "description_ko": "의약품 제제를 형태·특성에 따라 분류한 명칭.", "synonyms": null}
+{"category": "CMC", "term": "조절방출", "term_en": "Modified Release", "description_ko": "외부 환경에서 약물 방출 속도를 조절하도록 설계한 제형.", "synonyms": null}
+{"category": "CMC", "term": "주사제", "term_en": "Injection", "description_ko": "주사로 투여하는 제형. 성질에 따라 주사 방법이 달라짐.", "synonyms": null}
+{"category": "CMC", "term": "중간조건시험", "term_en": "Intermediate Test", "description_ko": "가속시험에서 변화가 있을 때 중간 조건에서 수행하는 안정성 시험.", "synonyms": null}
+{"category": "CMC", "term": "중금속 함량", "term_en": "Heavy Metal Analysis", "description_ko": "원료의약품에 포함된 중금속 함량(통상 20 ppm 이하 관리).", "synonyms": null}
+{"category": "CMC", "term": "증류", "term_en": "Distillation", "description_ko": "혼합 액체를 가열·기화 후 냉각·응축해 분리·정제하는 조작.", "synonyms": null}
+{"category": "CMC", "term": "지연방출", "term_en": "Delayed Release", "description_ko": "약물 방출이 서서히 일어나도록 한 제형.", "synonyms": null}
+{"category": "CMC", "term": "직선성", "term_en": "Linearity", "description_ko": "농도와 신호 간 직선적 관계를 확보할 수 있는 능력.", "synonyms": null}
+{"category": "CMC", "term": "체순환", "term_en": "Systemic Circulation", "description_ko": "폐순환을 제외한 전신 혈액 순환.", "synonyms": null}
+{"category": "CMC", "term": "최대추천초기투여용량", "term_en": "Maximum Recommended Starting Dose (MRSD)", "description_ko": "임상에서 시작 시 넘지 않아야 할 초기 투여용량.", "synonyms": null}
+{"category": "CMC", "term": "추출", "term_en": "Extraction", "description_ko": "용매를 이용해 혼합물에서 특정 성분을 용해·분리하는 조작.", "synonyms": null}
+{"category": "CMC", "term": "치료영역", "term_en": "Therapeutic Index", "description_ko": "안전하고 효과적인 혈중 농도의 범위.", "synonyms": null}
+{"category": "CMC", "term": "크림제", "term_en": "Cream", "description_ko": "유중수형/수중유형의 반고형 유제 외용제.", "synonyms": null}
+{"category": "CMC", "term": "투과도", "term_en": "Permeability", "description_ko": "막 또는 물질을 통과하는 정도.", "synonyms": null}
+{"category": "CMC", "term": "평균원자량", "term_en": "Average Atomic Weight", "description_ko": "동위원소 존재비를 고려한 원소의 평균 원자 질량(amu).", "synonyms": null}
+{"category": "CMC", "term": "표적방출", "term_en": "Targeted Release", "description_ko": "목표 부위에 도달한 후 방출되도록 설계한 제형.", "synonyms": null}
+{"category": "CMC", "term": "품질", "term_en": "Quality", "description_ko": "물질·제품이 가지는 성질의 총체.", "synonyms": null}
+{"category": "CMC", "term": "필름코팅정", "term_en": "Film-coated Tablet", "description_ko": "필름 코팅으로 안정성·취급성을 높인 정제.", "synonyms": null}
+{"category": "CMC", "term": "함량", "term_en": "Assay", "description_ko": "특정 성분이 함유된 양을 정량해 단위로 표시.", "synonyms": null}
+{"category": "CMC", "term": "화학구조", "term_en": "Chemical Structure", "description_ko": "구성 원자들이 결합한 형태를 나타내는 구조.", "synonyms": null}
+{"category": "CMC", "term": "화학물의 위험", "term_en": "Chemical Hazards", "description_ko": "시약·용매·중간체 등이 사람·환경에 미치는 유해성.", "synonyms": null}
+{"category": "CMC", "term": "후처리 공정", "term_en": "Work-up", "description_ko": "반응 종료 후 분리·정제 등 처리 단계.", "synonyms": null}
+{"category": "CMC", "term": "흡습성", "term_en": "Hygroscopicity", "description_ko": "수분을 흡수·보유하려는 경향.", "synonyms": null}
+{"category": "CMC", "term": "1차 표준품", "term_en": "Reference Standard, Primary", "description_ko": "규격화해 별도 제조하거나 고순도 정제로 얻은 표준물질.", "synonyms": null}
+{"category": "CMC", "term": "2차 표준품", "term_en": "Reference Standard, Secondary", "description_ko": "1차 표준품을 기준으로 보정하여 사용하는 표준물질.", "synonyms": null}
+{"category": "CMC", "term": "ACS GCI", "term_en": "American Chemical Society Green Chemistry Institute", "description_ko": "ACS 산하 녹색화학 연구·협의체. 제약산업의 환경 이슈를 다룸.", "synonyms": null}
+{"category": "CMC", "term": "CBER", "term_en": "Center for Biologics Evaluation and Research", "description_ko": "미 FDA의 바이오의약품 평가·연구 센터.", "synonyms": null}
+{"category": "CMC", "term": "CDA", "term_en": "Confidential Disclosure Agreement", "description_ko": "비밀유지계약서(NDA). 기술·자료 제공 시 기밀 유지 약정.", "synonyms": null}
+{"category": "CMC", "term": "CFR", "term_en": "Code of Federal Regulations", "description_ko": "미국 연방규정집. 의약품 관련 규정 포함.", "synonyms": null}
+{"category": "CMC", "term": "Class I 용매", "term_en": "Class 1 Solvents", "description_ko": "피해야 하는 잔류용매. 예: Benzene, CCl4, 1,2-DCE, 1,1-DCE, 1,1,1-trichloroethane.", "synonyms": null}
+{"category": "CMC", "term": "Class II 용매", "term_en": "Class 2 Solvents", "description_ko": "독성이 있어 사용 제한이 필요한 용매군. 잔류 기준 관리.", "synonyms": null}
+{"category": "CMC", "term": "Class III 용매", "term_en": "Class 3 Solvents", "description_ko": "독성이 낮아 일반적으로 허용되는 용매군(예: Acetone).", "synonyms": null}
+{"category": "CMC", "term": "Cmax", "term_en": "Maximum Concentration", "description_ko": "복용 후 혈중에서 관찰되는 최고 농도.", "synonyms": null}
+{"category": "CMC", "term": "CMC", "term_en": "Chemistry, Manufacturing and Control", "description_ko": "의약품의 물질 특성, 제조공정, 품질관리 전반.", "synonyms": null}
+{"category": "CMC", "term": "CPI", "term_en": "Critical Path Initiative", "description_ko": "FDA의 의약품 개발·평가·제조 가속화를 위한 전략.", "synonyms": null}
+{"category": "CMC", "term": "CTM", "term_en": "Clinical Trial Material", "description_ko": "임상시험에 사용되는 시험용 의약품.", "synonyms": null}
+{"category": "CMC", "term": "DMF", "term_en": "Drug Master File", "description_ko": "원료의약품 등 관련 정보를 규제기관에 제출하는 파일 제도.", "synonyms": null}
+{"category": "CMC", "term": "DMPK", "term_en": "Drug Metabolism & Pharmacokinetics", "description_ko": "약물의 대사와 체내 동태를 연구하는 분야.", "synonyms": null}
+{"category": "CMC", "term": "DSC", "term_en": "Differential Scanning Calorimetry", "description_ko": "시료와 기준물의 온도차에 필요한 에너지를 측정해 전이·비열 등을 파악.", "synonyms": null}
+{"category": "CMC", "term": "EC50", "term_en": "Half maximal effective concentration", "description_ko": "효과의 50%를 나타내는 농도.", "synonyms": null}
+{"category": "CMC", "term": "ED50", "term_en": "50% Effective Dose", "description_ko": "대상군의 50%에서 효과가 나타나는 용량.", "synonyms": null}
+{"category": "CMC", "term": "EMA", "term_en": "European Medicines Agency", "description_ko": "EU 의약품 규제 기관.", "synonyms": null}
+{"category": "CMC", "term": "EOP meeting", "term_en": "End of Phase meeting", "description_ko": "임상 1상·2상 종료 후 규제기관과 다음 단계 논의.", "synonyms": null}
+{"category": "CMC", "term": "FIH trial", "term_en": "First-In-Human trial", "description_ko": "사람에게 처음 투여하는 임상시험.", "synonyms": null}
+{"category": "CMC", "term": "First-pass metabolism", "term_en": "First-pass metabolism", "description_ko": "전신순환 도달 전 대사.", "synonyms": null}
+{"category": "CMC", "term": "FT-IR", "term_en": "Fourier Transform Infrared Spectroscopy", "description_ko": "간섭계를 이용해 IR 스펙트럼을 얻는 분석법.", "synonyms": null}
+{"category": "CMC", "term": "HDPE", "term_en": "High Density Polyethylene", "description_ko": "포장 용기로 널리 쓰이는 고밀도 폴리에틸렌.", "synonyms": null}
+{"category": "CMC", "term": "HPLC", "term_en": "High-Performance Liquid Chromatography", "description_ko": "고압 펌프·컬럼을 사용하는 고분리능 액체크로마토그래피.", "synonyms": null}
+{"category": "CMC", "term": "HTS", "term_en": "High Throughput Screening", "description_ko": "고속 대량 실험으로 후보 물질을 신속 평가.", "synonyms": null}
+{"category": "CMC", "term": "IC50", "term_en": "Half maximal inhibitory concentration", "description_ko": "활성의 50%를 억제하는 농도.", "synonyms": null}
+{"category": "CMC", "term": "IR", "term_en": "Infrared Ray", "description_ko": "가시광보다 긴 파장의 전자파.", "synonyms": null}
+{"category": "CMC", "term": "Kd", "term_en": "Equilibrium Dissociation Constant", "description_ko": "리간드-수용체의 해리 평형상수.", "synonyms": null}
+{"category": "CMC", "term": "Ki", "term_en": "Inhibition Constant", "description_ko": "효소-저해제 결합의 평형상수.", "synonyms": null}
+{"category": "CMC", "term": "Km", "term_en": "Michaelis-Menten Constant", "description_ko": "반응속도가 Vmax/2일 때의 기질농도.", "synonyms": null}
+{"category": "CMC", "term": "MAD", "term_en": "Median Absolute Deviation", "description_ko": "중앙값 기준 절대편차의 중앙값.", "synonyms": null}
+{"category": "CMC", "term": "Mass Spectrometer", "term_en": "Mass Spectrometer", "description_ko": "이온의 m/z 비로 분리·검출하는 분석 장치.", "synonyms": null}
+{"category": "CMC", "term": "MoA", "term_en": "Mechanism of Action", "description_ko": "약물 작용기전.", "synonyms": null}
+{"category": "CMC", "term": "MSDS", "term_en": "Material Safety Data Sheet", "description_ko": "물질의 안전·보건 관련 정보를 담은 자료.", "synonyms": null}
+{"category": "CMC", "term": "MTD", "term_en": "Maximum Tolerated Dose", "description_ko": "유의한 독성 없이 견딜 수 있는 최대 용량.", "synonyms": null}
+{"category": "CMC", "term": "NMR", "term_en": "Nuclear Magnetic Resonance", "description_ko": "핵자기 공명 현상을 이용한 분광법.", "synonyms": null}
+{"category": "CMC", "term": "pH", "term_en": "Hydrogen Exponent", "description_ko": "수소이온 농도의 지수.", "synonyms": null}
+{"category": "CMC", "term": "PIB", "term_en": "Powder in a Bottle", "description_ko": "정제/캡슐을 병에 넣어 포장.", "synonyms": null}
+{"category": "CMC", "term": "PIC", "term_en": "Powder in a Capsule", "description_ko": "분말을 캡슐에 충전해 포장.", "synonyms": null}
+{"category": "CMC", "term": "pKa", "term_en": "Acid Dissociation Constant", "description_ko": "약산의 해리상수의 음의 로그 값.", "synonyms": null}
+{"category": "CMC", "term": "PMDA", "term_en": "Pharmaceuticals and Medical Devices Agency", "description_ko": "일본 의약품·의료기기 규제기관.", "synonyms": null}
+{"category": "CMC", "term": "Pre-IND meeting", "term_en": "Pre-IND meeting", "description_ko": "임상시험계획(IND) 제출 전 규제기관과의 사전 상담.", "synonyms": null}
+{"category": "CMC", "term": "Pre-NDA meeting", "term_en": "Pre-NDA meeting", "description_ko": "신약허가(NDA) 신청 전 규제기관과의 사전 회의.", "synonyms": null}
+{"category": "CMC", "term": "Tg mice", "term_en": "Transgenic Mice", "description_ko": "유전자를 도입·변형한 실험용 생쥐.", "synonyms": null}
+{"category": "CMC", "term": "TGA", "term_en": "Thermogravimetry Analysis", "description_ko": "온도·시간에 따른 시료 질량 변화를 측정.", "synonyms": null}
+{"category": "CMC", "term": "TID", "term_en": "Three times a day", "description_ko": "하루 세 번 투여.", "synonyms": null}
+{"category": "CMC", "term": "TLC", "term_en": "Thin Layer Chromatography", "description_ko": "박막상 분리 매질을 이용한 크로마토그래피.", "synonyms": null}
+{"category": "CMC", "term": "Tmax", "term_en": "Time to Maximum Concentration", "description_ko": "최고 혈중농도(Cmax)에 도달하는 시간.", "synonyms": null}
+{"category": "제조", "term": "단일방향류", "term_en": "Unidirectional flow", "description_ko": "입자 제거를 위해 충분한 속도로 일정한 방향으로 흐르는 공기 흐름.", "synonyms": null}
+{"category": "제조", "term": "동결건조 주사제", "term_en": "Freeze-drying injection", "description_ko": "승화로 수분을 제거해 제조한 주사제.", "synonyms": null}
+{"category": "제조", "term": "동시적 밸리데이션", "term_en": "Concurrent validation", "description_ko": "상업 생산 중에 수행하는 밸리데이션.", "synonyms": null}
+{"category": "제조", "term": "로트번호", "term_en": "Lot number", "description_ko": "제조단위와 출하를 확인할 수 있도록 표시한 문자·숫자 조합.", "synonyms": null}
+{"category": "제조", "term": "멸균", "term_en": "Sterilisation", "description_ko": "살아있는 미생물이 없게 만드는 검증된 공정.", "synonyms": null}
+{"category": "제조", "term": "모액", "term_en": "Mother liquor", "description_ko": "결정화 또는 분리 공정 이후 남아 있는 잔류 액체.", "synonyms": null}
+{"category": "제조", "term": "무균 충전", "term_en": "Aseptic filling", "description_ko": "멸균된 제품을 멸균된 마개와 용기에 충전·포장하는 공정.", "synonyms": null}
+{"category": "제조", "term": "무균보증시스템", "term_en": "Sterility assurance system", "description_ko": "제품의 무균성을 보증하기 위한 장치와 절차의 총합.", "synonyms": null}
+{"category": "제조", "term": "무균 착용 적격성평가", "term_en": "Gowning qualification", "description_ko": "작업자의 무균복 착용 능력을 입증하기 위한 초기 또는 주기적 평가 프로그램.", "synonyms": null}
+{"category": "제조", "term": "무균성", "term_en": "Sterility", "description_ko": "살아있는 미생물이 없는 상태.", "synonyms": null}
+{"category": "제조", "term": "무균성보증수준", "term_en": "Sterility assurance level (SAL)", "description_ko": "제품의 한 제조단위가 무균일 확률.", "synonyms": null}
+{"category": "제조", "term": "무균제제", "term_en": "Aseptic preparation", "description_ko": "오염을 방지하여 미생물이 없는 상태로 제조된 의약품.", "synonyms": null}
+{"category": "제조", "term": "밀봉용기", "term_en": "Sealed vessel", "description_ko": "보존상태에서 기체 또는 미생물이 침입하지 않는 용기.", "synonyms": null}
+{"category": "제조", "term": "밀폐", "term_en": "Containment", "description_ko": "생물학적 인자 또는 기타 물질을 일정 공간 내로 제한하는 행위.", "synonyms": null}
+{"category": "제조", "term": "반복성", "term_en": "Repeatability", "description_ko": "동일 조건에서 반복 측정값들 사이의 근접성.", "synonyms": null}
+{"category": "제조", "term": "반응기", "term_en": "Reactor", "description_ko": "화학반응을 진행시키기 위해 사용하는 기구(반응용기).", "synonyms": null}
+{"category": "제조", "term": "방부제", "term_en": "Antiseptic", "description_ko": "미생물의 성장을 저해하는 물질.", "synonyms": null}
+{"category": "제조", "term": "방사선멸균", "term_en": "Radiation sterilization", "description_ko": "방사선 또는 전자가파 조사에 의한 멸균.", "synonyms": null}
+{"category": "제조", "term": "방사성의약품", "term_en": "Radiopharmaceutical", "description_ko": "방사성동위원소를 함유하여 진단·치료 목적으로 사용하는 의약품.", "synonyms": null}
+{"category": "제조", "term": "방충방서", "term_en": "Insect & rat resistance", "description_ko": "곤충이나 설치류의 침입을 막음.", "synonyms": null}
+{"category": "제조", "term": "배치(로트)", "term_en": "Batch (lot)", "description_ko": "단일 제조시에 생산된 균일한 품질의 일정 분량.", "synonyms": null}
+{"category": "제조", "term": "배합", "term_en": "Compounding", "description_ko": "원료의약품과 하나 이상의 부형제를 결합하는 과정.", "synonyms": null}
+{"category": "제조", "term": "밸리데이션", "term_en": "Validation", "description_ko": "공정·방법·시스템이 허용기준에 부합하는 결과를 일관되게 내는지 문서화해 보증.", "synonyms": null}
+{"category": "제조", "term": "밸리데이션 결과보고서", "term_en": "Validation report", "description_ko": "밸리데이션 수행 후 결과를 기술하는 문서.", "synonyms": null}
+{"category": "제조", "term": "밸리데이션 실시계획서", "term_en": "Validation protocol", "description_ko": "밸리데이션을 수행하는 절차를 기술한 문서.", "synonyms": null}
+{"category": "제조", "term": "밸리데이션 종합계획서", "term_en": "Validation master plan", "description_ko": "밸리데이션의 범위·조직·대상 등 전체 계획을 요약·정리한 문서.", "synonyms": null}
+{"category": "제조", "term": "벌크 제품", "term_en": "Bulk product", "description_ko": "최종 포장을 포함하지 않고 모든 공정 단계가 완료된 제품.", "synonyms": null}
+{"category": "제조", "term": "변경관리", "term_en": "Change control", "description_ko": "밸리데이션된 시설·시스템·설비·공정의 변경을 검토·승인하는 체계.", "synonyms": null}
+{"category": "제조", "term": "보관용검체", "term_en": "Retention sample", "description_ko": "완제품 단위에서 채취하여 보관하는 포장된 검체.", "synonyms": null}
+{"category": "제조", "term": "보조제", "term_en": "Auxiliary", "description_ko": "주제에 부가되어 특정 기능을 추가하는 물질.", "synonyms": null}
+{"category": "제조", "term": "부유균", "term_en": "Airborne microorganism", "description_ko": "공기 중에 떠다니는 세균.", "synonyms": null}
+{"category": "제조", "term": "부유자", "term_en": "Airborne particle", "description_ko": "공기 중에 부유하는 입자의 총칭.", "synonyms": null}
+{"category": "제조", "term": "분리", "term_en": "Separation", "description_ko": "건물 또는 구역 간을 공기조절 등으로 구분하여 출입구역이 분리된 상태.", "synonyms": null}
+{"category": "제조", "term": "불순물", "term_en": "Impurity", "description_ko": "중간체 또는 API에 존재하는 바람직하지 않은 성분.", "synonyms": null}
+{"category": "제조", "term": "불순물프로필", "term_en": "Impurity profile", "description_ko": "API에 존재하는 확인·미확인 불순물에 대한 설명.", "synonyms": null}
+{"category": "제조", "term": "불활성성분", "term_en": "Inactive ingredient", "description_ko": "활성 성분 이외의 모든 원료.", "synonyms": null}
+{"category": "제조", "term": "붕해", "term_en": "Crumbling", "description_ko": "고형 제제가 시험액 중에서 소실되거나 분산되는 현상.", "synonyms": null}
+{"category": "제조", "term": "상수", "term_en": "Tap water", "description_ko": "수도관을 통해 공급되는 맑은 물.", "synonyms": null}
+{"category": "제조", "term": "생물학적 인자", "term_en": "Biological agents", "description_ko": "유전공학적 미생물, 세포배양, 내부기생충 등을 포함하는 미생물.", "synonyms": null}
+{"category": "제조", "term": "설계에의한 품질", "term_en": "Quality by design", "description_ko": "과학과 품질 리스크 관리를 바탕으로 공정을 이해해 강건한 개발을 추구하는 방식.", "synonyms": null}
+{"category": "제조", "term": "설계적격평가", "term_en": "Design qualification (DQ)", "description_ko": "시설·시스템·설비의 설계가 목적과 용도에 적합함을 확인하는 절차.", "synonyms": null}
+{"category": "제조", "term": "설치적격성평가", "term_en": "Installation qualification (IQ)", "description_ko": "설치 상태가 설계 문서와 요구조건에 부합함을 문서화해 확인.", "synonyms": null}
+{"category": "제조", "term": "성능적격성평가", "term_en": "Performance qualification (PQ)", "description_ko": "장비·설비·시스템이 설정된 품질기준에 맞게 제품을 제조할 수 있는지 검증.", "synonyms": null}
+{"category": "제조", "term": "성분", "term_en": "Component", "description_ko": "조합제에 포함되는 각 단일물질.", "synonyms": null}
+{"category": "제조", "term": "세척 밸리데이션", "term_en": "Cleaning validation", "description_ko": "승인된 세척 절차를 통해 설비가 의약품 처리에 적합함을 증거로 보이는 문서화된 증거.", "synonyms": null}
+{"category": "제조", "term": "소독", "term_en": "Disinfection", "description_ko": "미생물을 사멸하는 물리적 또는 화학적 방법으로 포자를 반드시 제거하지 않을 수 있음.", "synonyms": null}
+{"category": "제조", "term": "수득량", "term_en": "Actual yield", "description_ko": "제조공정에서 실제로 얻은 양.", "synonyms": null}
+{"category": "제조", "term": "수율", "term_en": "Yield", "description_ko": "이론 생산량 대비 실제 생산량의 백분율.", "synonyms": null}
+{"category": "제조", "term": "수율관리기준", "term_en": "Yield control acceptance", "description_ko": "정상 공정에서 얻어지는 제품별 연간 평균생산수율의 허용 범위.", "synonyms": null}
+{"category": "제조", "term": "순환시험(루프시험)", "term_en": "Loop testing", "description_ko": "입출력 형태 결정을 위한 설치 구성물 조합에 대한 확인.", "synonyms": null}
+{"category": "제조", "term": "시스템 규격", "term_en": "System specification", "description_ko": "시스템의 기능 요구조건을 만족시킬 방법을 서술한 문서.", "synonyms": null}
+{"category": "제조", "term": "시정조치", "term_en": "Corrective action", "description_ko": "부적합 상황의 원인을 제거하기 위한 조치.", "synonyms": null}
+{"category": "제조", "term": "실시간 출하 승인 시험", "term_en": "Real time release testing", "description_ko": "공정 데이터에 근거하여 공정 중 또는 최종 제품을 평가·확인하는 시험.", "synonyms": null}
+{"category": "제조", "term": "압축정", "term_en": "Compressed tablet", "description_ko": "제형 압력을 가하여 정제 형태로 만든 의약품.", "synonyms": null}
+{"category": "제조", "term": "열량전달", "term_en": "Heat transfer", "description_ko": "열에너지 이동 현상.", "synonyms": null}
+{"category": "제조", "term": "열풍건조", "term_en": "Hot air drying", "description_ko": "뜨거운 바람을 불어주어 건조하는 방법.", "synonyms": null}
+{"category": "제조", "term": "예측적 밸리데이션", "term_en": "Prospective validation", "description_ko": "정식 생산에 앞서 실시하는 밸리데이션.", "synonyms": null}
+{"category": "제조", "term": "오염", "term_en": "Contamination", "description_ko": "생산·검체채취·포장·수송 등에서 원료·중간체·API에 불순물이나 이물질이 들어가는 것.", "synonyms": null}
+{"category": "제조", "term": "완건성", "term_en": "Robustness", "description_ko": "일부 조건을 소규모로 변경해도 측정값이 유의하게 변하지 않는지에 대한 척도.", "synonyms": null}
+{"category": "제조", "term": "완전성시험", "term_en": "Integrity test", "description_ko": "필터 시스템의 기능적 성능을 확인하는 시험.", "synonyms": null}
+{"category": "제조", "term": "완제의약품", "term_en": "Drug product", "description_ko": "최종 용기에 포장된 제형.", "synonyms": null}
+{"category": "제조", "term": "외부포장", "term_en": "External wrapping", "description_ko": "최종용기를 외부에서 포장하는 공정.", "synonyms": null}
+{"category": "제조", "term": "용매", "term_en": "Solvent", "description_ko": "중간체 또는 API 제조 시 용액 또는 현탁액의 매체로 사용하는 유기성 액체.", "synonyms": null}
+{"category": "제조", "term": "운전적격성평가", "term_en": "Operational qualification (OQ)", "description_ko": "설비가 설계규격 범위 내 조건에서 적합히 운전됨을 검증.", "synonyms": null}
+{"category": "제조", "term": "원료", "term_en": "Raw material", "description_ko": "중간체 또는 API 생산에 사용하는 출발물질, 시약 및 용매의 일반적 용어.", "synonyms": null}
+{"category": "제조", "term": "원료의약품", "term_en": "Active pharmaceutical ingredients (API)", "description_ko": "합성·발효·추출 등으로 제조된 원제의약품.", "synonyms": null}
+{"category": "제조", "term": "원본 자료", "term_en": "Raw data", "description_ko": "관찰·실험 결과로 만들어진 작업서, 기록서, 메모, 노트 등의 복사본 포함 원 자료.", "synonyms": null}
+{"category": "제조", "term": "원자재", "term_en": "Material", "description_ko": "원료·시약·용매, 공정보조물, 중간체, API, 포장 및 표시자재를 지칭하는 일반적 용어.", "synonyms": null}
+{"category": "제조", "term": "위탁생산", "term_en": "Contract manufacturing organization (CMO)", "description_ko": "외부 전문 공장이 의뢰를 받아 제품을 생산하는 위탁 생산.", "synonyms": null}
+{"category": "제조", "term": "위해관리", "term_en": "Risk management", "description_ko": "리스크의 진단, 통제, 커뮤니케이션, 검토 등 업무에 품질관리 정책·절차를 체계적으로 적용.", "synonyms": null}
+{"category": "제조", "term": "위해분석", "term_en": "Risk analysis", "description_ko": "설비 또는 공정의 기능 부문에서 주요 변수를 평가하고 특성을 파악하는 방법.", "synonyms": null}
+{"category": "제조", "term": "위해 평가", "term_en": "Risk assessment", "description_ko": "리스크 관리 과정에서 의사결정을 위한 정보를 정리하는 체계적 과정.", "synonyms": null}
+{"category": "제조", "term": "위해요소", "term_en": "Hazard", "description_ko": "인체건강에 잠재적인 유해영향을 일으킬 수 있는 화학적·미생물학적·물리적 요소 및 상태.", "synonyms": null}
+{"category": "제조", "term": "유효기한", "term_en": "Expiry date", "description_ko": "용기·라벨에 표시된 일자로, 규격 범위 이내에 품질이 유지될 것으로 예상되는 기한.", "synonyms": null}
+{"category": "제조", "term": "의약품 제조 및 품질관리기준", "term_en": "Good manufacturing practices (GMP)", "description_ko": "제조시설·시스템이 요구조건에 따라 제품의 일관된 품질과 조절된 공정을 보증하는 품질관리 기준.", "synonyms": null}
+{"category": "제조", "term": "의약품유통관리기준", "term_en": "Korean good supplying practices (KGSP)", "description_ko": "의약품 유통과정에서의 안전성과 유효성을 보장하기 위한 제도와 규정.", "synonyms": null}
+{"category": "제조", "term": "이론 수율", "term_en": "Theoretical yield", "description_ko": "출발물로부터 이론적으로 계산된 완제품의 최대 수율.", "synonyms": null}
+{"category": "제조", "term": "이해관계자", "term_en": "Stakeholder", "description_ko": "리스크의 영향권에 의해 영향을 받을 개인, 그룹 또는 단체.", "synonyms": null}
+{"category": "제조", "term": "일탈", "term_en": "Deviation", "description_ko": "제조 또는 품질관리 과정에서 미리 정해진 기준을 벗어난 행위.", "synonyms": null}
+{"category": "제조", "term": "자기밀폐구역", "term_en": "Self-contained area", "description_ko": "작업과 설비 이동을 포함하여 특정 작업의 모든 부분이 완전히 분리되어 관리·모니터링되는 구역.", "synonyms": null}
+{"category": "제조", "term": "자동화 시스템", "term_en": "Automated system", "description_ko": "자동화된 생산 설비, 제어 시스템, 자동화 시험 시스템 등 넓은 범위의 시스템.", "synonyms": null}
+{"category": "제조", "term": "재가공", "term_en": "Reprocessing", "description_ko": "부적합으로 판단된 제품을 추가 작업으로 적합하게 만드는 재작업.", "synonyms": null}
+{"category": "제조", "term": "재밸리데이션", "term_en": "Revalidation", "description_ko": "밸리데이션 공정 또는 일부를 반복하는 것.", "synonyms": null}
+{"category": "제조", "term": "재처리", "term_en": "Reworking", "description_ko": "규격 부적합 중간체 또는 API를 적합한 품질로 얻기 위한 제조 공정.", "synonyms": null}
+{"category": "제조", "term": "저온유통시스템", "term_en": "Cold chain system", "description_ko": "제품이 소비자에 이르기까지 일정한 저온을 유지하면서 유통시키는 체계.", "synonyms": null}
+{"category": "제조", "term": "적격성평가", "term_en": "Qualification", "description_ko": "설비 또는 부대 시스템이 설치·운전 결과 예상 성능을 낼 수 있음을 문서화해 증명.", "synonyms": null}
+{"category": "제조", "term": "전실", "term_en": "Air-lock", "description_ko": "문이 두 개 이상 있는 밀폐공간으로 출입 시 공기 흐름을 제어하기 위해 설치.", "synonyms": null}
+{"category": "제조", "term": "전자서명", "term_en": "Electronic signature", "description_ko": "데이터 입력의 승인·허가·검증을 의미하는 전자적 서명 방법.", "synonyms": null}
+{"category": "제조", "term": "절차", "term_en": "Procedure", "description_ko": "중간체 또는 API의 제조와 관련해 실행해야 할 작업과 조치를 문서화한 서술.", "synonyms": null}
+{"category": "제조", "term": "정량한계", "term_en": "Quantitation limit", "description_ko": "적절한 정밀성과 정확성을 갖고 정량 가능한 최소량.", "synonyms": null}
+{"category": "제조", "term": "정립", "term_en": "Sizing", "description_ko": "입자나 물체를 크기 순으로 배열함.", "synonyms": null}
+{"category": "제조", "term": "정밀성", "term_en": "Precision", "description_ko": "동일한 조건에서 반복 측정했을 때 측정값들의 근접성.", "synonyms": null}
+{"category": "제조", "term": "정산", "term_en": "Reconciliation", "description_ko": "생산 또는 사용량을 이론량과 비교하여 일치 여부를 확인.", "synonyms": null}
+{"category": "제조", "term": "정제수", "term_en": "Purified water", "description_ko": "이온교환수지 등을 통해 이온과 불순물을 제거해 정제한 물.", "synonyms": null}
+{"category": "제조", "term": "제균급 필터", "term_en": "Sterilizing grade filter", "description_ko": "무균 상태의 여과액을 생성함을 증명한 필터.", "synonyms": null}
+{"category": "제조", "term": "제립기", "term_en": "Granulator", "description_ko": "顆粒을 만드는 기계. 과립의 크기를 일정하게 만들 수 있음.", "synonyms": null}
+{"category": "제조", "term": "제약품질시스템", "term_en": "Pharmaceutical quality system", "description_ko": "품질과 관련하여 제약사의 방향을 이끌고 통제하는 관리 시스템.", "synonyms": null}
+{"category": "제조", "term": "제조기록서", "term_en": "Batch record", "description_ko": "반제품 또는 완제품의 특정 제조단위 관련 모든 문서.", "synonyms": null}
+{"category": "제조", "term": "제품수명", "term_en": "Life cycle", "description_ko": "개발부터 시판, 중단까지의 제품 일생에 걸친 단계.", "synonyms": null}
+{"category": "제조", "term": "제품표준서", "term_en": "Master formula", "description_ko": "제품 생산에 필요한 방법과 주의사항, 공정관리 등을 포함한 공정지시서.", "synonyms": null}
+{"category": "제조", "term": "젤라틴코팅정", "term_en": "Gelatin‑coated tablet", "description_ko": "젤라틴 단백질 코팅으로 표면처리한 정제.", "synonyms": null}
+{"category": "제조", "term": "중간체", "term_en": "Intermediate", "description_ko": "API 공정 단계 중 생성되는 물질.", "synonyms": null}
+{"category": "제조", "term": "중요 품질 특성", "term_en": "Critical quality attribute (CQA)", "description_ko": "제품 품질 보장을 위해 허용한도·범위 내에 있어야 하는 물리·화학·생물학적 특성.", "synonyms": null}
+{"category": "제조", "term": "중요구역", "term_en": "Critical area", "description_ko": "무균 충전의 무균성을 유지하기 위해 설계된 공간.", "synonyms": null}
+{"category": "제조", "term": "중요조작", "term_en": "Critical operation", "description_ko": "중요한 품질 변화를 유발할 수 있는 제조공정 작업.", "synonyms": null}
+{"category": "제조", "term": "직선성", "term_en": "Linearity", "description_ko": "분석법에서 농도와 신호 사이의 직선적 관계를 얻을 수 있는 능력.", "synonyms": null}
+{"category": "제조", "term": "진공건조", "term_en": "Vacuum drying", "description_ko": "진공하에서 건조. 열에 민감한 재료에 적용.", "synonyms": null}
+{"category": "제조", "term": "질량편차", "term_en": "Mass deviation", "description_ko": "의약품 제조 질량의 차이 정도를 나타내는 척도.", "synonyms": null}
+{"category": "제조", "term": "차광", "term_en": "Protected from light", "description_ko": "빛에 의한 품질 영향 방지를 위해 내용물을 보호.", "synonyms": null}
+{"category": "제조", "term": "차압", "term_en": "Differential pressure", "description_ko": "두 구역 내부와 외부 간의 압력차.", "synonyms": null}
+{"category": "제조", "term": "청정등급", "term_en": "Class of cleanliness", "description_ko": "GMP 내의 청정등급을 나타내는 등급. 예: 1A, 1B, 2, 3.", "synonyms": null}
+{"category": "제조", "term": "청정지역", "term_en": "Clean zone", "description_ko": "미립자와 미생물 오염이 적은 환경을 유지하도록 시공·사용하는 구역.", "synonyms": null}
+{"category": "제조", "term": "촉매반응", "term_en": "Catalytic reaction", "description_ko": "촉매 존재 하에서 반응속도가 변화하는 반응.", "synonyms": null}
+{"category": "제조", "term": "최악조건", "term_en": "Worst case", "description_ko": "공정 단계의 상한·하한 등 가장 불리한 조건을 포함하는 조건.", "synonyms": null}
+{"category": "제조", "term": "최종멸균", "term_en": "Terminal sterilization", "description_ko": "최종 용기 내 밀봉한 상태에서 적용하는 멸균.", "synonyms": null}
+{"category": "제조", "term": "출발물질", "term_en": "Starting material", "description_ko": "의약품 생산에 사용되는 일정 품질 수준의 모든 성분.", "synonyms": null}
+{"category": "제조", "term": "출하 승인 책임자", "term_en": "Authorized person", "description_ko": "규제 요구에 따라 제조 및 시험을 검토·승인하는 책임자.", "synonyms": null}
+{"category": "제조", "term": "충전", "term_en": "Encapsulation", "description_ko": "의약품을 투입하여 캡슐 형태로 만드는 작업.", "synonyms": null}
+{"category": "제조", "term": "친환경 공정", "term_en": "Green process", "description_ko": "환경오염을 야기하지 않고 자연과 조화를 이루며 수행하는 공정.", "synonyms": null}
+{"category": "제조", "term": "컴퓨터 시스템", "term_en": "Computer system", "description_ko": "특정 기능 수행을 위해 설계·조립된 하드웨어와 관련 소프트웨어.", "synonyms": null}
+{"category": "제조", "term": "타정", "term_en": "Tableting", "description_ko": "의약품을 압축하여 정제 형태로 만드는 작업.", "synonyms": null}
+{"category": "제조", "term": "탁송물", "term_en": "Consignment", "description_ko": "특정 요청에 따라 한 번에 공급되는 의약품의 수량.", "synonyms": null}
+{"category": "제조", "term": "통기구 필터", "term_en": "Vent filter", "description_ko": "폐쇄계를 지나다니는 기체로부터 생물·미생물·입자를 제거하는 여과 장치.", "synonyms": null}
+{"category": "제조", "term": "특이성", "term_en": "Specificity", "description_ko": "불순물·혼합물 존재 하에서도 분석대상만 선택적·정확하게 측정할 수 있는 능력.", "synonyms": null}
+{"category": "제조", "term": "포자살균제", "term_en": "Sporocide", "description_ko": "미생물 포자를 사멸하기 위해 사용하는 화학물질 또는 혼합물.", "synonyms": null}
+{"category": "제조", "term": "포장", "term_en": "Packing", "description_ko": "완제의약품이 되기 위한 공정을 거친 반제품의 충전, 라벨링을 포함한 모든 공정.", "synonyms": null}
+{"category": "제조", "term": "표준작업지침서", "term_en": "Standard operating procedure (SOP)", "description_ko": "특정 제품 또는 물질에 대한 작업 수행 지시 사항을 제시하는 승인 문서.", "synonyms": null}
+{"category": "제조", "term": "품질 계획", "term_en": "Quality planning", "description_ko": "품질 목표 달성에 필요한 운영 프로세스와 인적 자원을 규정하는 품질 경영 부분.", "synonyms": null}
+{"category": "제조", "term": "품질 매뉴얼", "term_en": "Quality manual", "description_ko": "조직의 품질 경영 시스템을 규정한 문서.", "synonyms": null}
+{"category": "제조", "term": "품질 방침", "term_en": "Quality policy", "description_ko": "품질경영을 위해 대표이사에 의해 공식적으로 표명한 조직의 전반적인 의도 및 방향.", "synonyms": null}
+{"category": "제조", "term": "품질 위해요소 관리", "term_en": "Quality risk management", "description_ko": "제품 라이프사이클에 걸쳐 의약품 품질 리스크의 진단·통제·커뮤니케이션·검토를 위한 체계적 프로세스.", "synonyms": null}
+{"category": "제조", "term": "품질 체계", "term_en": "Quality system", "description_ko": "품질 방침을 이행하고 품질 목표 달성을 위한 시스템의 모든 부분의 합.", "synonyms": null}
+{"category": "제조", "term": "품질관리", "term_en": "Quality control", "description_ko": "규격의 부합 여부에 대한 점검 또는 시험.", "synonyms": null}
+{"category": "제조", "term": "품질보증", "term_en": "Quality assurance", "description_ko": "필요한 품질을 갖춘 상태가 유지되도록 하기 위한 조직화된 절차의 총합.", "synonyms": null}
+{"category": "제조", "term": "하드웨어 설계 규격서", "term_en": "Hardware design specification", "description_ko": "소프트웨어를 설치하는 하드웨어 자체의 정보 및 다른 시스템과의 연결 방법을 기술한 문서.", "synonyms": null}
+{"category": "제조", "term": "하드웨어 허용 시험 규격서", "term_en": "Hardware acceptance test specification", "description_ko": "하드웨어 주요 속성 테스트와 설계 기준 대비 확인을 위한 문서.", "synonyms": null}
+{"category": "제조", "term": "함량균일성", "term_en": "Content uniformity", "description_ko": "의약품의 함량이 균일함이 고른 성질이나 상태.", "synonyms": null}
+{"category": "제조", "term": "허용기준치", "term_en": "Acceptance criteria", "description_ko": "시험 결과가 적합한지 판단하는 기준이 되는 수치·한도·범위 등.", "synonyms": null}
+{"category": "제조", "term": "현탁액", "term_en": "Suspension", "description_ko": "액체에 고체 미세입자가 분산된 부유액.", "synonyms": null}
+{"category": "제조", "term": "혼합", "term_en": "Blending", "description_ko": "둘 이상의 물질을 섞는 공정.", "synonyms": null}
+{"category": "제조", "term": "확인시험", "term_en": "Identification test", "description_ko": "검체 중 분석대상 물질을 확인하는 시험.", "synonyms": null}
+{"category": "제조", "term": "환경모니터링 프로그램", "term_en": "Environmental monitoring", "description_ko": "공정과 청정구역에 대한 미생물·미립자 오염도를 측정하고 조치·시정 조치를 기록하는 문서화된 프로그램.", "synonyms": null}
+{"category": "제조", "term": "EO 멸균", "term_en": "EO sterilizer", "description_ko": "에틸렌옥사이드(EO) 가스로 세균·바이러스 등 미생물을 사멸하는 멸균 방법.", "synonyms": null}
+{"category": "제조", "term": "G/L 반응기", "term_en": "G/L reactor", "description_ko": "내부가 유리(glass‑lined)로 코팅된 반응기.", "synonyms": null}
+{"category": "제조", "term": "Hastelloy 반응기", "term_en": "Hastelloy reactor", "description_ko": "내부가 니켈계 합금 Hastelloy로 코팅된 반응기.", "synonyms": null}
+{"category": "제조", "term": "HEPA 필터", "term_en": "High‑efficiency particulate air filter (HEPA)", "description_ko": "고효율 미립자 공기 필터. 청정환경 구축에 사용.", "synonyms": null}
+{"category": "제조", "term": "SUS 반응기", "term_en": "Stainless steel reactor", "description_ko": "스테인리스강(SUS) 재질의 반응기.", "synonyms": null}
+{"category": "제조", "term": "ULPA 필터", "term_en": "Ultra‑low penetration air filter (ULPA)", "description_ko": "포집효율 99.999%급 초고성능 공기 필터.", "synonyms": null}
+{"category": "제조", "term": "WMS", "term_en": "Warehouse management system (WMS)", "description_ko": "창고관리시스템. 물류센터 내 물품을 관리하는 시스템.", "synonyms": null}
+{"category": "제조", "term": "간섭", "term_en": "Intervention", "description_ko": "중요 구역에서 수행되는 무균 조작 또는 행동.", "synonyms": null}
+{"category": "제조", "term": "건열멸균", "term_en": "Dry‑heat sterilization", "description_ko": "건조한 고온으로 미생물을 사멸.", "synonyms": null}
+{"category": "제조", "term": "검증된 허용범위", "term_en": "Proven acceptable range (PAR)", "description_ko": "관련 품질 기준에 부합함이 검증된 공정변수 범위.", "synonyms": null}
+{"category": "제조", "term": "검체채취주기", "term_en": "Sampling frequency", "description_ko": "검체를 채취하도록 설정한 기간 또는 주기.", "synonyms": null}
+{"category": "제조", "term": "검출능력", "term_en": "Detectability", "description_ko": "위해 요소의 존재를 발견하거나 결정하는 능력.", "synonyms": null}
+{"category": "제조", "term": "격리", "term_en": "Quarantine", "description_ko": "승인 또는 처분 결정 전까지 물품을 격리시켜 보관하는 상태.", "synonyms": null}
+{"category": "제조", "term": "결정책임자", "term_en": "Decision maker", "description_ko": "품질 또는 리스크 관리 결정을 내릴 권한과 능력을 가진 자.", "synonyms": null}
+{"category": "제조", "term": "공기조화장치", "term_en": "Air handling unit (AHU)", "description_ko": "온도·습도·가스·기류를 제어하기 위해 공기를 조절하는 장치.", "synonyms": null}
+{"category": "제조", "term": "공정 밸리데이션", "term_en": "Process validation", "description_ko": "설정 범위 내에서 일관된 품질의 제품을 재현적으로 생산함을 보여주는 문서화된 증거.", "synonyms": null}
+{"category": "제조", "term": "공정검사", "term_en": "In‑process control (IPC)", "description_ko": "생산을 수행하는 동안 공정을 모니터링하기 위한 점검.", "synonyms": null}
+{"category": "제조", "term": "공정능력", "term_en": "Capability of a process", "description_ko": "요구 기준을 만족하는 제품을 구현할 수 있는 공정의 능력.", "synonyms": null}
+{"category": "제조", "term": "공정중 반응물질", "term_en": "In‑process material", "description_ko": "의약품 제조를 위해 생산되고 사용되는 중간 물질의 총칭.", "synonyms": null}
+{"category": "제조", "term": "관리구역", "term_en": "Controlled area", "description_ko": "예기치 못한 노출로 인한 위험을 통제하기 위해 구축·운영하는 구역.", "synonyms": null}
+{"category": "제조", "term": "관리번호", "term_en": "Control number", "description_ko": "제조단위를 추적하기 위해 부여한 번호.", "synonyms": null}
+{"category": "제조", "term": "교반기", "term_en": "Stirrer", "description_ko": "용기 내 액체나 유동성 고체를 섞어주는 장치.", "synonyms": null}
+{"category": "제조", "term": "교정", "term_en": "Calibration", "description_ko": "측정 장비의 결과를 규정 기준에 맞게 검증·보정.", "synonyms": null}
+{"category": "제조", "term": "교차오염", "term_en": "Cross contamination", "description_ko": "생산 중 다른 출발물질·반제품 또는 원제품이 다른 제품으로 오염되는 것.", "synonyms": null}
+{"category": "제조", "term": "구조적인 검증", "term_en": "Structural verification", "description_ko": "소프트웨어가 구조적으로 적정하고 무결함임을 문서로 증명하는 행위.", "synonyms": null}
+{"category": "제조", "term": "규격", "term_en": "Specification", "description_ko": "제조 과정의 사용전·사용중에 획득되는 제품 또는 물품이 달성해야 하는 요건 목록.", "synonyms": null}
+{"category": "제조", "term": "기능 규격서", "term_en": "Functional specifications", "description_ko": "컴퓨터 연관 시스템의 기능 요구사항을 만족시킬 방법을 기술한 내역서.", "synonyms": null}
+{"category": "제조", "term": "기능시험", "term_en": "Functional testing", "description_ko": "의도된 기능을 수행하는 소프트웨어·시스템 또는 시스템 구성요소를 검증하는 과정.", "synonyms": null}
+{"category": "제조", "term": "기능적 요구사항", "term_en": "Functional requirement", "description_ko": "연관된 시스템이 실행해야 하는 기능에 관한 서술 내역서.", "synonyms": null}
+{"category": "제조", "term": "기대 수율", "term_en": "Expected yield", "description_ko": "화학반응의 이론량에 대해 실제로 얻을 것으로 기대하는 양의 비율.", "synonyms": null}
+{"category": "제조", "term": "기록원본(마스터 기록)", "term_en": "Master record", "description_ko": "제조문서의 기초가 되는 문서 또는 문서 모음.", "synonyms": null}
+{"category": "제조", "term": "기밀용기", "term_en": "Airtight container", "description_ko": "기체·미생물이 침입하지 않고 내용물의 손실·풍화·조해 등을 방지할 수 있는 용기.", "synonyms": null}
+{"category": "제조", "term": "기준일탈", "term_en": "Out of specification (OOS)", "description_ko": "시험 결과가 미리 정하여진 시험기준을 벗어난 경우.", "synonyms": null}
+{"category": "제조", "term": "다기관", "term_en": "Manifold", "description_ko": "가스·액체 등의 유체를 동시에 배분·충전할 수 있도록 설계된 설비 또는 장치.", "synonyms": null}
+{"category": "제조", "term": "환경설정", "term_en": "Configuration", "description_ko": "소프트웨어, 하드웨어 및 운영 시스템 등 시스템의 물리적·기능적 성질을 문서화한 것.", "synonyms": null}
+{"category": "제조", "term": "회고적 밸리데이션", "term_en": "Retrospective validation", "description_ko": "이미 시판 중인 제품의 공정에 대해 축적된 제조·시험·관리 데이터를 근거로 실시하는 밸리데이션.", "synonyms": null}
+{"category": "제조", "term": "회수", "term_en": "Recovery", "description_ko": "정의된 제조 단위에서 다른 배치 안으로 필요한 품질을 가진 이전 배치의 전부 또는 일부를 투입하는 행위.", "synonyms": null}
+{"category": "인허가", "term": "유효성분", "term_en": "Active Ingredient", "description_ko": "약리작용에 의해 의약품의 효능·효과를 직접 또는 간접으로 발휘하는 물질.", "synonyms": ["AI"]}
+{"category": "인허가", "term": "유효주성분", "term_en": "Active Major Ingredient", "description_ko": "여러 성분 중 주된 성분으로 효능·효과에 직접 기여하는 유효성분.", "synonyms": []}
+{"category": "인허가", "term": "의약분업", "term_en": "Separation of Dispensary from Medical Practice", "description_ko": "의사 처방과 약사의 조제를 분리하여 수행하는 제도.", "synonyms": ["분업"]}
+{"category": "인허가", "term": "의약외품", "term_en": "Quasi-drug", "description_ko": "치료 목적이 아니거나 기구·기타가 주된 제품으로 분류되는 품목.", "synonyms": []}
+{"category": "인허가", "term": "이상독성 부정시험", "term_en": "General Safety Test / Test for Abnormal Toxicity", "description_ko": "백신 등에서 성분 이외의 불순물·오염 등 외인성 독성 여부를 확인하는 시험.", "synonyms": ["GST"]}
+{"category": "인허가", "term": "이종 세포치료제", "term_en": "Xenotransplantation Products", "description_ko": "사람 외 동물의 세포·조직을 이용한 세포치료제.", "synonyms": ["이종이식 세포치료제"]}
+{"category": "인허가", "term": "일반의약품", "term_en": "Over‑the‑Counter Drug", "description_ko": "의사 처방 없이도 자가 사용이 가능하고 안전성·유효성이 확보된 의약품.", "synonyms": ["OTC", "Common Drug"]}
+{"category": "인허가", "term": "자가면역", "term_en": "Autoimmunity", "description_ko": "자신의 조직·항원을 면역계가 이물로 인식해 반응하는 상태.", "synonyms": []}
+{"category": "인허가", "term": "자가품질검사", "term_en": "In‑House Test", "description_ko": "제조소에서 자체적으로 실시하는 품질검사.", "synonyms": ["자체검사", "사내시험"]}
+{"category": "인허가", "term": "자료제출 의약품", "term_en": "Abbreviated New Drug", "description_ko": "규정된 범위의 자료 제출과 심사가 필요한 품목.", "synonyms": ["자료의약품"]}
+{"category": "인허가", "term": "자체시험", "term_en": "In‑House Test", "description_ko": "자가품질검사와 동일. 제조소 자가 시험.", "synonyms": ["사내시험"]}
+{"category": "인허가", "term": "자체적 평가점검", "term_en": "Self Re‑Examination", "description_ko": "제조판매자가 자가 품질점검을 정기적으로 실시하는 활동.", "synonyms": ["자가점검"]}
+{"category": "인허가", "term": "자체시험일", "term_en": "Re‑Test Date", "description_ko": "재시험이 필요한 날짜.", "synonyms": ["재시험일"]}
+{"category": "인허가", "term": "가처분", "term_en": "Preliminary Injunction", "description_ko": "본안판결 전 권리보전을 위해 임시적으로 명하는 법원의 명령.", "synonyms": []}
+{"category": "인허가", "term": "가처분신청", "term_en": "Provisional/Temporary Disposition", "description_ko": "가처분 결정을 신청하는 절차.", "synonyms": ["임시처분신청"]}
+{"category": "인허가", "term": "강제실시권", "term_en": "Compulsory License", "description_ko": "특허권자의 동의 없이 공익상 특허를 실시할 수 있게 하는 권한.", "synonyms": []}
+{"category": "인허가", "term": "강행규정", "term_en": "Mandatory/Obligatory/Compulsory Provision", "description_ko": "당사자 합의로 배제할 수 없는 강제 규정.", "synonyms": []}
+{"category": "인허가", "term": "개수명령", "term_en": "Repair Order", "description_ko": "고장·부적합을 개수하도록 명하는 행정명령.", "synonyms": ["개선명령"]}
+{"category": "인허가", "term": "갱신", "term_en": "Renewal", "description_ko": "허가·등록 등 유효기간 만료 전에 효력을 계속시키는 행정처분.", "synonyms": []}
+{"category": "인허가", "term": "검사명령", "term_en": "Inspection Order", "description_ko": "행정기관이 특정 대상에 대해 검사를 받게 하는 명령.", "synonyms": []}
+{"category": "인허가", "term": "검정", "term_en": "Test / Authorization / Approval", "description_ko": "일정 기준에 비추어 합격·불합격을 결정하는 절차.", "synonyms": []}
+{"category": "인허가", "term": "검체", "term_en": "Sample", "description_ko": "검사·검정을 위해 합리적으로 채취된 시료.", "synonyms": []}
+{"category": "인허가", "term": "검출한계", "term_en": "Detection Limit", "description_ko": "분석대상물질을 검출 가능하게 하는 최소량.", "synonyms": ["LOD"]}
+{"category": "인허가", "term": "경과규정", "term_en": "Transitional Provision", "description_ko": "법령 제·개폐 시 경과기간·절차를 정하는 규정.", "synonyms": []}
+{"category": "인허가", "term": "경과조치", "term_en": "Transitional Measure", "description_ko": "경과규정 이행을 위한 구체적 조치.", "synonyms": []}
+{"category": "인허가", "term": "경유", "term_en": "Through", "description_ko": "특정 처분에 직접 적용하지 않고 중간기관을 거치는 절차.", "synonyms": []}
+{"category": "인허가", "term": "고시", "term_en": "Public Notification / Notice / Announcement", "description_ko": "행정기관이 정한 사항을 일반에 공고하는 행정행위.", "synonyms": []}
+{"category": "인허가", "term": "고지", "term_en": "Disclosure", "description_ko": "결정사항이나 명령을 당사자에게 알리는 절차.", "synonyms": []}
+{"category": "인허가", "term": "공고", "term_en": "Public Announcement", "description_ko": "국민 일반에게 널리 알리는 행정기관의 공표.", "synonyms": []}
+{"category": "인허가", "term": "공급", "term_en": "Supply / Provision", "description_ko": "의약품의 수입·입고·보관·출고·운송 등 공급 전 과정.", "synonyms": []}
+{"category": "인허가", "term": "공정검사", "term_en": "In‑Process Control", "description_ko": "제조공정 중 품질 유지를 위해 수행하는 시험·조치.", "synonyms": ["IPC"]}
+{"category": "인허가", "term": "공증", "term_en": "Authentication / Certification", "description_ko": "공적 문서화로 사실을 확인·인증하는 절차.", "synonyms": []}
+{"category": "인허가", "term": "공지", "term_en": "Public Knowledge", "description_ko": "일반에 널리 알려져 독점성이 없는 지식·정보.", "synonyms": []}
+{"category": "인허가", "term": "구분", "term_en": "Section", "description_ko": "항목을 구획하여 관리하기 쉬운 상태로 나누는 것.", "synonyms": []}
+{"category": "인허가", "term": "구획", "term_en": "Division", "description_ko": "한 물건·문서를 나누어 관리 가능한 상태로 하는 행위.", "synonyms": []}
+{"category": "인허가", "term": "국제일반명", "term_en": "International Nonproprietary Name (INN)", "description_ko": "WHO가 정한 의약품의 국제 공통명.", "synonyms": ["INN"]}
+{"category": "인허가", "term": "국제조화회의", "term_en": "International Conference on Harmonisation", "description_ko": "ICH. 품질·안전성·유효성 가이드 조화를 추진하는 협의체.", "synonyms": ["ICH"]}
+{"category": "인허가", "term": "규제", "term_en": "Regulatory", "description_ko": "법령·가이드에 따라 한도를 정하거나 제한함.", "synonyms": []}
+{"category": "인허가", "term": "균일성", "term_en": "Uniformity", "description_ko": "한결같이 고른 성질.", "synonyms": []}
+{"category": "인허가", "term": "균질성", "term_en": "Homogeneity", "description_ko": "성분·특성이 고루 같은 성질.", "synonyms": []}
+{"category": "인허가", "term": "기검토 생물의약품", "term_en": "Already Reviewed Biopharmaceutical Products", "description_ko": "이미 허가된 제품과 동일성 확인을 위해 참조되는 생물의약품군.", "synonyms": []}
+{"category": "인허가", "term": "기산일", "term_en": "Day on Which the Computation Begins", "description_ko": "기한 계산이 시작되는 날.", "synonyms": []}
+{"category": "인허가", "term": "기원", "term_en": "Origin", "description_ko": "사물이 발생한 근원.", "synonyms": []}
+{"category": "인허가", "term": "기준", "term_en": "Specifications", "description_ko": "품질검사를 위한 기준·시험방법.", "synonyms": ["사양서"]}
+{"category": "인허가", "term": "다가원액", "term_en": "Multivalent", "description_ko": "여러 혈청형 항원을 포함하는 백신 원액.", "synonyms": []}
+{"category": "인허가", "term": "단가원액", "term_en": "Monovalent", "description_ko": "한 혈청형 항원만 포함하는 백신 원액.", "synonyms": []}
+{"category": "인허가", "term": "단위별 심사", "term_en": "Evaluation on a Rolling Submission", "description_ko": "자료 단위를 순차 제출하여 심사받는 방식.", "synonyms": ["롤링서브미션"]}
+{"category": "인허가", "term": "대리인자", "term_en": "Surrogate Marker", "description_ko": "치료효과를 간접적으로 나타내는 생체지표.", "synonyms": ["대리지표"]}
+{"category": "인허가", "term": "등록", "term_en": "Registration / Enrollment / Entry", "description_ko": "관할 행정청 등에 신고·등록하여 효력을 갖게 함.", "synonyms": []}
+{"category": "인허가", "term": "면역독성시험", "term_en": "Immunotoxicity Study", "description_ko": "반복투여 독성시험에서 면역계 이상을 평가하는 시험.", "synonyms": []}
+{"category": "인허가", "term": "면역반응", "term_en": "Immune Response", "description_ko": "외래 항원에 대한 체계적 면역반응.", "synonyms": []}
+{"category": "인허가", "term": "면역원", "term_en": "Immunogen", "description_ko": "면역반응을 유도할 수 있는 물질.", "synonyms": []}
+{"category": "인허가", "term": "면역원성", "term_en": "Immunogenicity", "description_ko": "백신·단백질 등이 면역을 유발하는 능력.", "synonyms": []}
+{"category": "인허가", "term": "면역증강제", "term_en": "Adjuvant", "description_ko": "면역반응을 증강시키는 물질.", "synonyms": ["면역보강제"]}
+{"category": "인허가", "term": "무독성량", "term_en": "No‑Observed‑Adverse‑Effect Level", "description_ko": "시험동물에서 유해반응이 관찰되지 않는 최대용량.", "synonyms": ["NOAEL"]}
+{"category": "인허가", "term": "무영향량", "term_en": "No‑Observed‑Effect Level", "description_ko": "어떠한 생물학적 변화도 관찰되지 않는 최대용량.", "synonyms": ["NOEL"]}
+{"category": "인허가", "term": "무해용량", "term_en": "No‑Observed‑Effect Dose", "description_ko": "해로운 영향이 나타나지 않는 최대용량.", "synonyms": ["NOED"]}
+{"category": "인허가", "term": "무효", "term_en": "Nullity / Invalidity / Invalidation", "description_ko": "행정행위의 하자가 중대·명백하여 효력이 처음부터 없는 상태.", "synonyms": []}
+{"category": "인허가", "term": "문서위조죄", "term_en": "Forgery", "description_ko": "타인의 문서를 권한 없이 작성·변조하는 범죄.", "synonyms": []}
+{"category": "인허가", "term": "물질안전성정보", "term_en": "Material Safety Data Sheet", "description_ko": "물질의 안전·취급 정보를 담은 문서.", "synonyms": ["MSDS", "SDS"]}
+{"category": "인허가", "term": "물질특허", "term_en": "Substance Patent", "description_ko": "신규 화학물질·생물학적 물질 등에 관한 특허.", "synonyms": []}
+{"category": "인허가", "term": "민족적 요인", "term_en": "Ethnic Factor", "description_ko": "인종·민족 차이가 의약품 반응에 미치는 요인.", "synonyms": []}
+{"category": "인허가", "term": "변경관리", "term_en": "Change Management / Change Control", "description_ko": "제조·품질에 영향을 미치는 변경을 평가·승인·기록하여 관리.", "synonyms": ["CC"]}
+{"category": "인허가", "term": "보건의료용유전자변형생물체", "term_en": "Living Modified Organism for Healthcare", "description_ko": "보건의료 목적의 유전자변형생물체.", "synonyms": ["LMO"]}
+{"category": "인허가", "term": "보관", "term_en": "Keeping / Storage", "description_ko": "물품을 규정된 조건에 유지·보전.", "synonyms": ["저장"]}
+{"category": "인허가", "term": "보정", "term_en": "Amendment", "description_ko": "오류 정정·추가로 내용을 바로잡음.", "synonyms": ["정정"]}
+{"category": "인허가", "term": "복제", "term_en": "Replication", "description_ko": "동일한 조건으로 동일한 결과를 얻는 행위 또는 그 결과.", "synonyms": ["재현성"]}
+{"category": "인허가", "term": "복합제", "term_en": "Combination Product", "description_ko": "두 가지 이상 주성분을 함유한 의약품.", "synonyms": ["복합의약품"]}
+{"category": "인허가", "term": "부형제", "term_en": "Excipient / Vehicle / Diluent / Filler", "description_ko": "약효가 없는 첨가성분으로 제형화를 돕는 물질.", "synonyms": []}
+{"category": "인허가", "term": "분량", "term_en": "Amount", "description_ko": "구매량·투여량 등 수량을 의미.", "synonyms": []}
+{"category": "인허가", "term": "분류", "term_en": "Classification / Sorting", "description_ko": "성질·용도 등에 따라 구분하는 행위.", "synonyms": []}
+{"category": "인허가", "term": "분석증명서", "term_en": "Certificate of Analysis", "description_ko": "제품 시험결과를 종합해 적합 여부를 증명하는 문서.", "synonyms": ["CoA"]}
+{"category": "인허가", "term": "분포시험", "term_en": "Distribution Test", "description_ko": "투여약물이 체내 조직 사이로 분포·이행하는 현상을 시험.", "synonyms": []}
+{"category": "인허가", "term": "분화", "term_en": "Differentiation", "description_ko": "세포가 특정 형태·기능을 갖추는 과정.", "synonyms": []}
+{"category": "인허가", "term": "불활화 백신", "term_en": "Inactivated Vaccine", "description_ko": "병원체를 불활성화해 만드는 백신.", "synonyms": []}
+{"category": "인허가", "term": "비리온", "term_en": "Virion", "description_ko": "감염성 바이러스 입자의 최소 단위.", "synonyms": []}
+{"category": "인허가", "term": "사양서", "term_en": "Specifications", "description_ko": "제품의 품질기준·시험방법 등을 기술한 문서.", "synonyms": []}
+{"category": "인허가", "term": "사용기간", "term_en": "Shelf‑Life", "description_ko": "정해진 저장법에서 품질을 보장할 수 있는 기간.", "synonyms": []}
+{"category": "인허가", "term": "사용성적조사", "term_en": "Use‑Results Survey (Post‑Marketing)", "description_ko": "시판 후 안전성·유효성 등을 파악하기 위한 조사.", "synonyms": ["PMS", "사용성적 조사"]}
+{"category": "인허가", "term": "사찰", "term_en": "Inspection", "description_ko": "시설·행위 등이 기준에 적합한지 조사·검사.", "synonyms": []}
+{"category": "인허가", "term": "상동성", "term_en": "Comparability", "description_ko": "품질 특성이 매우 유사하여 안전성·유효성에 영향을 주지 않는 상태.", "synonyms": ["비교가능성"]}
+{"category": "인허가", "term": "상표권", "term_en": "Trademark Right", "description_ko": "등록된 상표를 독점적으로 사용할 권리.", "synonyms": []}
+{"category": "인허가", "term": "상호인정", "term_en": "Mutual Recognition", "description_ko": "상대국 심사·평가 결과를 인정하는 제도.", "synonyms": []}
+{"category": "인허가", "term": "생명공학 의약품", "term_en": "Biotechnology‑derived Pharmaceuticals", "description_ko": "유전자재조합·세포배양 등 생명공학기술로 제조한 의약품.", "synonyms": []}
+{"category": "인허가", "term": "생물다양성에 관한 국제협약", "term_en": "Convention on Biological Diversity", "description_ko": "생물다양성 보전·지속적 이용·유전자원의 공정한 이익공유를 목적으로 한 국제협약.", "synonyms": ["CBD"]}
+{"category": "인허가", "term": "생물안전성", "term_en": "Biosafety", "description_ko": "생물체·유전자원의 위해를 예방하기 위한 안전관리.", "synonyms": []}
+{"category": "인허가", "term": "생물유래제품", "term_en": "Bio‑Derived Products", "description_ko": "사람·동물·식물 유래 성분을 포함한 제품.", "synonyms": []}
+{"category": "인허가", "term": "생물의약품", "term_en": "Biopharmaceutical Products", "description_ko": "생물 유래 원료로 제조된 의약품.", "synonyms": []}
+{"category": "인허가", "term": "생물학적 분석", "term_en": "Bioassay", "description_ko": "생물반응을 지표로 효능을 측정하는 시험.", "synonyms": []}
+{"category": "인허가", "term": "생물학적제제", "term_en": "Biologics", "description_ko": "생체 유래 성분을 주성분으로 하는 제제.", "synonyms": []}
+{"category": "인허가", "term": "생약", "term_en": "Herbal Medicine", "description_ko": "식물성 약용 부위·추출물 등을 말함.", "synonyms": []}
+{"category": "인허가", "term": "생약제제", "term_en": "Herbal Drug", "description_ko": "전통 지식 기반의 한 약효성분을 함유한 제제.", "synonyms": []}
+{"category": "인허가", "term": "생체부하", "term_en": "Body Burden", "description_ko": "체내에 축적된 화학물질 총량.", "synonyms": []}
+{"category": "인허가", "term": "생체지표", "term_en": "Biomarker", "description_ko": "질병·독성 등을 나타내는 객관적 지표.", "synonyms": []}
+{"category": "인허가", "term": "성분", "term_en": "Ingredient", "description_ko": "어느 전체를 이루는 각 단일물질.", "synonyms": []}
+{"category": "인허가", "term": "소분", "term_en": "Repackaging into Smaller Sizes", "description_ko": "용량을 나누어 더 작은 용기에 재포장.", "synonyms": []}
+{"category": "인허가", "term": "소아용 의약품", "term_en": "Pediatric Medicine", "description_ko": "주로 11세 이하 소아에게 사용하는 의약품.", "synonyms": []}
+{"category": "인허가", "term": "수수료", "term_en": "Fee / Charge / Commission", "description_ko": "허가·심사 등에 부과되는 비용.", "synonyms": []}
+{"category": "인허가", "term": "수지상 세포", "term_en": "Dendritic Cell", "description_ko": "항원을 제시해 T세포를 활성화하는 면역세포.", "synonyms": []}
+{"category": "인허가", "term": "수출용 의약품", "term_en": "Drugs for Export", "description_ko": "수출을 목적으로 제조·판매되는 의약품.", "synonyms": []}
+{"category": "인허가", "term": "수출용혈장", "term_en": "Plasma for Export", "description_ko": "수출 조건을 충족한 혈장.", "synonyms": []}
+{"category": "인허가", "term": "수탁(제조업)자", "term_en": "Trustee / Consignee / Fiduciary", "description_ko": "위탁을 받아 제조·판매에 관한 업무를 수행하는 자.", "synonyms": []}
+{"category": "인허가", "term": "수탁제조", "term_en": "Manufacture on Assignment", "description_ko": "위탁자의 계약에 따라 제조공정을 수행.", "synonyms": ["위수탁제조"]}
+{"category": "인허가", "term": "시드 로트 시스템", "term_en": "Seed Lot System", "description_ko": "바이러스·세포의 마스터·워킹 시드 관리 체계.", "synonyms": ["SLS"]}
+{"category": "인허가", "term": "시정명령", "term_en": "Corrective Order", "description_ko": "행정청이 위반사항을 바로잡도록 명하는 처분.", "synonyms": ["개선명령"]}
+{"category": "인허가", "term": "시판 후 조사", "term_en": "Post‑Market Surveillance", "description_ko": "시판 후 안전성·유효성을 확인하기 위한 조사.", "synonyms": ["PMS"]}
+{"category": "인허가", "term": "시효", "term_en": "Prescription", "description_ko": "법률상 권리·의무의 소멸 또는 취득에 관한 제척·소멸 시효.", "synonyms": []}
+{"category": "인허가", "term": "식별", "term_en": "Identification", "description_ko": "다른 의약품과 구별되도록 표지·표시.", "synonyms": []}
+{"category": "인허가", "term": "식별표시", "term_en": "Drug Identification Mark", "description_ko": "의약품을 식별하기 위한 표시.", "synonyms": []}
+{"category": "인허가", "term": "식별표시 등록기관", "term_en": "Drug Identification Mark Registrar", "description_ko": "식별표시를 등록·관리하는 기관.", "synonyms": []}
+{"category": "인허가", "term": "신규 생물의약품", "term_en": "New Biologic Product", "description_ko": "제조원·제조방법이 동일한 제품을 제외한 새로운 생물의약품.", "synonyms": []}
+{"category": "인허가", "term": "신속심사", "term_en": "Expedite Review", "description_ko": "공중보건상 시급성 등을 이유로 심사기간을 단축하는 제도.", "synonyms": ["패스트트랙"]}
+{"category": "인허가", "term": "신약승인제도", "term_en": "New Drug Approval", "description_ko": "임상시험 종료 후 자료 심사를 거쳐 시판 허가를 결정하는 제도.", "synonyms": []}
+{"category": "인허가", "term": "신투여경로 의약품", "term_en": "Drug with New Route of Administration", "description_ko": "기허가 성분에 대해 투여경로가 새롭게 변경된 의약품.", "synonyms": []}
+{"category": "인허가", "term": "신효능 의약품", "term_en": "Drug with New Efficacy", "description_ko": "기허가 성분·투여경로는 동일하나 효능·효과가 새로운 의약품.", "synonyms": []}
+{"category": "인허가", "term": "실태조사(의약품의)", "term_en": "Inspection (Fact‑Finding)", "description_ko": "제조·품질 관련 규정 준수 여부를 확인하는 공적 조사.", "synonyms": []}
+{"category": "인허가", "term": "실험실간 정밀성", "term_en": "Reproducibility", "description_ko": "서로 다른 실험실 간 측정값의 근접성.", "synonyms": []}
+{"category": "인허가", "term": "실험실내 정밀성", "term_en": "Intermediate Precision", "description_ko": "같은 실험실 내 다른 장비·날짜·분석자 간의 근접성.", "synonyms": []}
+{"category": "인허가", "term": "심사", "term_en": "Examination / Review", "description_ko": "제출된 자료를 검토하여 결론을 내리는 절차.", "synonyms": []}
+{"category": "인허가", "term": "심사단위", "term_en": "Reviewable Unit", "description_ko": "독립적으로 적합성을 판단할 수 있는 자료 단위.", "synonyms": []}
+{"category": "인허가", "term": "안전성 서한", "term_en": "Dear Healthcare Professional / Pharmacist Letter", "description_ko": "의약품 안전성 관련 정보를 신속히 전파하는 서한.", "synonyms": ["DHP Letter", "DHCP Letter"]}
+{"category": "인허가", "term": "안전성 속보", "term_en": "Alert", "description_ko": "중대한 위해 가능성이 있어 신속히 전파하는 안전성 정보.", "synonyms": []}
+{"category": "인허가", "term": "안전성 정보", "term_en": "Safety‑Related Information", "description_ko": "의약품의 안전성에 관한 모든 정보.", "synonyms": []}
+{"category": "인허가", "term": "안전성", "term_en": "Safety", "description_ko": "정상 사용 조건에서의 위해 가능성에 대한 개념.", "synonyms": []}
+{"category": "인허가", "term": "안정성시험", "term_en": "Stability Test", "description_ko": "저장방법·기간 설정을 위해 품질 안정성을 평가하는 시험.", "synonyms": []}
+{"category": "인허가", "term": "약사감시", "term_en": "Drug Surveillance", "description_ko": "유통·사용 과정에서 약사법 준수 여부를 점검·조사.", "synonyms": ["Pharmacovigilance(광의)"]}
+{"category": "인허가", "term": "약사감시원", "term_en": "Inspector", "description_ko": "약사감시 업무를 수행하는 공무원.", "synonyms": []}
+{"category": "인허가", "term": "역가시험", "term_en": "Potency Test", "description_ko": "의약품의 약력·효과를 측정하는 시험.", "synonyms": []}
+{"category": "인허가", "term": "연차보고", "term_en": "Annual Report", "description_ko": "허가 품목에 대한 사용성적·안전성 등 연간 보고.", "synonyms": []}
+{"category": "인허가", "term": "완충제", "term_en": "Buffering Agent", "description_ko": "용액의 pH 변동을 완화하기 위해 사용하는 첨가제.", "synonyms": ["버퍼"]}
+{"category": "인허가", "term": "용량", "term_en": "Dose", "description_ko": "적정 효과를 내기 위한 투여량.", "synonyms": []}
+{"category": "인허가", "term": "용법", "term_en": "Dose Regimen", "description_ko": "효과를 내기 위한 투여 간격·방법.", "synonyms": ["용법용량"]}
+{"category": "인허가", "term": "원료의약품 신고제도", "term_en": "Drug Master File", "description_ko": "원료의약품 정보를 규제기관에 신고하는 제도.", "synonyms": ["DMF"]}
+{"category": "인허가", "term": "원본대조", "term_en": "Collation", "description_ko": "원본과 대조하여 그 진위를 검증·증명.", "synonyms": []}
+{"category": "인허가", "term": "위탁(제조업)자", "term_en": "Entrusting Person / Consignor", "description_ko": "제조업무의 일부를 다른 제조업자에 위탁하는 자.", "synonyms": []}
+{"category": "인허가", "term": "위탁제조", "term_en": "Contract Manufacturing", "description_ko": "계약에 따라 제조공정을 수행하는 것.", "synonyms": []}
+{"category": "인허가", "term": "위탁제조판매업", "term_en": "Contract Manufacture and Sale", "description_ko": "제조는 위탁하고 품목허가를 받아 판매하는 영업.", "synonyms": []}
+{"category": "인허가", "term": "위험평가", "term_en": "Risk Assessment", "description_ko": "유해요인의 발생확률·심각도를 평가하는 절차.", "synonyms": []}
+{"category": "인허가", "term": "유용성", "term_en": "Usefulness / Benefit", "description_ko": "사용가치 또는 그 정도.", "synonyms": []}
+{"category": "인허가", "term": "유전자치료제", "term_en": "Gene Therapeutic Drug", "description_ko": "유전자를 투입·편집해 치료효과를 얻는 의약품.", "synonyms": ["유전자 치료제"]}
+{"category": "인허가", "term": "유전자표지", "term_en": "Gene Marker", "description_ko": "유전자의 표지를 위한 분자표지.", "synonyms": []}
+{"category": "인허가", "term": "유효기간", "term_en": "Effective Date / Expiry Period", "description_ko": "정해진 조건에서 품질을 보장할 수 있는 기간.", "synonyms": ["Shelf life"]}
+{"category": "인허가", "term": "유효부성분", "term_en": "Active Minor Ingredient", "description_ko": "제제의 효능에 보조적으로 기여하는 활성성분.", "synonyms": []}
+{"category": "인허가", "term": "유효성", "term_en": "Efficacy / Effectiveness", "description_ko": "해당 적응증에서 나타내는 치료효과의 정도.", "synonyms": []}
+{"category": "인허가", "term": "흡수·분포·대사·배설 시험자료", "term_en": "Data Concerning Absorption, Distribution, Metabolism and Excretion", "description_ko": "약물의 생체 내 흡수, 흡수 후 분포, 대사, 배설 또는 축적과 관련된 모든 자료.", "synonyms": ["ADME 자료", "ADME 시험자료"]}
+{"category": "인허가", "term": "재심사", "term_en": "Reexamination", "description_ko": "허가된 품목에 대해 일정 주기 후 안전성·유효성 등을 다시 심사하는 제도.", "synonyms": []}
+{"category": "인허가", "term": "재평가", "term_en": "Reevaluation", "description_ko": "허가 품목 중 효능·성분별 안전성 및 유효성을 재검토하여 필요시 조치하는 절차.", "synonyms": []}
+{"category": "인허가", "term": "정량한계", "term_en": "Quantitation Limit", "description_ko": "정밀성과 정확성을 가진 정량값으로 표현할 수 있는 분석대상물질의 최소량.", "synonyms": ["LOQ"]}
+{"category": "인허가", "term": "정확성", "term_en": "Accuracy", "description_ko": "측정값이 참값 또는 표준값에 근접한 정도.", "synonyms": []}
+{"category": "인허가", "term": "제네릭 의약품", "term_en": "Generic Drug", "description_ko": "참조의약품과 제형·용량·효능·효과·용법·용량·품질이 동등한 의약품.", "synonyms": ["제네릭"]}
+{"category": "인허가", "term": "제조물책임", "term_en": "Product Liability (PL)", "description_ko": "제조물 결함으로 인한 손해에 대한 제조자의 배상책임.", "synonyms": ["PL"]}
+{"category": "인허가", "term": "조건", "term_en": "Condition / Term", "description_ko": "허가·승인 등에 부가되는 준수사항 또는 결정 요소.", "synonyms": []}
+{"category": "인허가", "term": "주성분", "term_en": "Active Ingredient", "description_ko": "제제에 함유된 활성 성분으로 효능·효과에 기여하는 물질.", "synonyms": ["AI"]}
+{"category": "인허가", "term": "주요공정", "term_en": "Critical Steps", "description_ko": "제품 품질에 영향을 미치는 공정 단계.", "synonyms": []}
+{"category": "인허가", "term": "철회", "term_en": "Withdrawal", "description_ko": "이미 제출하거나 주장한 사항을 다시 회수·번복함.", "synonyms": []}
+{"category": "인허가", "term": "첨가제", "term_en": "Additive / Excipient / Vehicle", "description_ko": "제제의 안정성·복용편의·유통성을 높이기 위해 첨가하는 비활성 물질.", "synonyms": ["부형제", "첨가물"]}
+{"category": "인허가", "term": "첨부문서", "term_en": "Insert Paper / Leaflet", "description_ko": "포장 내 동봉되는 의약품 사용설명서 등 일체의 문서.", "synonyms": ["의약품첨부문서"]}
+{"category": "인허가", "term": "첨부품", "term_en": "Supplement", "description_ko": "포장 내 포함되어 사용하는 부속품.", "synonyms": []}
+{"category": "인허가", "term": "체외진단용 의약품", "term_en": "In Vitro Diagnostic Product", "description_ko": "인체유래 시료를 분석해 질병 진단·예후 등에 사용하는 체외검사용 제품.", "synonyms": ["IVD"]}
+{"category": "인허가", "term": "최소한의 조작", "term_en": "Minimal Manipulation", "description_ko": "세포·조직의 본래 생물학적 특성을 변형하지 않는 범위의 조작.", "synonyms": []}
+{"category": "인허가", "term": "최종제품", "term_en": "Finished Product", "description_ko": "모든 제조공정을 완료한 제품.", "synonyms": []}
+{"category": "인허가", "term": "출하승인", "term_en": "Lot Release", "description_ko": "제조단위별 기록과 시험성적서를 검토하여 출하를 승인하는 절차.", "synonyms": []}
+{"category": "인허가", "term": "출하시험", "term_en": "Release Test", "description_ko": "출하 전 품질 적합 여부를 판정하는 시험.", "synonyms": []}
+{"category": "인허가", "term": "통관", "term_en": "Customs Clearance", "description_ko": "관세법 규정에 따른 수출·수입 물품의 통과 절차.", "synonyms": []}
+{"category": "인허가", "term": "투여경로", "term_en": "Administration Route", "description_ko": "의약품을 인체 또는 동물에 투여·적용하는 경로.", "synonyms": []}
+{"category": "인허가", "term": "특별조사", "term_en": "Special Inspection (Post-Marketing)", "description_ko": "시판 후 안전성 문제 등 발생 시 추가 정보를 얻기 위해 실시하는 조사.", "synonyms": []}
+{"category": "인허가", "term": "포장단위", "term_en": "Dosage Forms & Packaging", "description_ko": "공급을 위한 포장 기준 단위.", "synonyms": []}
+{"category": "인허가", "term": "표준품", "term_en": "Reference Standard", "description_ko": "시험법 수행을 위해 기준으로 사용하는 표준 물질.", "synonyms": []}
+{"category": "인허가", "term": "품목", "term_en": "Item", "description_ko": "의약품 허가·신고의 대상이 되는 개별 품목.", "synonyms": []}
+{"category": "인허가", "term": "한약서", "term_en": "The Book of Oriental Medicine", "description_ko": "한약 관련 규정·제조법·원칙 등을 수록한 기준서.", "synonyms": []}
+{"category": "인허가", "term": "함량시험", "term_en": "Assay of Content or Potency", "description_ko": "표시 성분의 함량 또는 역가를 정량하는 시험.", "synonyms": ["Assay"]}
+{"category": "인허가", "term": "항원성시험", "term_en": "Antigenicity", "description_ko": "항원성이 나타나는 면역반응 여부를 확인하는 시험.", "synonyms": []}
+{"category": "인허가", "term": "항체양전", "term_en": "Seroconversion", "description_ko": "항체가 음성에서 양성으로 전환되는 현상.", "synonyms": []}
+{"category": "인허가", "term": "혼합제제", "term_en": "Combination Drug", "description_ko": "두 가지 이상 유효성분을 함유한 제제.", "synonyms": []}
+{"category": "인허가", "term": "화합물", "term_en": "Compound", "description_ko": "둘 이상의 원자가 화학결합으로 이룬 물질.", "synonyms": []}
+{"category": "인허가", "term": "후발 생물의약품", "term_en": "Subsequent Entry Biological Medicinal Products / Biosimilar Products", "description_ko": "이미 허가된 생물의약품과 고도의 유사성을 입증해 허가받는 제품군.", "synonyms": ["바이오시밀러"]}
+{"category": "유통(마케팅)", "term": "구매시점 촉진", "term_en": "Point-Of-Purchase Promotion", "description_ko": "점포 내 구매시점에 정보를 제공하거나 구매를 설득하기 위해 설치하는 모든 판매촉진 도구(진열사인, 가격표, 포스터 등).", "synonyms": null}
+{"category": "유통(마케팅)", "term": "기관광고", "term_en": "Institutional Advertising", "description_ko": "제품·서비스 자체가 아닌 기업의 호의적 이미지를 형성하기 위한 광고.", "synonyms": ["기업광고"]}
+{"category": "유통(마케팅)", "term": "기술수명주기", "term_en": "Technological Life Cycle", "description_ko": "새로운 기술이 개발되어 제품화되었다가 후속 기술에 의해 대체되기까지의 주기. 제품 수명주기와 유사한 개념.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "기업 이미지 통일화 작업", "term_en": "Corporate Identity Program", "description_ko": "기업명, 심벌마크, 로고 등의 변경을 통해 일관된 기업 이미지를 구축하는 활동.", "synonyms": ["CI 프로그램"]}
+{"category": "유통(마케팅)", "term": "기업충성", "term_en": "Corporate Loyalty", "description_ko": "특정 기업에 대한 지속적 충성.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "기준가격", "term_en": "Base Price", "description_ko": "가격구조의 기준으로 사용하는 내부 결정가격. 원가·수요·경쟁을 고려해 설정.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "다수의 우", "term_en": "Fallacy of Majority", "description_ko": "다수 의견이 항상 올바른 선택을 보장하지 않음을 지적하는 개념. 경쟁이 과열될수록 수익성이 저하될 수 있음.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "단수가격정책", "term_en": "Odd Pricing Policy", "description_ko": "가격의 심리효과를 위해 9, 99 등 단수가격을 사용하는 전략. ↔ 개수가격정책.", "synonyms": ["단수가격"]}
+{"category": "유통(마케팅)", "term": "단위가격 표시정책", "term_en": "Unit Pricing Policy", "description_ko": "그램·리터 등 표준단위당 가격을 표시해 소비자 비교를 돕는 정책.", "synonyms": ["유닛 프라이싱"]}
+{"category": "유통(마케팅)", "term": "단일가격정책", "term_en": "One-Price Policy", "description_ko": "동일 조건의 모든 고객에게 동일 가격을 부과하는 정책. ↔ 가변가격정책.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "달러보트", "term_en": "Dollar Vote", "description_ko": "소비자의 구매행위를 유권자의 투표행위에 비유한 개념.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "도움-모집 광고", "term_en": "Help-Seeking Ad", "description_ko": "특정 질환 인식 제고를 위한 광고. 제품의 장점·용법 제시는 하지 않음.", "synonyms": ["질환고지 광고"]}
+{"category": "유통(마케팅)", "term": "동시화마케팅", "term_en": "Synchronomarketing", "description_ko": "불규칙 수요를 바람직한 시간대로 정렬하도록 수요의 시간패턴을 관리하는 마케팅.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "라벨링", "term_en": "Labeling", "description_ko": "상품·거래 조건 등에 관한 정보를 소비자에게 제공하거나 그 정보를 표시하는 행위.", "synonyms": ["표시"]}
+{"category": "유통(마케팅)", "term": "리마케팅", "term_en": "Remarketing", "description_ko": "침체된 수요를 회복하기 위해 표적시장 또는 마케팅믹스를 수정하는 활동.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "리포지셔닝 전략", "term_en": "Repositioning Strategy", "description_ko": "소비자 인식 변화나 경쟁 상황에 맞춰 제품의 포지션을 새롭게 전환하는 전략.", "synonyms": ["재포지셔닝"]}
+{"category": "유통(마케팅)", "term": "마케팅 감사", "term_en": "Marketing Audit", "description_ko": "기업의 마케팅 활동을 체계적으로 점검·평가하는 절차.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "마케팅 경로", "term_en": "Marketing Channel", "description_ko": "제품·서비스가 고객에게 전달되도록 상호 연계된 기관들의 네트워크. 유통경로.", "synonyms": ["유통경로"]}
+{"category": "유통(마케팅)", "term": "마케팅 관리", "term_en": "Marketing Management", "description_ko": "시장지향적 프로그램의 계획·실행·통제를 통해 조직 목표를 달성하는 경영활동.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "마케팅 관리 이념", "term_en": "Marketing Management Philosophies", "description_ko": "생산·제품·판매·마케팅·사회지향 등 마케팅 관리의 기본 철학.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "마케팅 커뮤니케이션", "term_en": "Marketing Communications", "description_ko": "표적시장의 반응을 유도하기 위한 통합 메시지 설계와 경로 관리 과정.", "synonyms": ["IMC", "통합 마케팅 커뮤니케이션"]}
+{"category": "유통(마케팅)", "term": "마케팅 흐름", "term_en": "Marketing Flows", "description_ko": "물리적 흐름·소유권·대금·정보·촉진 등 유통 과정의 필수 흐름 요소.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "마케팅의 기능", "term_en": "Functions of Marketing", "description_ko": "수요의 조절과 충족을 위한 조직 내 마케팅 기능들의 집합.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "멀티 채널 마케팅", "term_en": "Multichannel Marketing (MCM)", "description_ko": "여러 커뮤니케이션·유통 채널을 통합해 고객 접점을 운영하는 전략.", "synonyms": ["옴니채널(확장)"]}
+{"category": "유통(마케팅)", "term": "명성과격정책", "term_en": "Prestige Pricing Policy", "description_ko": "품질 신호로 고가격을 설정해 프리미엄 이미지를 추구하는 정책.", "synonyms": ["프레스티지 프라이싱"]}
+{"category": "유통(마케팅)", "term": "모수", "term_en": "Parameter", "description_ko": "모집단의 특성치를 나타내는 통계량.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "목표포지션", "term_en": "Target Position", "description_ko": "마케팅 목표 달성을 위한 이상적 포지셔닝 상태.", "synonyms": ["타겟 포지션"]}
+{"category": "유통(마케팅)", "term": "마케팅 실험", "term_en": "Marketing Experiment", "description_ko": "변수 간 인과관계를 검증하기 위해 설계·실시하는 실험 조사.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "마케팅 의사결정 변수", "term_en": "Marketing Decision Variables", "description_ko": "마케팅이 통제·선택할 수 있는 결정요소(예: 4P).", "synonyms": null}
+{"category": "유통(마케팅)", "term": "마케팅 전략", "term_en": "Marketing Strategy", "description_ko": "세분화→표적시장→포지셔닝(STP)과 믹스 개발을 통한 목표 달성 방안.", "synonyms": ["STP 전략"]}
+{"category": "유통(마케팅)", "term": "마케팅 조사", "term_en": "Marketing Research", "description_ko": "마케팅 문제 해결을 위한 자료 수집·기록·분석의 체계적 과정.", "synonyms": ["시장조사(광의)"]}
+{"category": "유통(마케팅)", "term": "마케팅 조직", "term_en": "Marketing Organization", "description_ko": "기업·비영리·정부 등 마케팅 활동 주체의 조직 구조.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "마케팅 중간기관", "term_en": "Marketing Intermediaries", "description_ko": "유통경로에서 생산자와 소비자 사이 중간 역할을 수행하는 기관.", "synonyms": ["중간상", "중간기관"]}
+{"category": "유통(마케팅)", "term": "무수요", "term_en": "No Demand", "description_ko": "잠재고객이 제품에 무관심하여 긍·부정적 반응이 없는 수요상태.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "물가연동 가격결정", "term_en": "Escalator Pricing", "description_ko": "주문시점과 인도시점 사이 원가상승을 물가지수 등에 연동해 반영하는 정책.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "물류센터", "term_en": "Physical Distribution Center", "description_ko": "수요 대응을 위해 제품을 일시 보관하고 출고·수송을 관리하는 유통 창고.", "synonyms": ["DC"]}
+{"category": "유통(마케팅)", "term": "물적 유통경로", "term_en": "Physical Distribution Channel", "description_ko": "제품의 물리적 이전을 담당하는 경로(창고망·운송·보관 등).", "synonyms": ["물류경로"]}
+{"category": "유통(마케팅)", "term": "물적 유통관리", "term_en": "Physical Distribution Management", "description_ko": "원재료·완제품의 흐름을 효율적으로 계획·운영하는 물류 관리.", "synonyms": ["물류관리"]}
+{"category": "유통(마케팅)", "term": "미시마케팅", "term_en": "Micro-Level Marketing", "description_ko": "세분된 고객·지역·상황 단위를 대상으로 한 미시적 마케팅.", "synonyms": ["마이크로 마케팅"]}
+{"category": "유통(마케팅)", "term": "미시적 환경요인", "term_en": "Microenvironments", "description_ko": "기업의 마케팅 능력에 영향을 미치는 내부·근접 외부 요인(공급자, 중간기관, 고객 등).", "synonyms": null}
+{"category": "유통(마케팅)", "term": "바코드 시스템", "term_en": "Bar Code System", "description_ko": "제품 식별 코드를 기계 판독해 재고·판매 관리를 자동화하는 시스템.", "synonyms": ["EAN/UPC"]}
+{"category": "유통(마케팅)", "term": "변경전략", "term_en": "Change Strategy", "description_ko": "신제품·새 유통방식 등으로 고객의 선호·구매패턴을 변화시키는 전략.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "복수상표전략", "term_en": "Multi-Brand Strategy", "description_ko": "동일 제품군에 둘 이상 상표를 운영해 차별화하는 전략.", "synonyms": ["멀티브랜드"]}
+{"category": "유통(마케팅)", "term": "복수유통경로", "term_en": "Multi-Channel System", "description_ko": "둘 이상 상이한 유통경로를 병행 운영하는 구조.", "synonyms": ["멀티채널 시스템"]}
+{"category": "유통(마케팅)", "term": "북 엔드 광고", "term_en": "Bookend Ad", "description_ko": "같은 프로그램의 시작과 끝 등 두 지점에 유사한 광고를 배치하는 방식.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "불규칙적 수요", "term_en": "Irregular Demand", "description_ko": "시기·계절 등에 따라 수요가 불규칙하게 변동하는 상태.", "synonyms": ["계절수요(일부)"]}
+{"category": "유통(마케팅)", "term": "브랜드, 브랜드 마케팅", "term_en": "Brand, Brand Marketing", "description_ko": "브랜드 메시지를 통해 인식·태도에 영향을 미치는 마케팅.", "synonyms": ["브랜드 마케팅"]}
+{"category": "유통(마케팅)", "term": "브릭 수준 판매 데이터", "term_en": "Brick-Level Sales Data", "description_ko": "소규모(지역·점포 단위)로 분해한 판매 데이터. 처방의약품 시장 등에서 활용.", "synonyms": ["브릭 데이터"]}
+{"category": "유통(마케팅)", "term": "블랙 박스 경고", "term_en": "Black Box Warning", "description_ko": "심각한 위해 가능성에 대해 FDA가 요구하는 가장 강한 경고문.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "비교광고", "term_en": "Comparative Advertising", "description_ko": "자사 제품을 경쟁제품과 속성·효과 등으로 비교하는 광고.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "비영리 마케팅", "term_en": "Nonprofit Marketing", "description_ko": "비영리 조직의 목표 달성을 위한 마케팅 원리 적용.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "비차별화 마케팅", "term_en": "Undifferentiated Marketing", "description_ko": "단일 믹스로 전체 시장을 대상으로 하는 대량마케팅 접근.", "synonyms": ["대량마케팅"]}
+{"category": "유통(마케팅)", "term": "사회 마케팅", "term_en": "Social Marketing", "description_ko": "사회문제 해결을 위해 공익적 행동 변화를 촉진하는 마케팅.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "사회 지향적 마케팅", "term_en": "Societal Marketing", "description_ko": "기업 이익과 소비자 만족, 사회복지를 함께 고려하는 마케팅 이념.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "산업마케팅", "term_en": "Industrial Marketing", "description_ko": "소비재가 아닌 조직고객을 대상으로 한 산업재 마케팅.", "synonyms": ["B2B 마케팅"]}
+{"category": "유통(마케팅)", "term": "상층흡수 가격정책", "term_en": "Skimming Pricing Policy", "description_ko": "신제품 초기 고가격 책정으로 조기 이익 회수를 추구하는 정책.", "synonyms": ["스키밍 프라이싱"]}
+{"category": "유통(마케팅)", "term": "상표충성", "term_en": "Brand Loyalty", "description_ko": "특정 상표에 대한 반복구매 성향.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "새로운 처방전", "term_en": "New Prescriptions (Nrx)", "description_ko": "특정 기간 내 의사가 새로 발행한 처방전 수.", "synonyms": ["NRx"]}
+{"category": "유통(마케팅)", "term": "샘플 약품", "term_en": "Drug Sample", "description_ko": "의료인에게 무상 제공되는 약품 단위.", "synonyms": ["샘플"]}
+{"category": "유통(마케팅)", "term": "샘플링", "term_en": "Sampling", "description_ko": "의료인 또는 소비자에게 무료 샘플을 배포하는 프로모션.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "세부 사항", "term_en": "Detail Aid", "description_ko": "제품 정보가 포함된 판매·설명 보조 문서.", "synonyms": ["디테일에이드"]}
+{"category": "유통(마케팅)", "term": "소총식 접근방법", "term_en": "Rifle Approach", "description_ko": "각 세분시장에 최적화된 믹스를 제공하는 선택적·정밀 표적 접근.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "손익분기점", "term_en": "Break-Even Point", "description_ko": "총수입과 총비용이 일치하는 매출·생산 수준.", "synonyms": ["BEP"]}
+{"category": "유통(마케팅)", "term": "수시조사", "term_en": "Ad Hoc Research", "description_ko": "특정 과제 평가를 위한 일회성 맞춤 조사. 계속조사와 대비.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "수요관리", "term_en": "Demand Management", "description_ko": "마케팅 목표 달성을 위해 수요의 크기·시기·구성을 조정하는 활동.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "수직적 마케팅 시스템", "term_en": "Vertical Marketing System", "description_ko": "제조·도매·소매를 하나의 시스템으로 통합해 운영하는 유통 형태.", "synonyms": ["VMS"]}
+{"category": "유통(마케팅)", "term": "수평적 마케팅 시스템", "term_en": "Horizontal Marketing System", "description_ko": "둘 이상 조직이 협력해 공동으로 시장을 개발·운영하는 시스템.", "synonyms": ["HMS"]}
+{"category": "유통(마케팅)", "term": "스워트 분석", "term_en": "SWOT Analysis", "description_ko": "내부 강점·약점과 외부 기회·위협을 체계적으로 분석하는 기법.", "synonyms": ["SWOT"]}
+{"category": "유통(마케팅)", "term": "습관적 구매행동", "term_en": "Habitual Buying Behavior", "description_ko": "경험과 익숙함에 기반한 반복적·저관여 구매행동.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "시각 보조", "term_en": "Visual Aid", "description_ko": "그림·슬라이드·로고 등 시각 자료를 활용한 마케팅 도구.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "시장세분화", "term_en": "Market Segmentation", "description_ko": "이질적인 전체 시장을 공통 특성에 따라 동질 집단으로 분할.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "시장조사", "term_en": "Market Research", "description_ko": "시장·고객의 행동과 의견을 파악하기 위한 체계적 조사.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "시장침투 가격정책", "term_en": "Market Penetration Pricing Policy", "description_ko": "저가격으로 신제품 보급을 가속화하는 가격정책.", "synonyms": ["침투가격정책"]}
+{"category": "유통(마케팅)", "term": "시정 소비자에 대한 직접 광고", "term_en": "Corrective Direct-To-Consumer Advertising", "description_ko": "오인광고로 형성된 잘못된 신념을 바로잡기 위해 설계된 DTC 수정광고.", "synonyms": ["교정 DTC 광고"]}
+{"category": "유통(마케팅)", "term": "4P", "term_en": "Product, Price, Promotion, Place", "description_ko": "마케팅 믹스의 기본 요소 네 가지.", "synonyms": ["마케팅 믹스"]}
+{"category": "유통(마케팅)", "term": "CSV", "term_en": "Computer System Validation", "description_ko": "GxP 환경에서 컴퓨터 시스템이 규정에 적합함을 입증하는 문서화된 증거.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "Detailing", "term_en": "Detailing", "description_ko": "의약 영업사원이 의료인에게 제품 정보를 전달하는 활동.", "synonyms": ["영업 디테일"]}
+{"category": "유통(마케팅)", "term": "Direct-to-Consumer", "term_en": "Direct-to-Consumer (DTC)", "description_ko": "소비자에게 직접 전달하는 의약품 광고·홍보.", "synonyms": ["DTC"]}
+{"category": "유통(마케팅)", "term": "Disease Mongering", "term_en": "Disease Mongering", "description_ko": "질병의 경계를 과장·확장해 수요를 창출하는 현상.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "eDetailing", "term_en": "eDetailing", "description_ko": "온라인·디지털 채널을 활용한 의사 대상 마케팅·커뮤니케이션 활동.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "eSampling", "term_en": "eSampling", "description_ko": "온라인 시스템을 통해 샘플 의약품을 관리·배포하는 것.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "KOL", "term_en": "Key Opinion Leader", "description_ko": "동료·학계에 영향력이 큰 의료 전문가. 자문·강연 등에서 핵심 역할.", "synonyms": ["오피니언 리더"]}
+{"category": "유통(마케팅)", "term": "Off Label", "term_en": "Off Label", "description_ko": "허가 라벨에 포함되지 않은 적응증·용량·대상에 사용하는 것.", "synonyms": ["표시 외 사용"]}
+{"category": "유통(마케팅)", "term": "가격단계정책", "term_en": "Price Lining Policy", "description_ko": "품목군별로 몇 개의 가격라인만 두어 단계별로 판매하는 정책.", "synonyms": ["프라이스 라이닝"]}
+{"category": "유통(마케팅)", "term": "가격차별화", "term_en": "Price Discrimination", "description_ko": "비용이 동일해도 구매자·지역·시간 등에 따라 다른 가격을 적용하는 정책.", "synonyms": ["차별가격"]}
+{"category": "유통(마케팅)", "term": "가격혜택", "term_en": "Price Deals", "description_ko": "일시적 가격 인하·번들 등 거래조건 혜택 제공. 예: 2 for 1.", "synonyms": ["프로모션 딜"]}
+{"category": "유통(마케팅)", "term": "가변가격정책", "term_en": "Variable Pricing Policy", "description_ko": "고객·상황에 따라 협상 등을 통해 가격을 달리 정하는 정책.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "가치분석", "term_en": "Value Analysis", "description_ko": "제품·서비스 기능 대비 원가를 분석해 불필요한 비용을 제거하는 기법.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "간격척도", "term_en": "Interval Scale", "description_ko": "값들 간 간격이 의미 있는 척도. 덧셈·뺄셈 가능. 예: 섭씨온도.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "간단한 요약", "term_en": "Brief Summary", "description_ko": "의약품 광고에서 효능·금기·주의 등 핵심 안전정보의 요약본.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "감퇴적 수요", "term_en": "Faltering Demand", "description_ko": "환경 변화·경쟁 등으로 과거보다 낮아진 수요 상태.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "개수가격정책", "term_en": "Even Pricing Policy", "description_ko": "끝자리를 0, 00 등 짝수로 맞추는 가격정책. ↔ 단수가격정책.", "synonyms": ["정수가격"]}
+{"category": "유통(마케팅)", "term": "거시세분화", "term_en": "Macro Segmentation", "description_ko": "산업규모·용도·지역·기업규모 등 거시 변수 기준으로 시장을 나눔.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "거시적 환경요인", "term_en": "Macroenvironments", "description_ko": "인구·경제·자연·기술·정치·사회문화 등 광의의 외부 환경요인.", "synonyms": ["거시환경"]}
+{"category": "유통(마케팅)", "term": "경고 문서", "term_en": "Warning Letter", "description_ko": "규정 위반 사항에 대해 규제 기관이 기업에 통지하는 문서.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "경로갈등", "term_en": "Channel Conflict", "description_ko": "유통경로 참여자 간 목표·역할 충돌에서 발생하는 갈등.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "경로구조", "term_en": "Channel Structure", "description_ko": "제품이 최종고객에게 전달되기까지의 유통단계 구성.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "경험곡선", "term_en": "Experience Curve", "description_ko": "누적생산량 증가에 따라 단위원가가 감소하는 경험법칙.", "synonyms": ["학습곡선(유사)"]}
+{"category": "유통(마케팅)", "term": "고객 관계 관리", "term_en": "Customer Relationship Management (CRM)", "description_ko": "고객 데이터 분석을 기반으로 획득·유지·확대 전략을 수행하는 관리 체계.", "synonyms": ["CRM"]}
+{"category": "유통(마케팅)", "term": "고객기반", "term_en": "Customer Base", "description_ko": "기업이 보유한 고객의 총집합.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "고수", "term_en": "Adherence", "description_ko": "의료적 처방·복약지시 준수 및 지속성.", "synonyms": ["순응도", "컴플라이언스(유사)"]}
+{"category": "유통(마케팅)", "term": "공정 균형", "term_en": "Fair Balance", "description_ko": "DTC 광고에서 효능과 위험 정보를 균형 있게 제시해야 한다는 원칙.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "공제", "term_en": "Allowances", "description_ko": "거래상대에게 부여하는 가격 공제·할인 등의 조정액.", "synonyms": ["얼라우언스"]}
+{"category": "유통(마케팅)", "term": "관계 마케팅", "term_en": "Relationship Marketing", "description_ko": "고객과의 장기적 상호가치 창출을 중시하는 마케팅 접근.", "synonyms": null}
+{"category": "유통(마케팅)", "term": "시험마케팅", "term_en": "Test Marketing", "description_ko": "실제 시장 환경에서 제한된 규모로 소비자 반응과 수요, 가격변화 등을 평가하는 사전 검증 활동.", "synonyms": ["시범판매"]}
+{"category": "유통(마케팅)", "term": "시험용 신약", "term_en": "Investigational New Drug", "description_ko": "동물실험에서 유효성 확인 후 사람 대상 임상 단계에 있는 신약 후보.", "synonyms": ["IND 제품"]}
+{"category": "유통(마케팅)", "term": "실적점검 조사", "term_en": "Performance Monitoring Research", "description_ko": "마케팅 활동의 성과를 점검하기 위해 필요한 정보 수집 조사.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "실증적 마케팅", "term_en": "Positive Marketing", "description_ko": "현재 실행 중인 마케팅 활동을 설명하고 예측하는 접근법.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "심리적 가격정책", "term_en": "Psychological Pricing Policy", "description_ko": "표시가격이 소비자 심리에 주는 영향을 고려해 수요를 유도하는 가격정책.", "synonyms": ["심리가격"]}
+{"category": "유통(마케팅)", "term": "CI", "term_en": "Corporate Identity", "description_ko": "기업의 존재가치와 활동방향을 통일된 이미지로 표현하는 커뮤니케이션 전략.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "CPM", "term_en": "Cost-Per-Thousand Audience Method", "description_ko": "천 명 도달당 광고비를 나타내는 지표.", "synonyms": ["CPT", "Cost per Mille"]}
+{"category": "유통(마케팅)", "term": "AIDA 모델", "term_en": "AIDA Model", "description_ko": "주의(A)-관심(I)-욕망(D)-행동(A)의 단계로 설명하는 소비자 반응 모델.", "synonyms": ["AIDA"]}
+{"category": "유통(마케팅)", "term": "안내(가이드라인)", "term_en": "(FDA) Guidance", "description_ko": "주제에 대한 규제당국의 현재 생각을 나타낸 비구속성 지침.", "synonyms": ["Guidance"]}
+{"category": "유통(마케팅)", "term": "알림 광고", "term_en": "Reminder Ad", "description_ko": "제품명 등 최소 정보만 제공하여 인지 유지에 초점 둔 광고.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "약물경제성평가", "term_en": "Pharmaco-Economic Analysis", "description_ko": "의약품 비용·효과를 분석해 경제성을 평가하는 방법.", "synonyms": ["PEA", "약경제"]}
+{"category": "유통(마케팅)", "term": "STP", "term_en": "Segmentation·Targeting·Positioning", "description_ko": "시장 세분화, 표적시장 선정, 포지셔닝으로 이어지는 전략 체계.", "synonyms": ["세분화·표적·포지셔닝"]}
+{"category": "유통(마케팅)", "term": "AIO", "term_en": "Activities·Interests·Opinions", "description_ko": "소비자의 활동·관심·의견으로 세분화하는 라이프스타일 변수.", "synonyms": ["라이프스타일 변수"]}
+{"category": "유통(마케팅)", "term": "완전한 응답편지", "term_en": "Complete Response Letter", "description_ko": "심사 종결 전 보완요구 사항을 통지하는 규제서한.", "synonyms": ["CRL"]}
+{"category": "유통(마케팅)", "term": "우수의약품유통관리기준", "term_en": "Good Supplying Practice", "description_ko": "도매상 시설·취급에 관한 안전성·유효성 확보 기준.", "synonyms": ["GSP"]}
+{"category": "유통(마케팅)", "term": "유지적 마케팅", "term_en": "Maintenance Marketing", "description_ko": "수요유지와 환경변화 대응을 위해 고객과 관계를 지속 관리하는 활동.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "의·약사 대상 학술마케팅 전문가", "term_en": "Medical Science Liaison", "description_ko": "의료전문가에게 최신 근거 중심 정보를 전달하는 역할.", "synonyms": ["MSL"]}
+{"category": "유통(마케팅)", "term": "의료 법률 검토", "term_en": "Medical‑Legal Review", "description_ko": "광고·프로모션이 규정과 법규에 부합하는지 사전 검토.", "synonyms": ["MLR"]}
+{"category": "유통(마케팅)", "term": "의료 업무", "term_en": "Medical Affairs", "description_ko": "임상 근거 창출·의학 정보 제공·사후감시 지원 등 의학적 지원 기능.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "의사결정단위", "term_en": "Decision Making Unit", "description_ko": "진단·투여·구매 등에 관여하는 다수 이해관계자 집합.", "synonyms": ["DMU"]}
+{"category": "유통(마케팅)", "term": "이상반응보고서", "term_en": "Adverse Event Report", "description_ko": "사용 중 발생한 이상사례를 보고하는 문서.", "synonyms": ["AER"]}
+{"category": "유통(마케팅)", "term": "인과적 조사", "term_en": "Causal Research", "description_ko": "원인과 결과의 인과관계를 확인하는 조사.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "인식", "term_en": "Awareness", "description_ko": "환자·의료진의 인지 상태를 뜻함.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "자료제출 의약품", "term_en": "Abbreviated New Drug", "description_ko": "일정 요건하에 자료 제출·심사로 허가 가능한 품목.", "synonyms": ["AND"]}
+{"category": "유통(마케팅)", "term": "자극적 마케팅", "term_en": "Stimulus Marketing", "description_ko": "소비자 욕구와 관심을 자극해 반응을 유도하는 전략.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "잠재적 수요", "term_en": "Latent Demand", "description_ko": "현재는 실현되지 않은 숨은 수요.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "재고고갈", "term_en": "Stock‑Out", "description_ko": "재고부족으로 판매기회를 상실하는 상태.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "재고비용", "term_en": "Inventory Cost", "description_ko": "보관·자본·보험 등 재고 유지에 드는 비용.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "적절한 지급", "term_en": "Adequate Provision", "description_ko": "직접광고 시 위험 정보 제공을 보완하기 위한 제약회사 대체 안내 방법.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "전국상표", "term_en": "National Brand", "description_ko": "전국적 마케팅으로 구축된 상표.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "전략적 마케팅 계획수립", "term_en": "Strategic Marketing Planning", "description_ko": "환경 분석을 바탕으로 목표·전략·전술을 체계화하는 계획.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "전자 처방", "term_en": "ePrescribing", "description_ko": "전자 통신으로 의사와 약국 간 처방전 전송.", "synonyms": ["eRx"]}
+{"category": "유통(마케팅)", "term": "전체 처방", "term_en": "Total Prescriptions", "description_ko": "특정 기간 내 발행된 총 처방전 수.", "synonyms": ["TRx"]}
+{"category": "유통(마케팅)", "term": "전환적 마케팅", "term_en": "Conversional Marketing", "description_ko": "부정적 수요를 긍정적 수요로 전환시키는 관리 과정.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "카니발라이제이션", "term_en": "Cannibalism", "description_ko": "자사 제품이 다른 자사 제품 수요를 잠식하는 현상.", "synonyms": ["카니발리제이션"]}
+{"category": "유통(마케팅)", "term": "제조업자 상표", "term_en": "Manufacturer’s Brand", "description_ko": "제조업자 명의로 표기되는 상표.", "synonyms": ["MB"]}
+{"category": "유통(마케팅)", "term": "제품 주장 광고", "term_en": "Product‑Claim DTC Ads", "description_ko": "직접소비자 광고에서 효능·용법을 주장하는 유형.", "synonyms": ["DTC Claim Ad"]}
+{"category": "유통(마케팅)", "term": "제품계열 가격정책", "term_en": "Product Line Pricing Policy", "description_ko": "제품 라인 내 상하위 포지션에 맞춘 가격 책정.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "제품계열 보충전략", "term_en": "Line‑Filling Strategy", "description_ko": "라인 내 빈틈을 채우는 신제품 추가 전략.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "제품계열 연장전략", "term_en": "Line‑Stretching Strategy", "description_ko": "라인을 상·하·양 방향으로 확장하는 전략.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "제품수명주기", "term_en": "Product Life Cycle", "description_ko": "도입·성장·성숙·쇠퇴 단계로 보는 제품 생애.", "synonyms": ["PLC"]}
+{"category": "유통(마케팅)", "term": "제품차별화 마케팅", "term_en": "Product Differentiation Marketing", "description_ko": "경쟁대비 차별점을 부각해 세분시장을 공략하는 전략.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "조사설계", "term_en": "Research Design", "description_ko": "연구목표 달성을 위한 표본·도구·절차 설계.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "주요 성명서", "term_en": "Major Statement", "description_ko": "광고에서 가장 중요한 안전성 정보를 눈에 띄게 제시하는 문구.", "synonyms": ["Major Statement(ISI)"]}
+{"category": "유통(마케팅)", "term": "준수", "term_en": "Compliance", "description_ko": "환자가 지시된 치료법을 따르는 비율.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "중요 안전 정보", "term_en": "Important Safety Information", "description_ko": "특정 상황에서 주의해야 할 핵심 안전성 정보.", "synonyms": ["ISI"]}
+{"category": "유통(마케팅)", "term": "지불 반전", "term_en": "Reverse Payment", "description_ko": "특허소송 합의에서 제네릭사에 금전 지급하는 역지불 계약.", "synonyms": ["Pay‑for‑delay"]}
+{"category": "유통(마케팅)", "term": "지속성", "term_en": "Persistence", "description_ko": "치료를 장기적으로 지속하는 성질·지표.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "GRP", "term_en": "Gross Rating Point", "description_ko": "도달률×빈도 합으로 나타내는 광고 노출량 지표.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "지연에 관한 지불", "term_en": "Pay‑for‑Delay", "description_ko": "역지불 합의로 제네릭 출시를 지연시키는 계약.", "synonyms": ["Reverse Payment"]}
+{"category": "유통(마케팅)", "term": "직접 마케팅", "term_en": "Direct Marketing", "description_ko": "매체를 통해 소비자와 직접 소통·판매하는 활동.", "synonyms": ["DM"]}
+{"category": "유통(마케팅)", "term": "진부화", "term_en": "Obsolescence", "description_ko": "제품·스타일이 시대 변화로 낙후되는 현상.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "질병 의식 광고", "term_en": "Disease Awareness Ad", "description_ko": "치료효과 언급 없이 질병 인식을 높이는 공익형 광고.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "집단화의 원리", "term_en": "Principle of Grouping", "description_ko": "공통 특성 기준으로 고객을 묶어 분석·활용하는 원리.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "집중적 마케팅", "term_en": "Concentrated Marketing", "description_ko": "하나의 틈새시장에 자원을 집중하는 전략.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "차별화 마케팅", "term_en": "Differentiated Marketing", "description_ko": "여러 세분시장에 각기 다른 마케팅믹스를 제공.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "촉진전략", "term_en": "Promotional Strategy", "description_ko": "정보전달·설득·환류 등을 체계화한 촉진계획.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "카운터 마케팅", "term_en": "Counter Marketing", "description_ko": "유해제품 수요 억제 등 반(反)마케팅 활동.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "캠페인", "term_en": "Campaign", "description_ko": "명확한 목표 하에 설계된 일련의 계획적 커뮤니케이션 활동.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "커뮤니케이션", "term_en": "Communications", "description_ko": "메시지 송수신을 통해 의미를 공유하는 과정.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "타당성", "term_en": "Validity", "description_ko": "측정값이 실제 개념을 얼마나 정확히 반영하는지의 정도.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "TOWS 분석", "term_en": "TOWS Analysis", "description_ko": "외부위협·기회와 내부강점·약점을 교차해 전략을 도출.", "synonyms": ["SWOT 변형"]}
+{"category": "유통(마케팅)", "term": "통합상표", "term_en": "Blanket Brand", "description_ko": "여러 품목에 동일 상표를 적용하는 브랜드 전략.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "특정한 효과", "term_en": "Quantum Effect", "description_ko": "작은 차이에도 인지되는 최소변별차 개념 등 미세효과.", "synonyms": ["JND 관련"]}
+{"category": "유통(마케팅)", "term": "틈새시장", "term_en": "Niche Market", "description_ko": "시장 내 규모는 작지만 수익성이 높은 세분시장.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "판매 지원", "term_en": "Sales Aid", "description_ko": "영업담당자의 설명을 돕는 자료·eDetailing 도구.", "synonyms": ["세일즈 에이드"]}
+{"category": "유통(마케팅)", "term": "패키지 삽입", "term_en": "Package Insert", "description_ko": "표준 형식으로 제품정보를 수록해 포장에 삽입하는 문서.", "synonyms": ["PI", "첨부문서"]}
+{"category": "유통(마케팅)", "term": "평생의학교육", "term_en": "Continuing Medical Education", "description_ko": "의료인의 지속 교육 프로그램.", "synonyms": ["CME"]}
+{"category": "유통(마케팅)", "term": "폐쇄 루프 마케팅", "term_en": "Closed‑Loop Marketing", "description_ko": "현장 활동 데이터를 환류해 메시지·세그먼트를 최적화하는 프로세스.", "synonyms": ["CLM"]}
+{"category": "유통(마케팅)", "term": "포지셔닝", "term_en": "Positioning", "description_ko": "고객 인식 속에 자리매김할 차별적 이미지를 결정.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "포지셔닝 분석", "term_en": "Positioning Analysis", "description_ko": "경쟁·감성·인지지도를 분석해 위치를 도출.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "포지셔닝 전략", "term_en": "Positioning Strategy", "description_ko": "목표고객에 맞는 가치제안·근거를 설계.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "포지셔닝의 근거", "term_en": "Bases for Positioning", "description_ko": "포지셔닝에 사용하는 제품·서비스의 핵심 속성·혜택·사용자 이미지 등.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "표적 마케팅", "term_en": "Target Marketing", "description_ko": "여러 세분시장 중 선택한 표적에 집중해 최적의 믹스를 제공.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "표적시장", "term_en": "Target Market", "description_ko": "기업이 집중하려는 잠재 고객 집합.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "핵심 성공 요인", "term_en": "Critical Success Factors", "description_ko": "성공 가능성을 좌우하는 제한적 요인 집합.", "synonyms": ["CSF"]}
+{"category": "유통(마케팅)", "term": "핵심시장", "term_en": "Core Market", "description_ko": "제품·서비스가 가장 잘 부합하는 핵심 고객군.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "혁신", "term_en": "Innovation", "description_ko": "새로운 가치 창출을 위한 신제품·신공정·신서비스 도입.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "디마케팅", "term_en": "Demarketing", "description_ko": "초과수요 상황에서 수요를 의도적으로 억제·조절하는 관리.", "synonyms": []}
+{"category": "유통(마케팅)", "term": "마케팅 시스템", "term_en": "Marketing System", "description_ko": "기업·유통·정부·환경요인이 상호작용하는 마케팅의 전체 체계.", "synonyms": []}
+
+

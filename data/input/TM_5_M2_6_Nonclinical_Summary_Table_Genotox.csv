@@ -1,0 +1,4 @@
+StudyID,Assay,System,MetabolicActivation,Result,Notes
+TM5-AMES-01,Ames,TA98/100/1535/1537/E.coli,±S9,Negative,—
+TM5-CHROM-01,Chromosome aberration,HL60,±S9,Negative,—
+TM5-MN-01,Micronucleus,Mouse bone marrow,—,Negative,—

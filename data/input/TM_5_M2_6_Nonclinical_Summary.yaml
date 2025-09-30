@@ -1,0 +1,218 @@
+{
+  "meta": {
+    "document": "CTD M2.6 비임상 서술·표 요약 – TM-5",
+    "language": "ko",
+    "version": "1.0"
+  },
+  "narratives": {
+    "pharmacology": "TM-5는 AR 길항 및 5α-환원효소 저해로 모낭의 anagen 유지를 촉진하였다. 기관배양과 설치류 모델에서 일관된 효능이 확인되었다.",
+    "pk_adme": "경피 투과는 낮고 피부 잔류가 우세하다. 래트 경피 투여에서 혈중 노출은 낮았으며 대사 상호작용 잠재성은 낮다.",
+    "toxicity": "28일 반복도포에서 NOAEL 50 mg/kg/day. 국소 홍반 외 전신 독성 소견 없음.",
+    "genotoxicity": "Ames, 염색체 이상, 미소핵 시험 모두 음성.",
+    "safety_pharmacology": "hERG 저해 및 주요 생리계 영향 소견 없음."
+  },
+  "tables": {
+    "pharmacology": {
+      "columns": [
+        "StudyID",
+        "Model",
+        "n",
+        "Route",
+        "Dose",
+        "Duration",
+        "PrimaryEndpoint",
+        "Result",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "TM5-NC-AR-01",
+          "AR binding assay",
+          "3",
+          "in vitro",
+          "0.01–100 nM",
+          "—",
+          "IC50(nM)",
+          "0.80±0.09",
+          "Competitive binding"
+        ],
+        [
+          "TM5-NC-5AR-01",
+          "5α-Reductase type II",
+          "3",
+          "cell-based",
+          "0.01–100 nM",
+          "—",
+          "IC50(nM)",
+          "1.2",
+          "—"
+        ],
+        [
+          "TM5-HFOC-01",
+          "Human HFOC",
+          "6 follicles/group",
+          "topical",
+          "1–100 nM",
+          "21 d",
+          "Anagen duration",
+          "↑35% (100 nM), p<0.001",
+          "Caspase-3 ↓28%"
+        ],
+        [
+          "TM5-DF-01",
+          "C57BL/6 telogen→anagen",
+          "12/arm",
+          "topical",
+          "1 mL/day, 5 mg/mL",
+          "28 d",
+          "Hair density(/cm²)",
+          "+32.0±6.4 vs +9.2±5.1",
+          "Anagen area 78% vs 41%"
+        ],
+        [
+          "TM5-HAM-FO-01",
+          "Golden hamster flank",
+          "10/arm",
+          "topical",
+          "QD",
+          "28 d",
+          "Hair area",
+          "+42% vs control, p<0.001",
+          "—"
+        ]
+      ]
+    },
+    "pk_adme": {
+      "columns": [
+        "StudyID",
+        "Species/Matrix",
+        "Regimen",
+        "Cmax(ng/mL)",
+        "AUC(ng·h/mL)",
+        "t1/2(h)",
+        "SkinResidue(μg/g)",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "TM5-FRZ-01",
+          "Human skin Franz",
+          "2 mg/cm², 24 h",
+          "—",
+          "—",
+          "—",
+          "—",
+          "24 h permeation 0.28 μg/cm²"
+        ],
+        [
+          "TM5-RAT-PK-01",
+          "Rat plasma",
+          "1 mL/day, 7 d",
+          "2.1±0.6",
+          "38±9",
+          "5.4±1.1",
+          "—",
+          "Low systemic exposure"
+        ],
+        [
+          "TM5-PIG-SKIN-01",
+          "Mini-pig skin/blood",
+          "1 mL BID, 14 d",
+          "1.5±0.5",
+          "—",
+          "—",
+          "5.8±1.2",
+          "Skin depot prominent"
+        ]
+      ]
+    },
+    "tox_repeat": {
+      "columns": [
+        "StudyID",
+        "Species/Sex",
+        "Route",
+        "Dose(mg/kg/day)",
+        "Duration",
+        "Findings",
+        "NOAEL",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "TM5-RAT-RD-28D",
+          "Rat/M+F",
+          "topical",
+          "0,5,20,50",
+          "28 d",
+          "Mild local erythema at high dose",
+          "50",
+          "No systemic toxicity"
+        ]
+      ]
+    },
+    "genotox": {
+      "columns": [
+        "StudyID",
+        "Assay",
+        "System",
+        "MetabolicActivation",
+        "Result",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "TM5-AMES-01",
+          "Ames",
+          "TA98/100/1535/1537/E.coli",
+          "±S9",
+          "Negative",
+          "—"
+        ],
+        [
+          "TM5-CHROM-01",
+          "Chromosome aberration",
+          "HL60",
+          "±S9",
+          "Negative",
+          "—"
+        ],
+        [
+          "TM5-MN-01",
+          "Micronucleus",
+          "Mouse bone marrow",
+          "—",
+          "Negative",
+          "—"
+        ]
+      ]
+    },
+    "safety_pharm": {
+      "columns": [
+        "StudyID",
+        "Assay",
+        "Concentration/Dose",
+        "Endpoint",
+        "Result",
+        "Notes"
+      ],
+      "rows": [
+        [
+          "TM5-hERG-01",
+          "hERG patch clamp",
+          "30 μM",
+          "I_Kr inhibition",
+          "≤6%",
+          "No threshold effect"
+        ],
+        [
+          "TM5-RAT-SPH-01",
+          "CV/Resp/CNS panel",
+          "Topical high dose",
+          "Physiology",
+          "No adverse signal",
+          "Telemetry"
+        ]
+      ]
+    }
+  }
+}

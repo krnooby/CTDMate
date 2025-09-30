@@ -1,0 +1,6 @@
+StudyID,Model,n,Route,Dose,Duration,PrimaryEndpoint,Result,Notes
+TM5-NC-AR-01,AR binding assay,3,in vitro,0.01–100 nM,—,IC50(nM),0.80±0.09,Competitive binding
+TM5-NC-5AR-01,5α-Reductase type II,3,cell-based,0.01–100 nM,—,IC50(nM),1.2,—
+TM5-HFOC-01,Human HFOC,6 follicles/group,topical,1–100 nM,21 d,Anagen duration,"↑35% (100 nM), p<0.001",Caspase-3 ↓28%
+TM5-DF-01,C57BL/6 telogen→anagen,12/arm,topical,"1 mL/day, 5 mg/mL",28 d,Hair density(/cm²),+32.0±6.4 vs +9.2±5.1,Anagen area 78% vs 41%
+TM5-HAM-FO-01,Golden hamster flank,10/arm,topical,QD,28 d,Hair area,"+42% vs control, p<0.001",—

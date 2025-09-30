@@ -1,0 +1,2 @@
+StudyID,Species/Sex,Route,Dose(mg/kg/day),Duration,Findings,NOAEL,Notes
+TM5-RAT-RD-28D,Rat/M+F,topical,"0,5,20,50",28 d,Mild local erythema at high dose,50,No systemic toxicity
