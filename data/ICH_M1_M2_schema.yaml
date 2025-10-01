@@ -1,0 +1,286 @@
+
+# CTD M1 + M2 Schema (ICH + MFDS-aligned)
+# version: 0.2 (2025-10-01)
+# language: ko
+# note: description은 LLM이 인풋 데이터를 해석하고 작성할 때 직접적으로 참고하도록 '무엇을, 어떻게, 왜'까지 서술
+#       guideline_refs에는 근거 규정(ICH, MFDS, WHO 등) 섹션 식별자를 담습니다. (예: "MFDS-Guide 2020 §2.5.1")
+#       evidence_anchor는 사용자의 인풋 문서에서 해당 항목을 뒷받침할 원문 위치(파일/페이지/테이블/섹션 키) 키를 넣도록 설계된 필드
+
+schema:
+  M1:  # Regional Administrative Information
+    _meta:
+      purpose: "지역별(행정/규격) 요구사항 수집 및 검증"
+      description: "신청 지역(MFDS, FDA, EMA 등)의 필수 행정문서 체크리스트. eCTD M1 범위 내 문서(신청서, 라벨, RMP 등)를 구조화하고, 결손·불일치 자동 검출에 활용."
+    items:
+      - id: "M1.0.cover_letter"
+        title: "커버레터"
+        description: "제출 목적(최초/변경/추가 적응증), 제품 개요, 제출 자료 범위, 주요 쟁점 요약을 한쪽 내외로 간결히 기술. 심사 시 주안점, 사전상담 이력/근거(회의록) 인용."
+        guideline_refs: ["MFDS 지역 요구 관행", "ICH eCTD Specification (regional)"]
+        evidence_anchor: []
+      - id: "M1.1.application_form"
+        title: "신청서(양식)"
+        description: "제품명, 성분/함량/제형, 신청유형, 신청자/제조소/책임자 정보, GMP 적합성, 수수료 등 필수 메타데이터를 지역 양식에 맞춰 완전·정확히 기재."
+        guideline_refs: ["MFDS 의약품 허가신청 양식", "ICH eCTD M1 Regional"]
+        evidence_anchor: []
+      - id: "M1.3.product_information"
+        title: "제품설명서/라벨링(안)"
+        description: "요약문(SmPC/PI), 환자용 안내문(PIL), 포장표시(라벨) 초안. 적응증, 용법·용량, 경고·주의, 이상사례, 상호작용, 사용상 주의사항을 임상개요/요약의 결론과 정합되게 기술."
+        guideline_refs: ["MFDS 라벨링 지침", "ICH E2E/E2C 관련", "ICH M4E(M2.5/2.7) 연계"]
+        evidence_anchor: []
+      - id: "M1.7.rmp_psur"
+        title: "안전성 문서(RMP/PSUR/PSUSA 등)"
+        description: "위해성관리계획(RMP) 및 주기적 안전성 보고의 주요 결과·조치. 국내외 시판 후 정보와의 정합성 확보."
+        guideline_refs: ["MFDS RMP 고시", "ICH E2E"]
+        evidence_anchor: []
+      - id: "M1.8.regional_tabulations"
+        title: "지역별 표·부록"
+        description: "MFDS가 요구하는 지역 전용 표, 적응증별 임상시험 일람, 의약품명/성분명 표준(한글/영문/INN) 매핑 표."
+        guideline_refs: ["MFDS CTD 해설서(제1부)", "ICH eCTD"]
+        evidence_anchor: []
+
+  M2.3:  # Quality Overall Summary (QOS)
+    _meta:
+      purpose: "품질(원료 S, 완제 P) 전반의 근거 기반 요약"
+      description: "2.3은 3부(품질 전체)의 핵심을 10~20쪽 내로 요약. S/P의 CQA, CPP, 설계공간, 관리전략을 연결 설명."
+    sections:
+      S:  # 2.3.S Drug Substance
+        S.1:
+          S.1.1:
+            title: "원료의약품 일반정보"
+            description: "명명법(INN/한글명/코드), 구조식/분자식/분자량, 입체화학 및 염/수화물 형태를 제시. 규격 설정의 전제와 연결."
+            guideline_refs: ["ICH M4Q(QOS-S) S.1", "MFDS CTD 해설서 제2부 2.3"]
+            evidence_anchor: []
+          S.1.3:
+            title: "일반적 성질"
+            description: "고유물성(용해도-온도/ pH 프로필, pKa, logP/D, 다형성, 입도), 열·습 안정성, 흡습성 등. CQA/제형개발 영향 서술."
+            guideline_refs: ["ICH Q6A", "ICH M4Q S.1.3"]
+            evidence_anchor: []
+        S.2:
+          title: "제조 및 특성화 요약"
+          description: "합성/발효 개요, 주요 중간체, 공정 불순물 프로필, 구조확증 스펙트럼 요지. 공정변동이 CQAs에 미치는 영향 개략."
+          guideline_refs: ["ICH Q7", "ICH Q11", "ICH M4Q S.2"]
+          evidence_anchor: []
+        S.3:
+          title: "규격 및 분석법 요약"
+          description: "시험항목·기준치·타당성(정확성/정밀성/특이성 등) 핵심 근거. 불순물 한계의 과학적 근거(ICH Q3A) 연결."
+          guideline_refs: ["ICH Q6A", "ICH Q2(R2)", "ICH Q3A"]
+          evidence_anchor: []
+        S.4:
+          title: "참조표준물질"
+          description: "원표준/작업표준 설정, 추적성, 교정·유효기간. 불순물 표준 확보 전략."
+          guideline_refs: ["ICH M4Q S.4"]
+          evidence_anchor: []
+        S.7:
+          title: "안정성 요약"
+          description: "장기/가속/중간조건 요약, 분해양상, 수명 설정 근거, 운송/보관 영향."
+          guideline_refs: ["ICH Q1A(R2)"]
+          evidence_anchor: []
+
+      P:  # 2.3.P Drug Product
+        P.1:
+          title: "완제 설명 및 조성"
+          description: "제형개요(방출특성), 각 성분(주성분/첨가제) 기능·함량·규격 요약. 제형선정 배경은 2.3.P.2와 연결."
+          guideline_refs: ["ICH M4Q P.1", "QOS Mock P2 예시"]
+          evidence_anchor: []
+        P.2:
+          title: "제제 개발 요약"
+          description: "QbD 접근 시 TPP/QTPP→CQA 도출, 위험분석(PHA/FMEA) 요지, DOE 핵심결과, 주요 CPP/CMAs, 설계공간 및 RTRT 근거를 간결히 연결. 임상개발 제제-시판 제제의 차이와 생물학적 동등성 근거 포함."
+          guideline_refs: ["ICH Q8(R2)", "ICH Q9", "ICH Q10", "QOS Mock P2"]
+          evidence_anchor: []
+        P.3:
+          title: "제조공정 요약"
+          description: "제조플로우, 배치 규모, 중요공정단계(혼합/윤활/정제압축/코팅 등)와 CPP 관리전략. 공정검증(공정적격성) 계획 요지."
+          guideline_refs: ["ICH M4Q P.3", "ICH Q10"]
+          evidence_anchor: []
+        P.5:
+          title: "완제 규격 요약"
+          description: "방출/안정성 규격 항목과 기준, 타당성 요약, 용출법/프로파일의 과학적 근거(BCS/IVIVC 가능성)."
+          guideline_refs: ["ICH Q6A", "ICH Q2(R2)"]
+          evidence_anchor: []
+        P.7:
+          title: "완제 안정성 요약"
+          description: "포장-제형 상호작용, 광/열/습 민감성, 유효기간·보관조건 설정 근거. 온도/습도대 분류 반영."
+          guideline_refs: ["ICH Q1A(R2)", "Q1B", "MFDS 기후대 적용"]
+          evidence_anchor: []
+
+  M2.4:  # Nonclinical Overview
+    _meta:
+      purpose: "비임상(약리/PK/독성) 전반의 해석 및 임상·품질과의 연결"
+      description: "사실 요약(2.6)과 달리, 2.4는 해석·임상적 시사점·품질연계·라벨 반영을 논리적으로 서술."
+    sections:
+      plan_overview:
+        title: "비임상 전략 개요"
+        description: "전체 비임상 프로그램의 설계 논리와 지침 부합성(GLP 준수 포함). 가이드와 불일치 시 과학적 타당성 제시."
+        guideline_refs: ["ICH M4S(M2.4) 일반원칙", "MFDS CTD 해설서 §2.4 일반사항"]
+        evidence_anchor: []
+      pharmacology_overview:
+        title: "약리 개요"
+        description: "1차/2차 약리와 안전성약리 결과의 핵심 의미, 관찰 이슈의 임상적 함의(표적 관련, off-target) 정리."
+        guideline_refs: ["ICH M4S 2.4 약리", "MFDS §2.4 목차"]
+        evidence_anchor: []
+      pk_overview:
+        title: "약동학/독성동태 개요"
+        description: "분석법 타당성, 흡수/분포/대사/배설 및 종간 비교, 노출-반응 관련성, 특이 이슈(면역성 등)."
+        guideline_refs: ["ICH M4S 2.4 약동학", "MFDS §2.4"]
+        evidence_anchor: []
+      tox_overview:
+        title: "독성 개요"
+        description: "반복독성/유전·발암/생식독성/국소내성 등 주요 독성의 발현시기·가역성·용량의존성과 인체 적용 가능성 평가."
+        guideline_refs: ["ICH M4S 2.4 독성", "ICH S1/S2/S5/S7", "MFDS §2.4"]
+        evidence_anchor: []
+      integrated_conclusion:
+        title: "종합적 개요 및 결론"
+        description: "비임상 결과가 임상설계/라벨(금기, 경고, 용량제한)에 주는 근거. 동물→인체 외삽의 한계와 유용성 명시."
+        guideline_refs: ["ICH M4S 2.4 Conclusion", "MFDS §2.4 종합"]
+        evidence_anchor: []
+
+  M2.5:  # Clinical Overview
+    _meta:
+      purpose: "임상개요(해석 중심, 30쪽 내외)"
+      description: "임상요약(2.7) 사실 데이터에 기반해 임상적 고찰·해석·Benefit–Risk를 제시. 품질·비임상과 연결."
+    sections:
+      2.5.1:
+        title: "제품 개발 배경"
+        description: "약리작용 분류, 적응증의 질병 배경, 전체 임상개발(해외자료 포함), 설계/수행/분석이 지침과 일치/불일치한 지점과 그 근거."
+        guideline_refs: ["ICH M4E(M2.5) §2.5.1", "MFDS CTD 해설서 §2.5.1"]
+        evidence_anchor: []
+      2.5.2:
+        title: "생물약제학 개요"
+        description: "시판 제형에 영향 주는 BA/BE 핵심 결과(용량 비례성, 음식 영향, 임상제제-시판제제 차이)를 간명히 해석."
+        guideline_refs: ["ICH M4E §2.5.2", "MFDS §2.5.2"]
+        evidence_anchor: []
+      2.5.3:
+        title: "임상약리학 개요"
+        description: "PK(내·외인성 요인, 특수집단, 상호작용)와 PD(기전, 노출-반응, 용량근거)의 임상적 의미를 통합 정리."
+        guideline_refs: ["ICH M4E §2.5.3", "MFDS §2.5.3"]
+        evidence_anchor: []
+      2.5.4:
+        title: "유효성 개요"
+        description: "핵심 대조시험 중심의 유효성 증거, 비열등성 한계·분석감도, 부분집단 일관성, 임상적 유용성(효과크기 의미)."
+        guideline_refs: ["ICH M4E §2.5.4", "ICH E9/E10/E11/E5", "MFDS §2.5.4"]
+        evidence_anchor: []
+      2.5.5:
+        title: "안전성 개요"
+        description: "노출, 흔한/중대한 이상반응, 임상실험실/활력징후 변화, 특수집단/상호작용/과량투여/남용·금단/운전에 대한 영향."
+        guideline_refs: ["ICH M4E §2.5.5", "MFDS §2.5.5", "ICH E2 시리즈"]
+        evidence_anchor: []
+      2.5.6:
+        title: "유익성·위해성 결론"
+        description: "치료환경(질환/표준치료) 맥락, Benefit/ Risk 요지, Benefit–Risk 종합평가와 라벨 반영 제안."
+        guideline_refs: ["ICH M4E §2.5.6", "MFDS §2.5.6"]
+        evidence_anchor: []
+      2.5.7:
+        title: "참고문헌"
+        description: "근거 문헌과 규제 자문 문서(회의록, 공식서한) 목록."
+        guideline_refs: ["ICH M4E §2.5.7"]
+        evidence_anchor: []
+
+  M2.6:  # Nonclinical Written & Tabulated Summaries
+    _meta:
+      purpose: "비임상 사실 요약(문장·표) – 해석은 2.4"
+      description: "in vitro→in vivo 순, 동물종/투여경로/기간 정렬. 표·그림 활용, 단위 통일."
+    sections:
+      2.6.1:
+        title: "서론"
+        description: "화합물 구조·약리학적 특성, 신청 적응증·용량·기간 간단 소개."
+        guideline_refs: ["ICH M4S(M2.6) §2.6.1", "MFDS §2.6.1"]
+        evidence_anchor: []
+      2.6.2:
+        title: "약리시험 요약문 및 표"
+        description: "1차/2차 효력, 안전성약리, 약력학적 상호작용을 시험별 핵심 설계·결과·시사점으로 요약(표 번호 인용 포함)."
+        guideline_refs: ["ICH M4S §2.6.2", "MFDS §2.6.2"]
+        evidence_anchor: []
+      2.6.4:
+        title: "약동학 요약문 및 표"
+        description: "분석법, 흡수/분포/대사/배설, PK 상호작용과 노출 비교(종 간/경로 간)."
+        guideline_refs: ["ICH M4S §2.6.4", "MFDS §2.6.4"]
+        evidence_anchor: []
+      2.6.6:
+        title: "독성시험 요약문 및 표"
+        description: "단회/반복, 유전/발암, 생식·발생, 국소내성, 기타특수 시험. NOAEL/NOEL 및 인체 노출 대비 표 제시."
+        guideline_refs: ["ICH M4S §2.6.6", "MFDS §2.6.6"]
+        evidence_anchor: []
+
+  M2.7:  # Clinical Summary
+    _meta:
+      purpose: "임상 사실 요약(상세). 해석은 2.5"
+      description: "BA/BE(2.7.1), 임상약리(2.7.2), 유효성(2.7.3), 안전성(2.7.4), 참고문헌/개별시험요약(2.7.5~2.7.6)으로 구성."
+    sections:
+      2.7.1:
+        title: "생물약제학/분석법 요약"
+        description: "BA/BE 핵심 설계·통계·결과, 식이 영향, 제형/함량 간 비례성. 인용 규격 준수 여부 명시."
+        guideline_refs: ["ICH M4E(M2.7) §2.7.1", "MFDS §2.7.1"]
+        evidence_anchor: []
+      2.7.2:
+        title: "임상약리 요약"
+        description: "건강인/환자 PK/PD, 내·외인성 요인, 상호작용, 특수시험(유전다형성/면역원성 등) – 표준화된 표로 비교."
+        guideline_refs: ["ICH M4E §2.7.2", "MFDS §2.7.2"]
+        evidence_anchor: []
+      2.7.3:
+        title: "유효성 요약"
+        description: "핵심 대조임상들의 설계·POP·Efficacy 변수·통계·감도분석·중도중단 영향, 부분집단 결과를 체계적 표로 병기."
+        guideline_refs: ["ICH M4E §2.7.3", "MFDS §2.7.3", "ICH E9/E10/E11/E5"]
+        evidence_anchor: []
+      2.7.4:
+        title: "안전성 요약"
+        description: "노출 전반, 흔한/중대 이상반응, 사망/중대사건, 임상검사 변화, 특수집단·상호작용·과량·남용/금단·운전 영향, 시판후 자료."
+        guideline_refs: ["ICH M4E §2.7.4", "MFDS §2.7.4", "ICH E2 시리즈"]
+        evidence_anchor: []
+      2.7.5:
+        title: "참고문헌"
+        description: "문헌/가이드/공식 자문 문서 목록."
+        guideline_refs: ["ICH M4E §2.7.5"]
+        evidence_anchor: []
+      2.7.6:
+        title: "개별 시험 요약"
+        description: "각 임상시험 요약서(ICH E3 구성 준거) 링크/식별자 및 핵심 수치 테이블."
+        guideline_refs: ["ICH E3", "ICH M4E §2.7.6"]
+        evidence_anchor: []
+
+# 사용 예시:
+# - 각 항목에 evidence_anchor에 사용자의 입력파일 내 위치키(예: 파일명, 페이지, 표/그림 번호, 탭명)를 기입합니다.
+# - Agent는 입력데이터를 이 스키마에 매핑하고, 누락/불일치를 플래그합니다.
+
+
+# === Standard Evidence Anchor Specification (added; original guideline content unchanged) ===
+anchor_spec:
+  evidence_anchor:
+    type: array
+    description: "사용자 인풋 문서에서 값의 출처를 가리키는 위치 좌표 목록"
+    items:
+      type: object
+      required: [doc_id, type]
+      properties:
+        doc_id:        { type: string,  description: "사용자 인풋 파일 식별자(파일명/UUID)" }
+        type:          { type: string,  enum: [paragraph, table, figure, form, label], description: "앵커가 가리키는 블록 유형" }
+        section_hint:  { type: string,  description: "문서 내 섹션/헤더 힌트(예: 2.3.P.1, 'Efficacy')" }
+        loc:
+          type: object
+          properties:
+            page:      { type: integer, description: "PDF 페이지(1-base)" }
+            para_id:   { type: string,  description: "문단/블록 ID(파서 영구 ID 권장)" }
+            sent_idx:  { type: integer, description: "문장 인덱스(옵션)" }
+            table_id:  { type: string,  description: "표 ID(예: T-P1-01)" }
+            row:       { type: integer, description: "표 행 인덱스(1-base)" }
+            col:       { type: integer, description: "표 열 인덱스(1-base)" }
+            bbox:      { type: array,   description: "좌표 [x1,y1,x2,y2] (선택)", items: { type: number } }
+        anchor_text:   { type: string,  description: "짧은 스니펫(1~2문장) — 파서 누락 시 LLM 임시앵커로 활용" }
+        text_hash:     { type: string,  description: "원문 스니펫 해시(무결성/중복 제거)", pattern: "^sha(1|256|512):" }
+        confidence:    { type: number,  description: "추출 신뢰도(0~1)", minimum: 0, maximum: 1 }
+        created_by:    { type: string,  enum: [parser, resolver, llm], description: "생성 주체" }
+        resolution_status: { type: string, enum: [draft, final], default: "draft", description: "앵커 확정 상태" }
+
+  # 간단 참조용 축약 포맷(문자 앵커) — 파서/앵커러가 확정 전 임시 사용
+  simple_ref:
+    example:
+      evidence_anchor:
+        - ref: "anchor://table/2.3.P.1#composition.row12"
+        - ref: "anchor://para/M2.5#efficacy.sent4"
+
+  # 모듈별 적용 가이드 (스키마 수정 없이 사용 규칙만 정의)
+  usage_guidelines:
+    - "모든 섹션/필드의 evidence_anchor 기본값은 빈 배열([])로 두고, 런타임(Document AI/앵커러)에서 채운다."
+    - "가능하면 loc.page+para_id(table_id/row/col)를 함께 기록하여 UI 점프/자동 재검증 정확도를 높인다."
+    - "여러 출처를 합성한 값은 evidence_anchor 배열에 모두 기록한다."
+    - "심사 제출 직전에는 resolution_status=final로 잠그고, LLM이 추가/수정하지 못하도록 한다."
+    - "앵커 텍스트를 장문으로 저장하지 말고(저작권/보안 고려) 1~2문장 내로 제한한다."
