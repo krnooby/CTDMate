@@ -1,0 +1,3 @@
+{"chunk_id": "m4-ovw-001", "module": "4", "section": "4", "title": "Module 4 개요(Safety, 비임상)", "text": "약리·비임상 약동학·독성 시험 자료 배열. 시험 순서: 약리→약동학→독성.", "source": "ICH M4 Guideline_CTD.pdf", "page": [36]}
+{"chunk_id": "m4-4.2-001", "module": "4", "section": "4.2", "title": "4.2 시험자료 구조", "text": "4.2.1 약리(1차·2차 효력, 안전성약리, 약력학적 상호작용), 4.2.2 약동학(흡수·분포·대사·배설, 분석법 및 밸리데이션), 4.2.3 독성(단회·반복·유전·발암·생식·국소내성·기타).", "source": "ICH M4 Guideline_CTD.pdf", "page": [37]}
+{"chunk_id": "m4-granularity-001", "module": "4", "section": "4.granularity", "title": "보고서 제출 단위(Granularity, 문서 세분화)", "text": "연구보고서별 단일 문서 제출이 원칙. 대형 보고서는 본문 1개 + 부록 다수 가능. 참고문헌은 ToC(목차)에 포함.", "source": "ICH M4 Guideline_CTD.pdf", "page": [55, 56]}
