@@ -10,7 +10,7 @@ Excel 데이터에서 CTD(Common Technical Document) 규제 문서를 자동으�
 ### 1. 저장소 클론
 
 ```bash
-git clone https://github.com/your-username/ctdmate.git
+git clone https://github.com/krnooby/CTDMate.git
 cd ctdmate
 ```
 
