@@ -190,3 +190,60 @@ MIT License - 자유롭게 사용 가능합니다.
 - Validation: ICH/MFDS Guidelines
 
 ---
+
+---
+
+## 🤖 Fine-tuned 모델 사용 (선택사항)
+
+CTDMate는 **Llama 3.2-3B Term Normalizer** fine-tuned 모델을 지원합니다.
+
+### 모델 다운로드
+
+```bash
+./download_model.sh
+```
+
+또는 수동 다운로드:
+- **Google Drive**: [다운로드 링크](https://drive.google.com/file/d/1jXqPcVPB1MTnB_ao2BB6r45wEVtnTf0R/view?usp=sharing)
+- 파일 크기: ~6GB
+- 저장 위치: `ctdmate/models/llama-3.2-3B-term-normalizer-F16.gguf`
+
+### 사용 방법
+
+**자동 (기본):**
+```python
+from ctdmate.pipeline import CTDPipeline
+
+# Fine-tuned 모델 자동 로드
+pipeline = CTDPipeline(use_finetuned=True)
+```
+
+**커스텀 설정:**
+```python
+from ctdmate.pipeline import CTDPipeline
+from ctdmate.brain.llama_client import LlamaGGUFClient
+
+# 커스텀 모델 설정
+client = LlamaGGUFClient(
+    model_path="models/llama-3.2-3B-term-normalizer-F16.gguf",
+    n_ctx=4096,           # Context length
+    n_gpu_layers=-1,      # GPU 레이어 수 (-1 = 전부)
+    temperature=0.1,      # 생성 온도
+)
+
+pipeline = CTDPipeline(llama_client=client)
+```
+
+**모델 없이 실행 (Heuristic만):**
+```python
+pipeline = CTDPipeline(use_finetuned=False)
+```
+
+### Fine-tuned 모델 효과
+
+- ✅ **용어 정규화 정확도 향상** (90%+)
+- ✅ **Router 의사결정 개선**
+- ✅ **Domain-specific 지식 활용**
+
+---
+

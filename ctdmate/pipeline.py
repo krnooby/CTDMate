@@ -48,7 +48,28 @@ class CTDPipeline:
     - Generate: Solar Pro2 + 인용형 RAG, Lint 게이트
     """
 
-    def __init__(self, llama_client: Optional[LlamaLocalClient] = None):
+    def __init__(self, llama_client: Optional[LlamaLocalClient] = None, use_finetuned: bool = True):
+        """
+        Args:
+            llama_client: 커스텀 Llama 클라이언트 (None이면 자동 생성)
+            use_finetuned: Fine-tuned GGUF 모델 사용 여부 (기본: True)
+        """
+        # Fine-tuned 모델 자동 로드
+        if llama_client is None and use_finetuned:
+            try:
+                from ctdmate.brain.llama_client import create_default_client
+                llama_client = create_default_client(
+                    n_ctx=2048,
+                    n_gpu_layers=-1,  # GPU 전부 사용
+                    temperature=0.1,
+                    verbose=False,
+                )
+                print("✓ Fine-tuned GGUF model loaded successfully")
+            except Exception as e:
+                print(f"⚠️  Failed to load fine-tuned model: {e}")
+                print("   Falling back to heuristic-only mode")
+                llama_client = None
+
         self.router = Router(llama=llama_client)
         self.reg_tool = RegulationRAGTool(
             auto_normalize=True,
