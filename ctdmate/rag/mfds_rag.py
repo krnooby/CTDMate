@@ -42,15 +42,18 @@ class MFDSRAGTool:
         collection: Optional[str] = None,
         url: Optional[str] = None,
         api_key: Optional[str] = None,
+        use_bm25: bool = False,  # BM25 disabled by default (causes issues with filters)
     ):
-        self.collection = collection or CFG.QDRANT_GUIDE_COLLECTION
-        self.retriever = Retriever(collection=self.collection, url=url, api_key=api_key, use_bm25=True)
+        # Default to mfds_guidelines (actual collection name in qdrant_storage/mfds/)
+        self.collection = collection or "mfds_guidelines"
+        self.retriever = Retriever(collection=self.collection, url=url, api_key=api_key, use_bm25=use_bm25)
         # 선택적 필터 규칙(rules/rag_filters.yaml)
         self.filter_rules = _load_yaml(str(CFG.RULES_DIR / "rag_filters.yaml"))
 
     def _where_for_module(self, module: str) -> Dict[str, Any]:
         m = _normalize_section(module)
-        where: Dict[str, Any] = {"module": m}
+        # Use nested path for metadata (LangChain-style payload)
+        where: Dict[str, Any] = {"metadata.module": m}
         # YAML에 region/source 제한이 있으면 병합
         mod_rules = (self.filter_rules.get("modules", {}) or {}).get(m, {})
         if isinstance(mod_rules, dict):
@@ -66,10 +69,16 @@ class MFDSRAGTool:
         return where
 
     def search(self, query: str, k: int = 5) -> List[Dict[str, Any]]:
+        # Use vector_search when BM25 is disabled
+        if not self.retriever.use_bm25:
+            return self.retriever.vector_search(query=query, k=k)
         return self.retriever.search_hybrid(query=query, k=k, fetch_k=max(20, 4*k), alpha=HYBRID_ALPHA)
 
     def search_by_module(self, query: str, module: str, k: int = 5) -> List[Dict[str, Any]]:
         where = self._where_for_module(module)
+        # Use vector_search when BM25 is disabled
+        if not self.retriever.use_bm25:
+            return self.retriever.vector_search(query=query, k=k, where=where)
         return self.retriever.search_hybrid(query=query, k=k, fetch_k=max(20, 4*k), alpha=HYBRID_ALPHA, where=where)
 
     def search_with_mmr(

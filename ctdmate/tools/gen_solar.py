@@ -278,6 +278,15 @@ class SolarGenerator:
         gen_score = 0.6 * cit + 0.4 * int(lint_ok and major_cnt <= CFG.LINT_MAX_MAJOR)
         ready = (gen_score >= CFG.GENERATE_READY_MIN) and (major_cnt <= CFG.LINT_MAX_MAJOR)
 
+        # Convert Lint dataclass to dict (dataclass with slots=True needs manual conversion)
+        def lint_to_dict(f):
+            if hasattr(f, "key") and hasattr(f, "reason") and hasattr(f, "fix_hint"):
+                return {"key": f.key, "reason": f.reason, "fix_hint": f.fix_hint}
+            elif hasattr(f, "__dict__"):
+                return f.__dict__
+            else:
+                return f
+
         return {
             "section": section,
             "format": "yaml" if want_yaml else "markdown",
@@ -285,7 +294,7 @@ class SolarGenerator:
             "rag_used": bool(ctx),
             "rag_refs": _mk_references(ctx, top_k=self.max_refs),
             "lint_ok": bool(lint_ok),
-            "lint_findings": [f.__dict__ if hasattr(f, "__dict__") else f for f in findings],
+            "lint_findings": [lint_to_dict(f) for f in findings],
             "gen_metrics": {
                 "cit_density": cit,
                 "lint_major": major_cnt,

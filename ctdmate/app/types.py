@@ -1,7 +1,12 @@
 # ctdmate/app/types.py
 from __future__ import annotations
 from dataclasses import dataclass
-from typing import Any, Dict, List, Optional, TypedDict, Literal, NotRequired
+from typing import Any, Dict, List, Optional, TypedDict, Literal
+
+try:
+    from typing import NotRequired
+except ImportError:
+    from typing_extensions import NotRequired
 
 # -------------------------
 # Lint: YAML 정합성 리포트 항목

@@ -33,11 +33,11 @@ GENERATE_READY_MIN = float(os.getenv("CTD_GENERATE_READY_MIN", "0.70"))
 
 # ---------- External services ----------
 UPSTAGE_API_BASE = os.getenv("UPSTAGE_API_BASE", "https://api.upstage.ai/v1")
-UPSTAGE_MODEL    = os.getenv("UPSTAGE_MODEL", "solar-pro-2")
-UPSTAGE_CHAT_PATH= os.getenv("UPSTAGE_CHAT_PATH", "/chat/completions")
-UPSTAGE_API_KEY  = os.getenv("UPSTAGE_API_KEY", "")
-EMBED_MODEL      = os.getenv("EMBED_MODEL", "intfloat/e5-large-v2")
-QDRANT_URL       = os.getenv("QDRANT_URL", "http://localhost:6333")
+UPSTAGE_MODEL    = os.getenv("UPSTAGE_MODEL", "solar-pro2")
+UPSTAGE_CHAT_PATH= os.getenv("UPSTAGE_CHAT_PATH", "/solar/chat/completions")
+UPSTAGE_API_KEY  = os.getenv("UPSTAGE_API_KEY", "up_X7mV85DcfWE2eL1b6FQ57CKTQKUqh")
+EMBED_MODEL      = os.getenv("EMBED_MODEL", "intfloat/multilingual-e5-large-instruct")
+QDRANT_URL       = os.getenv("QDRANT_URL", "")  # 빈 문자열 = 로컬 path 모드
 QDRANT_API_KEY   = os.getenv("QDRANT_API_KEY", "")
 QDRANT_GUIDE_COLLECTION    = os.getenv("QDRANT_GUIDE_COLLECTION", "guidelines")
 QDRANT_GLOSSARY_COLLECTION = os.getenv("QDRANT_GLOSSARY_COLLECTION", "glossary")

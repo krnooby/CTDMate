@@ -59,11 +59,22 @@ class GlossaryRAGTool:
         self.collection = collection or DEFAULT_COLLECTION
         self.top_k = int(top_k)
         self.client = None
+
         if QdrantClient:
             try:
-                self.client = QdrantClient(url=url or QDRANT_URL, api_key=api_key or QDRANT_API_KEY, prefer_grpc=False)
+                qdrant_url = url or QDRANT_URL
+                qdrant_api_key = api_key or QDRANT_API_KEY
+
+                # 로컬 디렉토리 모드 우선
+                if not qdrant_url or qdrant_url == "":
+                    from pathlib import Path
+                    storage_path = Path("qdrant_storage") / "glossary"
+                    self.client = QdrantClient(path=str(storage_path))
+                else:
+                    self.client = QdrantClient(url=qdrant_url, api_key=qdrant_api_key, prefer_grpc=False)
             except Exception:
                 self.client = None
+
         self.embedder = _build_embedder()
 
     def search(self, query: str, k: Optional[int] = None) -> List[Dict[str, Any]]:

@@ -61,11 +61,18 @@ class RegulationRAGTool:
         self.mfds_rag: Optional[MFDSRAGTool] = None
         self.glossary_rag: Optional[GlossaryRAGTool] = None
         self.normalizer: Optional[TermNormalizer] = None
+        self.combined_retriever: Optional[Any] = None  # Retriever for combined_regulations
 
         if enable_rag:
             try:
                 self.mfds_rag = MFDSRAGTool()
                 self.glossary_rag = GlossaryRAGTool()
+                # Initialize combined regulations retriever (reusable for ICH/MFDS/GLOSSARY)
+                try:
+                    from ctdmate.rag.retriever import Retriever
+                except Exception:
+                    from ..rag.retriever import Retriever  # type: ignore
+                self.combined_retriever = Retriever(collection="combined_regulations", use_bm25=False)
             except Exception:
                 self.enable_rag = False
 
@@ -129,7 +136,11 @@ class RegulationRAGTool:
         if self.enable_rag and self.mfds_rag:
             try:
                 guideline_results = self.mfds_rag.search_by_module(query=content[:500], module=section, k=5)
-            except Exception:
+            except Exception as e:
+                import sys
+                print(f"[DEBUG] MFDS search failed: {e}", file=sys.stderr)
+                import traceback
+                traceback.print_exc()
                 guideline_results = []
 
         violations = self._detect_violations(content, guideline_results)
@@ -185,17 +196,167 @@ class RegulationRAGTool:
 
     # -------- Helpers --------
     def _detect_violations(self, content: str, guidelines: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        v: List[Dict[str, Any]] = []
+        """
+        4-tier 위반사항 탐지 (ICH + MFDS + Glossary + 구조)
+
+        Args:
+            content: 검증할 내용
+            guidelines: MFDS 가이드라인 검색 결과
+
+        Returns:
+            위반사항 리스트
+        """
+        violations: List[Dict[str, Any]] = []
+
+        # 1. ICH 통합 규제 인덱스 검색
+        ich_violations = self._check_ich_guidelines(content)
+        violations.extend(ich_violations)
+
+        # 2. MFDS 가이드라인 기반 검증
+        mfds_violations = self._check_mfds_guidelines(content, guidelines)
+        violations.extend(mfds_violations)
+
+        # 3. 용어 표준화 체크
+        term_violations = self._check_terminology(content)
+        violations.extend(term_violations)
+
+        # 4. Placeholder 체크 (기존 로직)
         low = content.lower()
         placeholders = ["tbd", "to be defined", "to be decided", "미정", "lorem ipsum", "as appropriate", "etc."]
         if any(p in low for p in placeholders):
-            v.append({
+            violations.append({
                 "type": "placeholder",
                 "description": "placeholder detected",
                 "suggestion": "replace placeholders with actual values",
                 "severity": "major",
             })
-        return v
+
+        return violations
+
+    def _check_ich_guidelines(self, content: str) -> List[Dict[str, Any]]:
+        """
+        ICH 통합 규제 인덱스로 가이드라인 위반 체크
+
+        Args:
+            content: 검증할 내용
+
+        Returns:
+            ICH 기반 위반사항 리스트
+        """
+        violations = []
+
+        if not self.enable_rag or not self.combined_retriever:
+            return violations
+
+        try:
+            # 통합 규제 인덱스에서 ICH 가이드라인 검색 (shared retriever 사용)
+            ich_results = self.combined_retriever.vector_search(
+                query=content[:500],
+                k=5,
+                where={"metadata.source": "ICH"}
+            )
+
+            # ICH 가이드라인 기반 위반사항 탐지
+            for result in ich_results:
+                score = result.get("score", 0.0)
+                metadata = result.get("metadata", {})
+
+                # 낮은 유사도는 잠재적 위반으로 간주
+                if score < 0.85:
+                    violations.append({
+                        "type": "ICH_GUIDELINE",
+                        "severity": "medium" if score < 0.75 else "low",
+                        "description": f"ICH {metadata.get('module', 'N/A')} 가이드라인과 낮은 일치도",
+                        "suggestion": f"다음 ICH 가이드라인을 참고하세요: {metadata.get('title', 'N/A')}",
+                        "source": "ICH",
+                        "module": metadata.get("module", "N/A"),
+                        "section": metadata.get("section", "N/A"),
+                        "score": score,
+                        "reference": result.get("content", "")[:200] + "..."
+                    })
+
+        except Exception:
+            # ICH 검색 실패 시 무시 (선택적 기능)
+            pass
+
+        return violations
+
+    def _check_mfds_guidelines(self, content: str, guidelines: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """
+        MFDS 가이드라인 기반 위반사항 체크
+
+        Args:
+            content: 검증할 내용
+            guidelines: MFDS 검색 결과
+
+        Returns:
+            MFDS 기반 위반사항 리스트
+        """
+        violations = []
+
+        for guideline in guidelines:
+            score = guideline.get("score", 0.0)
+            metadata = guideline.get("metadata", {})
+
+            # 낮은 유사도는 잠재적 위반
+            if score < 0.80 and metadata.get("source") == "MFDS":
+                violations.append({
+                    "type": "MFDS_GUIDELINE",
+                    "severity": "high" if score < 0.70 else "medium",
+                    "description": f"MFDS {metadata.get('module', 'N/A')} 가이드라인과 낮은 일치도",
+                    "suggestion": f"다음 MFDS 가이드라인을 참고하세요: {metadata.get('title', 'N/A')}",
+                    "source": "MFDS",
+                    "module": metadata.get("module", "N/A"),
+                    "score": score,
+                    "reference": guideline.get("content", "")[:200] + "..."
+                })
+
+        return violations
+
+    def _check_terminology(self, content: str) -> List[Dict[str, Any]]:
+        """
+        용어집 기반 용어 표준화 체크
+
+        Args:
+            content: 검증할 내용
+
+        Returns:
+            용어 위반사항 리스트
+        """
+        violations = []
+
+        if not self.enable_rag or not self.combined_retriever:
+            return violations
+
+        try:
+            # 통합 규제 인덱스에서 GLOSSARY 검색 (shared retriever 사용)
+            term_results = self.combined_retriever.vector_search(
+                query=content[:300],
+                k=3,
+                where={"metadata.source": "GLOSSARY"}
+            )
+
+            # 비표준 용어 탐지
+            for term_result in term_results:
+                score = term_result.get("score", 0.0)
+                metadata = term_result.get("metadata", {})
+
+                # 낮은 유사도는 비표준 용어 사용 가능성
+                if score < 0.75:
+                    violations.append({
+                        "type": "TERMINOLOGY",
+                        "severity": "low",
+                        "description": "비표준 용어 사용 가능성",
+                        "suggestion": f"표준 용어 사용 권장: {metadata.get('term', 'N/A')} ({metadata.get('term_en', 'N/A')})",
+                        "source": "GLOSSARY",
+                        "score": score,
+                        "reference": term_result.get("content", "")[:150] + "..."
+                    })
+
+        except Exception:
+            pass
+
+        return violations
 
     def _normalize_content(self, content: str, violations: List[Dict[str, Any]]) -> str:
         if not self.normalizer:
@@ -203,18 +364,27 @@ class RegulationRAGTool:
         return self.normalizer.normalize(content)
 
     def _calculate_coverage(self, content: str, guidelines: List[Dict[str, Any]]) -> float:
-        def toks(s: str) -> set[str]:
-            return set(re.findall(r"[A-Za-z가-힣0-9]{3,}", s or ""))
+        """
+        Coverage는 검색된 가이드라인의 **품질과 관련성**을 측정합니다.
 
-        keys = toks(content)
-        if not keys:
+        측정 요소:
+        1. 검색 점수 (60%): 벡터 유사도 기반 관련성
+        2. 가이드라인 개수 (40%): 충분한 규제 근거 확보 여부
+        """
+        if not guidelines:
             return 0.0
 
-        hits = 0
-        for g in guidelines or []:
-            txt = (g.get("content") or "") + " " + " ".join(map(str, (g.get("metadata") or {}).values()))
-            hits += len(keys.intersection(toks(txt)))
-        return min(1.0, hits / max(1, len(keys)))
+        # 1. 평균 검색 점수 (상위 5개)
+        top_scores = [g.get("score", 0.0) for g in guidelines[:5]]
+        avg_score = sum(top_scores) / len(top_scores) if top_scores else 0.0
+
+        # 2. 가이드라인 충분성 (최소 3개 권장, 5개 이상 만점)
+        count_score = min(1.0, len(guidelines) / 5.0)
+
+        # 가중합산
+        coverage = 0.6 * avg_score + 0.4 * count_score
+
+        return min(1.0, max(0.0, coverage))
 
     def _calculate_confidence(self, results: List[Dict[str, Any]]) -> float:
         if not results:

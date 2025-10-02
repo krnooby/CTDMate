@@ -25,6 +25,12 @@ except Exception as e:
     _fastembed_import_error = e
 
 try:
+    from sentence_transformers import SentenceTransformer
+except Exception as e:
+    SentenceTransformer = None  # type: ignore
+    _sentence_transformers_import_error = e
+
+try:
     from rank_bm25 import BM25Okapi  # optional
 except Exception:
     BM25Okapi = None  # type: ignore
@@ -46,12 +52,32 @@ def _cosine(a: np.ndarray, b: np.ndarray) -> float:
     return float(np.dot(a, b) / denom) if denom else 0.0
 
 def _build_embedder():
+    # Try sentence-transformers first (supports more models including -instruct variants)
+    if SentenceTransformer:
+        try:
+            model = SentenceTransformer(CFG.EMBED_MODEL)
+            # Wrap to match FastEmbed API
+            class _STWrapper:
+                def __init__(self, model):
+                    self.model = model
+                def embed(self, texts: List[str]) -> List[List[float]]:
+                    return self.model.encode(texts, convert_to_numpy=True).tolist()
+            return _STWrapper(model)
+        except Exception as e:
+            import sys
+            print(f"[WARNING] SentenceTransformer failed: {e}", file=sys.stderr)
+
+    # Fallback to FastEmbed
     if TextEmbedding:
         try:
             return TextEmbedding(model_name=CFG.EMBED_MODEL)
-        except Exception:
-            pass
+        except Exception as e:
+            import sys
+            print(f"[WARNING] FastEmbed failed: {e}", file=sys.stderr)
+
     # very small deterministic fallback
+    import sys
+    print(f"[WARNING] Using dummy embedder (256 dims)", file=sys.stderr)
     class _Dummy:
         def embed(self, texts: List[str]) -> List[List[float]]:
             vecs = []
@@ -86,7 +112,32 @@ class Retriever:
     ):
         _ensure_qdrant()
         self.collection = collection or CFG.QDRANT_GUIDE_COLLECTION
-        self.client = QdrantClient(url=url or CFG.QDRANT_URL, api_key=api_key or CFG.QDRANT_API_KEY, prefer_grpc=False)
+
+        # Qdrant 클라이언트 초기화 (로컬 path 모드 우선)
+        qdrant_url = url or CFG.QDRANT_URL
+        qdrant_api_key = api_key or CFG.QDRANT_API_KEY
+
+        if not qdrant_url or qdrant_url == "":
+            # 로컬 디렉토리 모드 (collection 기반 경로)
+            from pathlib import Path
+            # Use collection name to determine storage path
+            if self.collection == "combined_regulations":
+                storage_path = Path("qdrant_storage") / "regulations"
+            elif self.collection == "glossary" or self.collection == "glossary_terms":
+                storage_path = Path("qdrant_storage") / "glossary"
+            elif self.collection in ("mfds_guidelines", "guidelines"):
+                # MFDS와 guidelines 모두 같은 storage 사용
+                storage_path = Path("qdrant_storage") / "mfds"
+            elif self.collection == "ich":
+                storage_path = Path("qdrant_storage") / "ich"
+            else:
+                # 기타: collection 이름을 그대로 사용
+                storage_path = Path("qdrant_storage") / self.collection
+            self.client = QdrantClient(path=str(storage_path))
+        else:
+            # 서버 모드 (HTTP/HTTPS)
+            self.client = QdrantClient(url=qdrant_url, api_key=qdrant_api_key, prefer_grpc=False)
+
         self.embedder = _build_embedder()
         self.use_bm25 = bool(use_bm25 and BM25Okapi is not None)
         self.payload_key = fetch_payload_text_key
@@ -209,19 +260,29 @@ class Retriever:
     # ---------- Helpers ----------
     def _point_to_doc(self, p) -> Dict[str, Any]:
         pl = p.payload or {}
+
+        # Content 추출: page_content (LangChain 스타일) 또는 self.payload_key 또는 definition
+        content = pl.get("page_content") or pl.get(self.payload_key) or pl.get("definition") or ""
+
+        # Metadata 추출: metadata 객체가 있으면 사용, 없으면 root level에서 추출
+        if "metadata" in pl and isinstance(pl["metadata"], dict):
+            meta = pl["metadata"]
+        else:
+            meta = pl
+
         return {
-            "content": pl.get(self.payload_key) or pl.get("definition") or "",
+            "content": content,
             "metadata": {
-                "source": pl.get("source") or pl.get("file_name"),
-                "module": pl.get("module") or "GENERAL",
-                "page": pl.get("page"),
-                "section": pl.get("section"),
-                "heading": pl.get("heading"),
-                "heading_level": pl.get("heading_level"),
-                "region": pl.get("region"),
-                "title": pl.get("title"),
-                "keywords": pl.get("keywords"),
-                "para_id": pl.get("para_id"),
+                "source": meta.get("source") or meta.get("file_name"),
+                "module": meta.get("module") or "GENERAL",
+                "page": meta.get("page"),
+                "section": meta.get("section"),
+                "heading": meta.get("heading"),
+                "heading_level": meta.get("heading_level"),
+                "region": meta.get("region"),
+                "title": meta.get("title"),
+                "keywords": meta.get("keywords"),
+                "para_id": meta.get("para_id"),
             },
             "score": float(getattr(p, "score", 0.0) or 0.0),
         }
